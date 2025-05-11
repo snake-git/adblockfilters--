@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250511002014
-! Last modified: 2025/05/11 00:20:14
-! Blocked Filters: 98284
+! Version: 20250511092744
+! Last modified: 2025/05/11 09:27:44
+! Blocked Filters: 98285
 !
 ###AC_ad
 ###AD_160
@@ -21570,6 +21570,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /scriptonline.js?uin=
 /scripts.kissmetrics.com/*
 /scripts/FlyAd.js
+/scripts/click.js.php
 /scripts/clickjs.php
 /scripts/hbx.js
 /scripts/js3caf.js$script
@@ -24864,6 +24865,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 ://sportframe*.co^
 ://sportframe*.org^
 ://t.order.*/r/?id=$image
+://t.targito.
 ://tagging.*.js?aw=
 ://tagging.*/settings.js
 ://track.*/collect
@@ -83339,7 +83341,6 @@ zzzyk.com###Tinfo
 ||afdigitale.it/wp-content/uploads/2024/10/Animazione_Thesis-copia-esec.gif
 ||aff*.kolektiva.net^
 ||affil.invia.cz/direct/core/tool_dynamic-banner/$domain=divoch.cz
-||affiliateport.eu^$third-party
 ||affirm.com/api/v2/cookie_sent
 ||affirm.com/api/v2/session/touch_track
 ||affyun.com/wp-content/uploads/*-ad.
@@ -93823,7 +93824,6 @@ zzzyk.com###Tinfo
 ||resultspage.com/js/sli-spark.js
 ||retailrocket.ru/content/javascript/tracking.js
 ||retailturkiye.com/wp-content/uploads/*/baoli-banner-
-||retargeted.co^$third-party
 ||retentionscience.com^$third-party
 ||retresco.de^*/stats/$third-party
 ||rettica.com^$third-party
@@ -97639,6 +97639,7 @@ zzzyk.com###Tinfo
 ||xtits.*/static/js/custom.js
 ||xtits.xxx/static/js/ppndr*.js
 ||xtrasize.pl/banner/
+||xtv.cz/api/v3/log/
 ||xuehi.cn/reward/reward
 ||xuexila.com^*-xxl.js
 ||xunlei.com/api/stat/rt/js?
