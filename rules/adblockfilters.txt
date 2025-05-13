@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250513002317
-! Last modified: 2025/05/13 00:23:17
-! Blocked Filters: 98293
+! Version: 20250513092401
+! Last modified: 2025/05/13 09:24:01
+! Blocked Filters: 98300
 !
 ###AC_ad
 ###AD_160
@@ -17014,6 +17014,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .html?android=hx*&_$csp=script-src
 .html?clicktag=
 .html|$domain=www.gamer.com.tw
+.hur0*kns.com/$script,third-party
 .icu/*?zoneid=*&visitor_id=$all
 .icu/*_*_*.js$third-party
 .icu/*_*_rony.js
@@ -21811,6 +21812,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /stat/event?
 /stat/fe?
 /stat/rt/js?
+/stat/stat.php?type=
 /stat2.aspx?
 /stat2.js
 /stat?SiteID=
@@ -21855,6 +21857,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /statics/js/hth1111.html
 /statics/recommend/bense.gif
 /statistic/pixel?
+/statistiche/stat.php$xmlhttprequest
 /statistics.js?$third-party
 /statistics/pixel/*
 /statistics/visit?id=
@@ -31117,6 +31120,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||lemall.com/adspace/
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
+@@||lensprice.co.kr^$stealth=dpi
 @@||leonardo.it^$generichide
 @@||lep.co.uk^$generichide
 @@||leporno.org^$generichide
@@ -44611,8 +44615,10 @@ crypto-fun-faucet.de###captcha-adspace > p > a[target="_blank"][rel="noopener"]
 crypto-fun-faucet.de##a[href^="https://r.honeygain.me"]
 crypto-fun-faucet.de##a[href^="https://rollercoin.com/"]
 crypto-news-flash.com##[href^="https://mollars.com/"]
+crypto.news###cn-footer-sticky-placeholder
 crypto.news###cn-header-placeholder
 crypto.news##.a49292cf69626
+crypto.news##.rexas-presale
 crypto.news##.sponsored-button-group
 crypto.news,nft.news##.b6470de94dc
 cryptoads.space#%#//scriptlet("prevent-window-open")
@@ -47571,7 +47577,7 @@ emojipedia.org##.text-\[\#adadad\]
 emojipedia.org##div[class="flex flex-col items-center md:order-1"]
 emojipedia.org##div[class^="Container_container-wrapper"] > .flex-col > .hidden > .items-center:has(> div[class^="AdContainer"])
 emojipedia.org##div[class^="MainSection_main-section"] .items-start > div.h-\[300px\]:has(> div[class^="AdContainer"])
-emojipedia.org#$#.min-h-\[184px\] { min-height: 0 !important; }
+emojipedia.org#$#.min-h-\[184px\]:not(#style_important) { min-height: 0 !important; }
 emojipedia.org#$#@media (max-width: 899px) { body div[class^="Container_container-wrapper"] > .flex-col > div[class^="Tabs_tabs_"][data-sticky] { top: 65px !important; } }
 emojipedia.org#$#div[class^="Container_container-wrapper"] > .flex-col > div[class^="Tabs_tabs_"][data-sticky] { top: 46px !important; }
 emojiphrasebook.com##.adBottom
@@ -48114,14 +48120,14 @@ eurozpravy.cz##.hp_topics_aside > .ad_etarget2 + .ad > .in > h6.title
 ev-database.org##.adslot_detail1
 ev-database.org##.adslot_detail2
 eva.vn#@##right_ads
-evaki.fun,sportnews.to###adblock-overlay
-evaki.fun,sportnews.to##body > div[id]:has(> .keep-lightbox)
-evaki.fun,sportnews.to##body > div[style*="position: fixed; top:"][style*="z-index:"]
-evaki.fun,sportnews.to#$#body > * { filter: none !important; }
-evaki.fun,sportnews.to#$#body > div[class*=" active"][style] + div[class]:has(> .active > [class*="-content"]) { display: none !important; }
-evaki.fun,sportnews.to#$#body > div[class*=" active"][style] { display: none !important; }
-evaki.fun,sportnews.to#%#//scriptlet('abort-current-inline-script', 'document.getElementsByTagName', '$$$')
-evaki.fun,sportnews.to#%#//scriptlet('prevent-fetch', 'adsbygoogle.js')
+evaki.fun,sportshub.to,sportnews.to###adblock-overlay
+evaki.fun,sportshub.to,sportnews.to##body > div[id]:has(> .keep-lightbox)
+evaki.fun,sportshub.to,sportnews.to##body > div[style*="position: fixed; top:"][style*="z-index:"]
+evaki.fun,sportshub.to,sportnews.to#$#body > * { filter: none !important; }
+evaki.fun,sportshub.to,sportnews.to#$#body > div[class*=" active"][style] + div[class]:has(> .active > [class*="-content"]) { display: none !important; }
+evaki.fun,sportshub.to,sportnews.to#$#body > div[class*=" active"][style] { display: none !important; }
+evaki.fun,sportshub.to,sportnews.to#%#//scriptlet('abort-current-inline-script', 'document.getElementsByTagName', '$$$')
+evaki.fun,sportshub.to,sportnews.to#%#//scriptlet('prevent-fetch', 'adsbygoogle.js')
 evaki.fun,sportshub.to,sportnews.to#%#//scriptlet('trusted-suppress-native-method', 'DOMTokenList.prototype.add', '"-"')
 evanstonnow.com#$#.node-content > #node-story-full-group-lead-photo { float:right!important; }
 event.biotherm.com.tw#@##ad1
@@ -94971,6 +94977,7 @@ zzzyk.com###Tinfo
 ||spresso.com/pim/public/events
 ||sprig.com^$third-party
 ||springserve.com^$~media,third-party
+||spur.us^$third-party
 ||spy-manga.com/god/
 ||spy-manga.com/im*.gif
 ||spycock.com/coco/$script
