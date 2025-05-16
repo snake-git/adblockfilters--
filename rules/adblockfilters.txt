@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250516162428
-! Last modified: 2025/05/16 16:24:28
-! Blocked Filters: 98617
+! Version: 20250517002207
+! Last modified: 2025/05/17 00:22:07
+! Blocked Filters: 98635
 !
 ###AC_ad
 ###AD_160
@@ -14865,7 +14865,6 @@
 ##[onclick*="content.ad/"]
 ##[onclick*="trackEvent', 'ad"]
 ##[onclick*='fjbglfrv.com']
-##[onclick*='https://i.opiwb.com:']
 ##[onclick*='m.kanshuapp.net']
 ##[onclick*='pypyj.com']
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
@@ -27305,7 +27304,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=diep.io
 @@||c.amazon-adsystem.com/aax2/apstag.js?_=$domain=skill4ltu.eu
 @@||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$domain=atozmath.com
-@@||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$xmlhttprequest,domain=client.falixnodes.net
+@@||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$domain=client.falixnodes.net
 @@||c.betrad.com/geo/ba.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|infinitiev.com|montrealgazette.com|saveur.com
 @@||c.betrad.com/geo/h1.js$domain=video.corriere.it
 @@||c.betrad.com/pub/c/*.js$domain=video.corriere.it
@@ -29863,6 +29862,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||hb.improvedigital.com/pbw/gameDistributionV*.min.js$domain=html5.gamedistribution.com
 @@||hb.improvedigital.com/pbw/prebid/prebid-idhb-v*.min.js$domain=html5.gamedistribution.com
 @@||hb.improvedigital.com/pbw/prebid/prebid-v*-pbjsgd.min.js$domain=html5.gamedistribution.com
+@@||hb.vntsm.com/*/live/vms/*.js$domain=client.falixnodes.net
 @@||hb.vntsm.com/v*/live/*.enc$domain=pluspremieres.bz
 @@||hb.vntsm.com/v*/live/ad-manager.min.js$domain=pluspremieres.bz
 @@||hb.vntsm.com/v4/live/vms/sites/skill4ltu.eu/index.js$domain=skill4ltu.eu
@@ -43392,6 +43392,7 @@ clickondetroit.com##.fixedAd
 clickthis.blog,speechnotes.co##div.ad
 clien.net,mediafire.com#@#.ad_banner
 client.falixnodes.net##div[id^="adngin-"]
+client.falixnodes.net#%#//scriptlet('abort-current-inline-script', 'document.head', 'disableadblock')
 client.falixnodes.net#%#//scriptlet('abort-on-property-write', 'detectAdBlock')
 client.googiehost.com##center > p > strong
 clik.pw##iframe[id^="frame"]
@@ -46195,6 +46196,11 @@ dlsharefile.com##a[href^="https://dlmonitize.com/"]
 dlsharefile.com#%#//scriptlet("json-prune", "*.*", "*.clk")
 dlsharefile.com#%#//scriptlet('prevent-window-open')
 dlsharefile.com#?#.mt-5 > div[class="border bg-secondary"]:has(a[href^="https://www.amazon.com/"])
+dltv.org##.britain
+dltv.org##.bucharest
+dltv.org##.luanda
+dltv.org##.paris
+dltv.org##.spanish
 dm010.com##a[href*=".apk"]
 dm5.com###youce
 dm5.com##.cp_adct
@@ -49340,7 +49346,6 @@ financialexpress.com##.ie-network-taboola
 financialpost.com,lfpress.com##.js-widget-flyercity
 financialpost.com,lfpress.com##body .vf-promo:not(#style_important)
 finans.dk##.baPosition
-finanse.wp.pl,kobieta.wp.pl,wiadomosci.wp.pl##div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div[class*=" "] + script:last-child)
 finanzaonline.com#$#body { margin-top: 0 !important; }
 finbold.com###finbold\.com_middle
 finbold.com###sub-intent
@@ -50445,9 +50450,10 @@ freewebcart.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 freewsad.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 freex2line.online#$#a.downloadbtn { display: block !important; }
 freex2line.online#%#//scriptlet('adjust-setTimeout', '/btn|realURL|\.style.display|setAttribute|getElementById/', '*', '0.001')
-freex2line.online#%#//scriptlet('trusted-click-element', '.InnerDownload > a#downloadbtn[href^="http"][href*="cimanow."]')
+freex2line.online#%#//scriptlet('set-attr', '.InnerDownload > a#downloadbtn[href^="http"][href*="cimanow."][href*="?ad="][data-real-url^="https:/"]', 'href', '[data-real-url]')
+freex2line.online#%#//scriptlet('trusted-click-element', '.InnerDownload > a#downloadbtn[href^="http"][href*="cimanow."]:not([href*="?ad="])')
 freex2line.online#%#//scriptlet('trusted-replace-node-text', 'script', 'countdown', '/seconds : \d+/', 'seconds : 0')
-freex2line.online#%#//scriptlet('trusted-replace-node-text', 'script', 'realURL', '/delay\s+= \d+/', 'delay = 0')
+freex2line.online#%#//scriptlet('trusted-replace-node-text', 'script', 'performance.now', '>= delay', '>= -1')
 freex2line.online,cimanow.cc#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'MutationObserver')
 freex2line.online,cimanow.cc,cimanow.*##body > a[target="_blank"]
 freex2line.online,cimanow.cc,cimanow.*#%#//scriptlet("set-constant", "zJSYdQ", "true")
@@ -50456,9 +50462,9 @@ freex2line.online,cimanow.cc,cimanow.*#@#.ad-slot
 freex2line.online,cimanowtv.com,cnvids.com,cimanow.cc,cimanow.*#%#//scriptlet('prevent-element-src-loading', 'script', 'securepubads.g.doubleclick.net/tag/js/gpt.js')
 freex2line.online,cimanowtv.com,cnvids.com,cimanow.cc,cimanow.*#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 freex2line.online,cimanowtv.com,cnvids.com,cimanow.cc,cimanow.*#%#//scriptlet('prevent-fetch', 'securepubads.g.doubleclick.net')
-freex2line.online,cimanowtv.com,cnvids.com,cimanow.cc,cimanow.*#%#//scriptlet('remove-node-text', 'script', '/\.__proto__\.constructor\.name|decompressFromUTF16|\)\.substr\(0|document\[_0x[\s\S]*?innerHTML/')
-freex2line.online,cimanowtv.com,cnvids.com,cimanow.cc,cimanow.*#%#//scriptlet('trusted-create-element', 'body', 'div', 'id="bait123" style="display: none;"', '0123456789')
-freex2line.online,cimanowtv.com,cnvids.com,cimanow.cc,cimanow.*$$script:contains(/\.__proto__\.constructor\.name|decompressFromUTF16|\)\.substr\(0|document\[_0x[\s\S]*?innerHTML/)
+freex2line.online,cimanowtv.com,cnvids.com,cimanow.cc,cimanow.*#%#//scriptlet('remove-node-text', 'script', '/\.__proto__\.constructor\.name|decompressFromUTF16|\)\.substr\(0|document\[_0x[\s\S]*?innerHTML|=Array\.prototype\.slice\.call\(arguments\)/')
+freex2line.online,cimanowtv.com,cnvids.com,cimanow.cc,cimanow.*#%#//scriptlet('trusted-create-element', 'body', 'div', 'id="abook" style="display: none;"', '0123456789')
+freex2line.online,cimanowtv.com,cnvids.com,cimanow.cc,cimanow.*$$script:contains(/\.__proto__\.constructor\.name|decompressFromUTF16|\)\.substr\(0|document\[_0x[\s\S]*?innerHTML|=Array\.prototype\.slice\.call\(arguments\)/)
 freexcafe.com###banner-tube-single
 freexcafe.com###join
 freexcafe.com###rightcolumn
@@ -55454,6 +55460,7 @@ incredibox.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 indaily.com.au,posemaniacs.com##.h-\[250px\]
 indaily.com.au,thenewdaily.com.au##.h-\[100px\]
 independent.co.ug##img[width="320"]
+independent.co.uk###billboard-wrapper
 independent.co.uk###main > div[class]:has(> div > div > a[href^="https://tv.apple.com/"])
 independent.co.uk###taboola-mid-article-thumbnails-ii
 independent.co.uk##.amp-live-list-item[id^="ad-"]
@@ -56676,6 +56683,9 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
 izaiwen.cn##.item-box
 izaiwen.cn##DIV[carousel-item]
+izarc.org#%#//scriptlet('prevent-setTimeout', 'window.getComputedStyle(')
+izarc.org#@#.ad-container
+izarc.org#@#.ad-unit:not(.textads)
 izismile.com###banner_code_rotator
 izismile.com##.ban_top
 izismile.com##.banners_btw_pics
@@ -60036,6 +60046,8 @@ m4ufree.com##a[href^="//look.ichlnk.com/"]
 m9.news###single-top-ad
 m9.news##.ads-wrap-qqq
 m9.news##.main-content > p:has(> ins.adsbygoogle)
+m9.news#$#.m9-ad-modal { display: none !important; }
+m9.news#$#body { overflow: auto !important; }
 ma-bank.net#@#.ad_top
 ma-x.org##.k2cd89-hide
 maalaimalar.com#%#//scriptlet("prevent-addEventListener", "load", "adblock")
@@ -64725,6 +64737,7 @@ o2.pl##div[data-testid^="ad-placeholder-"]
 o2.pl#?#aside > div[class]:first-child:has(div[class]:matches-css(after, content: /R[\s\S]*E[\s\S]*K[\s\S]*L[\s\S]*A[\s\S]*M[\s\S]*A[\s\S]*/))
 o2.pl#?#div[class*=" "] > img[src^="https://www.o2.pl/"]:first-child + div:last-child:upward(1)
 o2.pl#?#div[class*=" "]:has(> div:not([class]):not([id]) > script:contains(registerPlaceholder))
+o2.pl,tech.wp.pl,finanse.wp.pl,kobieta.wp.pl,wiadomosci.wp.pl##div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div[class*=" "] + script:last-child)
 o2.pl,wp.pl#%#//scriptlet("abort-on-property-write", "Object.prototype.gaf_directOnly")
 o2tvseries.com#%#//scriptlet('set-cookie', 'downloadbypass', '1')
 o8tv.com##.container > .row > .myui-panel-bg> .myui-panel-box > .myui-panel_bd > .myui-vodlist > .col-lg-8 > .myui-vodlist__box > a[target="_blank"]
@@ -65268,6 +65281,7 @@ op.gg##div[id^="ad-container"]
 op.gg##div[style^="display:"]:has(> div[data-id$="billboard"])
 op.gg##div[style^="display:"]:has(> div[data-id$="leaderboard"])
 op.gg##main >  div[style][class^="css-"]:has(> div:not([class]) > div.vm-placement)
+op.gg##main > section[class*="md:"]:has(> .justify-between:first-child > strong:first-child + a[href*="?utm_source="][href*="&utm_campaign=banner_frame"]:last-child)
 op.gg##main > span[style^="display: flex; justify-content: center; align-items: center;"]
 op.gg##section:has(> div.min-h-\[250px\]):not(:has(> *:not(div.min-h-\[250px\])))
 op.gg##section[class*="md:"]:has(> .items-center > div[data-id$="leaderboard"])
@@ -74521,6 +74535,7 @@ tempinbox.xyz#%#//scriptlet('prevent-setTimeout', 'enable_ad_block_detector')
 template/m1938pc/ads/*.js
 templateshub.net##.col-lg-4.col-md-6:has(> div.singel-course)
 tempmail.email##.open-mail__text > strong > a[target="_blank"]
+tempmail.ninja##.ads-container
 tempmail.plus##.main-mob-top-horizont
 tempmail.plus##div[class^="admain"]
 tempmail.run##.col-md-8 > .card:has(> div[id*="ScriptRoot"]:only-child)
@@ -79952,6 +79967,7 @@ wjla.com##div[class^="ddb_300x250_"][class*="largeRectangleAd_container_"]
 wjla.com,wpde.com###js-SocialWidget-Container
 wjla.com,wpde.com##div[class^="index-module_adBeforeContent_"]
 wjla.com,wpde.com##div[class^="index-module_taboola_"]
+wjunction.com##.global-banner
 wjunction.com##.message--post + div[style="margin: 30px; text-align: center;"] > a[href][target] > img
 wjunction.com##a[href="http://katfile.com/make-money.html"]
 wjunction.com##a[href^="https://xpornium.net/"]
@@ -87014,6 +87030,7 @@ zzzyk.com###Tinfo
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/$subdocument
 ||dlkoo.com/down/copy
+||dltv.org/uploads/banners/
 ||dm*.yxlady.com^
 ||dmcdn.net/behavior/
 ||dmm.com/analytics/
@@ -93250,6 +93267,7 @@ zzzyk.com###Tinfo
 ||plug.it^*/track_
 ||plug.it^*/tracking_
 ||plus.net/images/referrals/
+||plush-abuse.com^$all
 ||plushd.bio/cdn-cgi/trace
 ||plusone8.com/ardexaae.php^
 ||plustream.com//assets/detect_extension.js
