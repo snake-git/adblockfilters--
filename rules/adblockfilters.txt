@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250516002307
-! Last modified: 2025/05/16 00:23:07
-! Blocked Filters: 98521
+! Version: 20250516092358
+! Last modified: 2025/05/16 09:23:58
+! Blocked Filters: 98519
 !
 ###AC_ad
 ###AD_160
@@ -14873,7 +14873,6 @@
 ##[onclick*="content.ad/"]
 ##[onclick*="trackEvent', 'ad"]
 ##[onclick*='fjbglfrv.com']
-##[onclick*='https://i.opiwb.com:']
 ##[onclick*='m.kanshuapp.net']
 ##[onclick*='pypyj.com']
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
@@ -20352,6 +20351,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js/prebid-ads.js$~third-party,domain=lootlinks.net
 /js/profit.js$~third-party
 /js/ptn/*.js?_=$domain=depositfiles.com|dfiles.eu|dfiles.ru
+/js/pushjs/1.0.0/subscriber.js
 /js/quantcast-
 /js/re-ads-
 /js/script_*.js?$~third-party,domain=video.q34r.org|korall.xyz|porntoday.ws|netuplayer.top|wiztube.xyz|netu.ac|zerknij.cc|speedporn.net|chillicams.net|meucdn.vip|yandexcdn.com|waaw1.tv|waaw.*|czxxx.org|hqq.*|tikzoo.xyz|gledajvideo.top|playerhd.org|ntvid.online|rpdrlatino.live|vertelenovelasonline.com|1069jp.com|diziturk.club|stbnetu.xyz|mundosinistro.com|younetu.org|playvideohd.com|vzlinks.com|javboys.cam|xz6.top|fsohd.pro|playertoast.cloud|pupupul.site|shitcjshit.com|cinecalidad.vip|fansubseries.com.br|vapley.top|player.streaming-integrale.com|rpdrlatino.com|xtapes.to|player.igay69.com|troncha.lol|vpge.link|opuxa.lat|ztnetu.com|filmcdn.top|asdasd1231238das.site|tmdbcdn.lat|stbpnetu.xyz|pokemonlaserielatino.xyz|gayvidsclub.com|zarato.top|videocdnal24.xyz|play.seriesgod.com|pelisfree.site|xstream.top|multiup.us|popkorntajm.com
@@ -23739,6 +23739,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 2smsupernetwork.com,snowbrains.com,theconservativetreehouse.com,times.co.zm,treesofblue.com###text-6
 2smsupernetwork.com,westseattleblog.com###text-3
 2urs.com#%#//scriptlet('abort-on-property-read', 'ads')
+2wheelslife.com,finance240.com##div[data-placement-id="revbid-square"]
+2wheelslife.com,finance240.com#%#//scriptlet('prevent-fetch', 'googleads.g.doubleclick.net')
 2x4u.de##a[href^="http://www.myfreecams.com/?baf="]
 2yjw.com,fuliba2021.net,itdog.cn,zhujiceping.com##.orbui
 31mag.nl,doibihar.org,ffworld.xyz,rpclip.com,pastlinkvn.com,cyberstockofficial.in,joyplot.com,javboys.com,asuralightnovel.com,latestjav.com,e-sanatatea.ro,therootdroid.com,jorgemoncada.com,hollywoodsmagazine.com,r3ndy.com,anicosplay.net,ewybory.eu,nanoroms.com,flipreview.com,hiphopa.net,pngtosvg.com,compartilhandobr.com,loksado.com,ecoursefree.com,daemon-hentai.com,yigeplus.xyz,launcherfull.com,cheatbyte.com,techycoder.com,arasindakifark.net,kitguru.net,gsmxt.com,technicalatg.xyz,freetutorialsdownload.online,toolss.net,vipmods.net,adonisfansub.com,udemycoursesfree.me,bitcoinegypt.news,talkjarvis.com,satcesc.com,getfreecourses.net,livenewsof.com,pinayvids.com,hardcoregames.ca,pasend.*,unityassetcollection.com,crypto-fun-faucet.de,fileoops.com,samuraiscan.com,3dmodelshare.org,dailyvideoreports.net,codesnail.com,ma-x.org,sitarchive.com,onlyfanesse.com,codingshiksha.com,graphicux.com,w3layouts.com,musike.net,windowsmatters.com,avoiderrors.com,gatcha.org,4horlover.com,topnewsshow.com,3dzip.org,ovagames.com,lewdsenpai.com#%#//scriptlet("set-constant", "adsbygoogle.length", "undefined")
@@ -29581,7 +29583,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||googleads.g.doubleclick.net/pagead/interaction/$domain=quins.us
 @@||googleads.g.doubleclick.net/pagead/interaction/$domain=starkroboticsfrc.com|cryptednews.space|seoliv.com|waezg.xyz|blackwoodacademy.org|lifgam.online|crypto-radio.eu|tiktokcounter.net
 @@||googleads.g.doubleclick.net/pagead/interaction/|$xmlhttprequest,domain=ecosolardigest.com
-@@||googleads.g.doubleclick.net/pagead/interaction/|$xmlhttprequest,domain=finance240.com
+@@||googleads.g.doubleclick.net/pagead/interaction/|$xmlhttprequest,domain=finance240.com|2wheelslife.com
 @@||googleads.g.doubleclick.net/pagead/js/adsbygoogle.js$domain=sportshub.to
 @@||googleads.g.doubleclick.net/pagead/js/adsbygoogle.js$xmlhttprequest,domain=werfgt.fun
 @@||googleads.g.doubleclick.net^$domain=fplstatistics.com
@@ -47009,8 +47011,8 @@ ebaumsworld.com##.mediumRect
 ebaumsworld.com#@#.promoAd
 ebaumsworld.com,greedyfinance.com##.divider
 ebay.*##.srp-river-answer[class*="CAROUSEL"]:not([class*="NAVIGATION"])
-ebay.*##.x-rx-slot
 ebay.*#$##gh-bulletin-det[style*="height:1px"] { display: block !important; }
+ebay.*#$#.x-rx-slot { position: absolute!important; left: -4000px!important;}
 ebay.*#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ebay.co.uk###pushdownAdFragment
 ebay.co.uk##div[title="ADVERTISEMENT"]
@@ -49151,7 +49153,6 @@ finance.yahoo.com##.gam-placeholder
 finance.yahoo.com##.sdaContainer
 finance.yahoo.com##[id^="defaultLREC"]
 finance.yahoo.com##div[id^="mrt-node"][id*="Ad"]
-finance240.com#%#//scriptlet('prevent-fetch', 'googleads.g.doubleclick.net')
 financefeeds.com##.dialog-widget
 financemagnates.com##.article-sidebar__video-banner
 financemagnates.com##.article__mpu-banner
@@ -82681,7 +82682,6 @@ zzzyk.com###Tinfo
 ||78dm.net/channel/test?
 ||78land.com/js/fumeiti.js
 ||797sun.com/include/js/common_footer.
-||7app.top^$popup
 ||7gra.us/path-tracker-js/
 ||7junshi.com/con/ad
 ||7junshi.com/static/red-envelopes.js
@@ -82924,7 +82924,6 @@ zzzyk.com###Tinfo
 ||ac*.pingguolv.com^
 ||academia.edu/record_hit?
 ||acast.com/api/stats
-||access-the-website.com^$popup
 ||accesstrade.vn/js/trackingtag/
 ||accor.com/g/collect?
 ||accuterm.com/data/stat.js
@@ -85611,7 +85610,6 @@ zzzyk.com###Tinfo
 ||citynews.ca/*/get_ad_$xmlhttprequest,redirect=noopjson,domain=citynews.ca,important
 ||citynow.it/wp-content/uploads/*/336x250-GLA.gif
 ||citynow.it/wp-content/uploads/*/SkinSitoMotorShow2Mari.jpg
-||cityofsin3d.com^$popup
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -88594,6 +88592,7 @@ zzzyk.com###Tinfo
 ||healthcentral.com/common/ads/generateads.js
 ||healthline.com/api/metrics
 ||healthnewsreal.com/*.php?utm_source=$third-party
+||healthyouwell.com/^
 ||hearstapps.com/moapt/moapt-hdm.latest.js
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||hearstnp.com/log?
@@ -90079,7 +90078,6 @@ zzzyk.com###Tinfo
 ||js.letvcdn.com/js/*/stats/
 ||js.mumayi.net/9495.gif
 ||js.mumayi.net/jiujiang
-||js.passport.qihucdn.com/11.0.1.js
 ||js.static.m1905.cn/pingd.js
 ||js.surecart.com/v1/affiliates?
 ||js.tag24.de/main.js
