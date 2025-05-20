@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250520002301
-! Last modified: 2025/05/20 00:23:01
-! Blocked Filters: 98331
+! Version: 20250520092441
+! Last modified: 2025/05/20 09:24:41
+! Blocked Filters: 98340
 !
 ###AC_ad
 ###AD_160
@@ -15136,7 +15136,6 @@
 ##a[href^="https://slkmis.com/"]
 ##a[href^="https://syndicate.contentsserved.com/"]
 ##a[href^="https://t.acam.link/"]
-##a[href^="https://t.ajrkm1.com/"]
 ##a[href^="https://t.ajrkm3.com/"]
 ##a[href^="https://t.ajump1.com/"]
 ##a[href^="https://torguard.net/aff.php"] > img
@@ -15721,7 +15720,7 @@ $popup,third-party,domain=sbthe.com,badfilter
 $popup,third-party,domain=streamlare.com,badfilter
 $popup,third-party,domain=videovard.sx,badfilter
 $redirect-rule=noopjs,domain=cryptowidgets.net|insurancegold.in
-$replace=/head>/head><meta charset="utf-8">/,document,domain=podhale24.pl|copycenter.online|nec-solutioninnovators.co.jp
+$replace=/head>/head><meta charset="utf-8">/,document,domain=podhale24.pl|copycenter.online|nec-solutioninnovators.co.jp|e-map.ne.jp
 $script,domain=blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net,redirect=noopjs
 $script,domain=playstore.pw,redirect-rule=noopjs
 $script,redirect-rule=noopjs,domain=173.249.8.3
@@ -52986,6 +52985,7 @@ hatauzmani.com#$#body { overflow: auto !important; padding-right: 0 !important; 
 hatenacorp.jp,milf300.com#@#.ads-link
 haveibeenpwned.com##.actionsBar:has(.why1Password)
 haveibeenpwned.com##.bodyGradient > :has(.why1Password)
+haveibeenpwned.com##.card-glow:has-text(Sponsored)
 hawaiisbesttravel.com###block-103
 hawk.live##.post-layout__info-cf-post
 hawk.live##button#info-bonus-menu
@@ -54044,6 +54044,8 @@ horrortube.fun#%#//scriptlet("abort-current-inline-script", "decodeURI", "4zz.")
 hortidaily.com,agf.nl,freshplaza.*#$?#input#block-ad-blockers { remove: true; }
 hortidaily.com,agf.nl,freshplaza.*#@#a.banner
 horux.cz##.posts-container div[style="float:left; margin-right:10px; width: 300px; height:250px;"]
+host4fap.com##.block-video > .table
+host4fap.com##.sponsor
 hostelgeeks.com###hostelModal
 hostingreviews24.com##.av_pop_modals_1
 hostings.info##a[href^="https://hostings.info/go/banner."]
@@ -85640,6 +85642,8 @@ zzzyk.com###Tinfo
 ||cmovieshd.net/ajax/delivery/www/zone/ads_credit.php
 ||cmp.vg.no^*/metrics/
 ||cms-assets.nodecraft.com/*/2023-summer-ad-$domain=steamid.net
+||cmsjs.eastmoney.com/$subdocument
+||cmsjs.eastmoney.com^$subdocument
 ||cn.ft.com/a.html?$subdocument
 ||cn.ft.com/m/marketing/$subdocument
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
@@ -87093,6 +87097,7 @@ zzzyk.com###Tinfo
 ||event.*.shoplive.cloud^
 ||eventful.com/apps/generic/$image,third-party
 ||eventhub.au01.miro.com/api/stream
+||eventhub.us01.miro.com/api/stream
 ||events*.cre.ma^
 ||events-*.op.hicloud.com^
 ||events-api*.outfit7.com^
@@ -92190,6 +92195,7 @@ zzzyk.com###Tinfo
 ||okooo.com/I/?method=system.data.ad&
 ||okx.com/jsstat/sb?
 ||ol-img.com/channel/tuku/js/tukuPopup.js
+||olacontent.schwab.com^$script
 ||olawa24.pl/media/campaigns/files/$image
 ||old.fx.co/get_banner/forum/$subdocument,domain=investsocial.com
 ||older-mature.net/pop.js
@@ -92510,6 +92516,7 @@ zzzyk.com###Tinfo
 ||paypalobjects.com^*/pixel.gif
 ||payskip.org/banner
 ||payskip.org/sw.js
+||payvclick.com^$popup
 ||payza.com/images/banners/
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbcdn.com/data/attachment/album/$image
@@ -94125,7 +94132,6 @@ zzzyk.com###Tinfo
 ||script.hentaicdn.com/cdn/v*.assets/js/NATORI.
 ||script.idgentertainment.de/gt.js
 ||scripts.dailymail.co.uk/static/mol-adverts/*.css
-||scripts.dkmedia.vercel.app/popunders/
 ||scripts.swifteq.com/hc_events.js
 ||scriptsgratuits.com/sg/stats/
 ||scrolller.com/scrolller/affiliates/
@@ -95998,6 +96004,7 @@ zzzyk.com###Tinfo
 ||totallynsfw.com/_*.php
 ||totalnicefeed.com^$popup
 ||totalsportek.*/images/*.gif|$domain=totalsportek.*
+||totalsportek.pro/assets/js/bootstrap.main.js
 ||totalwownews.com^$popup
 ||totheglory.im/pic/business/
 ||totheglory.im/pic/fangtuo.jpg
@@ -96210,7 +96217,6 @@ zzzyk.com###Tinfo
 ||tubous.com/bloader.php
 ||tubxporn.com/js/xp.js
 ||tui.cnzz.net^$third-party
-||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
 ||tuicool.com/images/upload/aliyun
@@ -96675,6 +96681,9 @@ zzzyk.com###Tinfo
 ||videogreen.xyz/asset/default/player/plugins/vast*.js
 ||videojav.com/extension*.php
 ||videojav.com/sw.js
+||videojj.com/api/v1/adsTags?
+||videojj.com/api/v1/plat_tags?
+||videojj.com/flash/bin/vjj_config.xml
 ||videoly.co^*/event/
 ||videomatictv.com/imps/
 ||videopress.com/plugins/stats/
