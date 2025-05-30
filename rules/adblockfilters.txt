@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250530162420
-! Last modified: 2025/05/30 16:24:20
-! Blocked Filters: 98748
+! Version: 20250531002301
+! Last modified: 2025/05/31 00:23:01
+! Blocked Filters: 98701
 !
 ###AC_ad
 ###AD_160
@@ -36752,6 +36752,7 @@ Banner468x60
 Ly9kMXliZGxnOGFvdWZuLmNsb3VkZnJvbnQubmV0$script,domain=sitenable.*|filesdownloader.com|siteget.net|freeproxy.io
 Mplay/kk1.js
 [$domain=/87\d{2}ck\.cc/]##.stui-vodlist > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
+[$domain=/^vidhub\d+\.(cc\|top)$/]##.player-info div[class]:has(> div[class][style] > img[onclick^="window.open"]:first-child + span[style]:last-child)
 [$domain=/cosmic\d+\.co/]###floatcenter
 [$domain=/cosmic\d+\.co/]##.kln
 [$domain=/tigoals\d+\.com/]##.banner
@@ -59039,7 +59040,9 @@ lewat.club#%#//scriptlet("prevent-window-open")
 lewat.club,sekilastekno.com,miuiku.com##div[style="text-align: center;"] > a[href] > img
 lewd.ninja#%#//scriptlet('prevent-fetch', 'ads.juicyads.com')
 lewdgamer.com##div[id^="spot-"]
+lewdgames.to#%#//scriptlet("trusted-replace-node-text", "script", "vastSource", "/vastSource:'.*?'/", "vastSource:''")
 lewdgames.to,afterschoolafrica.com,asianhobbyist.com###ai_widget-4
+lewdgames.to,otomi-games.com,ryuugames.com##[href^="https://golove.ai/"]
 lewdninja.com##.stargate
 lewdninja.com,new.lewd.ninja#%#(function(){window.adnPopConfig={zoneId:"149"}})();
 lewdspot.com###rightSidebarAdContainerPause
@@ -65504,7 +65507,6 @@ otomi-games.com##.otomi-widget
 otomi-games.com##[href^="https://t.trcktr.com/"]
 otomi-games.com#$?#.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) { remove: true; }
 otomi-games.com,ryuugames.com##[href^="https://aichattings.com/"]
-otomi-games.com,ryuugames.com##[href^="https://golove.ai/"]
 otomoto.pl##.slot-placeholder
 otomoto.pl##a[href][data-testid="banner-link"]
 otomoto.pl##article[data-testid="carsmile-listing-ad"]
@@ -69356,7 +69358,12 @@ redirect.khsm.io,re.two.re,noon.khsm.io##.ads
 redketchup.io##.potato_sticky
 redketchup.io##.potato_viewer
 redketchup.io#%#//scriptlet('adjust-setTimeout', '"hidden"!=document.visibilityState&&')
+redketchup.io#%#//scriptlet('googletagservices-gpt')
+redketchup.io#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 redketchup.io#%#//scriptlet('prevent-element-src-loading', 'script', 'securepubads.g.doubleclick.net/tag/js/gpt.js')
+redketchup.io#%#//scriptlet('prevent-setTimeout', '/googletag\.pubads|\/PreBid\.js/')
+redketchup.io#%#//scriptlet('set-constant', 'googletag.cmd.push', 'noopFunc')
+redketchup.io#%#//scriptlet('trusted-replace-node-text', 'script', 'downloadTimeout', '/(this\..=.\..)\?\d0:0\)/', '$1?0:0)')
 redload.co,tubeload.co##body > div[id][style^="height:"][style*="opacity:"][style*="z-index:"]
 redload.co,tubeload.co#%#//scriptlet("prevent-window-open")
 redload.co,tubeload.co#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -69395,6 +69402,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
+redtube.com,tube8.com,you-porn.com,youporn.com##.upgradeButtonContainer
 redtube.com,tube8.com,youporn.com##a[class*="gtm-event-header-paidtabs"]
 redtube53.info##.entry-content.clearfix
 redtube53.info##img[width="300"][height="600"]
@@ -75909,6 +75917,7 @@ timesofindia.indiatimes.com##[onclick="stpPgtn(event)"]
 timesofindia.indiatimes.com##body .banner_local:not(.flexrest)
 timesofindia.indiatimes.com##div[data-articlebody] > div[data-type="in_view"]:has(> div[class] > #creditscoreiframe)
 timesofindia.indiatimes.com##div[data-cb="processCtnAds"]
+timesofindia.indiatimes.com##div[data-font] > div:has(> div[id^="div-gpt-"]:only-child)
 timesofindia.indiatimes.com##div[data-plugin="sticky11"] > .emptyAtfAdSlot + div[style="min-height: 250px;"]
 timesofindia.indiatimes.com##div[data-primead]
 timesofindia.indiatimes.com##div[id^="div-clmb-ctn"]
@@ -76837,6 +76846,7 @@ tube8.com#?#.content-wrapper > div[id] > div[id] > div[class] > div[class][id]:h
 tube8.com$$script[tag-content="loadPopUnder"][min-length="100000"][max-length="200000"]
 tube8.com,tube8.es,tube8.fr##.adsbytrafficjunky
 tube8.com,tube8.es,tube8.fr##.col-3-lg.col-4-md.col-4
+tube8.com,youporn.com##div:has(> ins.adsbytrafficjunky)
 tube8.es,tube8.fr,youporngay.com##video[autoplay]
 tube8.net,tube8.es,tube8.com,tube8.fr###pb_template
 tube8.net,tube8.es,tube8.com,tube8.fr###result_container_fake
@@ -78394,12 +78404,10 @@ vidguardto.xyz,pistona.xyz,gaystream.click,gsfjzmqu.sbs,gaystream.click,go-strea
 vidguardto.xyz,pistona.xyz,gaystream.click,gsfjzmqu.sbs,go-streamer.net,vgfplay.xyz,elbailedeltroleo.site,tioplayer.com,listeamed.net,bembed.net,fslinks.org,embedv.net,vembed.net,vid-guard.com,v6embed.xyz,gaystream.online,vgembed.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'afterOpen')
 vidguardto.xyz,pistona.xyz,gaystream.click,gsfjzmqu.sbs,go-streamer.net,vgfplay.xyz,elbailedeltroleo.site,tioplayer.com,listeamed.net,bembed.net,fslinks.org,embedv.net,vembed.net,vid-guard.com,v6embed.xyz,gaystream.online,vgembed.com#%#//scriptlet('abort-on-stack-trace', 'open', '_openAd')
 vidguardto.xyz,pistona.xyz,gaystream.click,gsfjzmqu.sbs,go-streamer.net,vgfplay.xyz,elbailedeltroleo.site,tioplayer.com,listeamed.net,bembed.net,fslinks.org,embedv.net,vembed.net,vid-guard.com,v6embed.xyz,gaystream.online,vgembed.com#%#//scriptlet('prevent-window-open')
+vidhub.*##.pwd
 vidhub.me,vidhub.tv##.promonk
-vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
-vidhub1.cc,vidhub.me,vidhub.tv##.adwap
-vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"], [class^="ww"]):has(> div[class][style] > img[onclick^="window.open"])
-vidhub1.cc,vidhub.me,vidhub.tv##div[class][style^="position:"] > img[onclick^="window.open"]
-vidhub1.cc,vidhub.me,vidhub.tv##div[class^="pro"][class*="nk"][style]
+vidhub2.top,vidhub3.top,vidhub4.cc,vidhub.me,vidhub.tv##.player-info div[class]:has(> div[class][style] > img[onclick^="window.open"]:first-child + span[style]:last-child)
+vidhub2.top,vidhub3.top,vidhub4.cc,vidhub.me,vidhub.tv##div[class][style*="position:"] > img[onclick^="window.open"]
 vidhub3.top,vidhub4.cc##div[style^="position:"]:has(> img[onclick^="window.open"])
 vidia.tv#%#//scriptlet("abort-on-property-read", "showpop")
 vidia.tv#%#//scriptlet("set-constant", "cRAds", "true")
@@ -83460,6 +83468,8 @@ zzzyk.com###Tinfo
 ||acxiomapac.com^$third-party
 ||ad*.bilgin.pro^
 ||ad*.ettoday.net^
+||ad*.gyaloglo.hu^
+||ad*.mellesleg.hu^
 ||ad*.nexage.com^
 ||ad*.on.cc^
 ||ad*.thisisgame.com^
@@ -83596,6 +83606,8 @@ zzzyk.com###Tinfo
 ||advancedmp3players.co.uk/themes/basic/js/analytics.js
 ||advcash.com^$third-party
 ||advert*.livesportmedia.eu^
+||advert*.ultraweb.hu^
+||adverticum.*.hu^
 ||advertisertape.com/stat/
 ||advoncommerce.com^$third-party
 ||adways.com^$third-party
@@ -83933,7 +83945,6 @@ zzzyk.com###Tinfo
 ||amateur.tv/cacheableAjax/$subdocument
 ||amateur.tv/freecam/$third-party
 ||amateur.tv/misc/mYcLBNp7fx.js
-||amateurporn.net^$third-party
 ||amateurs-fuck.com/kutstelers.js
 ||amatrck.com^$popup
 ||amazingomgnews.ru/live.js^
@@ -84331,6 +84342,7 @@ zzzyk.com###Tinfo
 ||artimondo.it/promo^$third-party
 ||arttrk.com/pixel/
 ||aruba.it/servlet/counterserver?
+||as*.prog.hu^
 ||as.coinbase.com/metrics
 ||as.slashdot.org/loader.min.js$domain=tech.slashdot.org
 ||as2.wenku.baidu.com/$subdocument
@@ -87613,6 +87625,7 @@ zzzyk.com###Tinfo
 ||estadion.pl/_next/image?url=https%3A%2F%2Fapi.estadion.pl%2Fimg%2Fads%2F
 ||estore.jp/beacon/
 ||etadult.com*/images/20
+||etargetnet.*.hu^
 ||eteknix.com/wp-content/uploads/*skin
 ||eternia.to/data/siropu/$image
 ||etest8.com/js/158/infojs/
@@ -88507,9 +88520,6 @@ zzzyk.com###Tinfo
 ||geo.azzureedge.xyz/ip$domain=streameast.app|streamcheck.link
 ||geo.dailymotion.com/libs/player/$domain=variety.com
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph|philstarlife.com
-||geobanner.blacksexmatch.com^$third-party
-||geobanner.fuckbookhookups.com^$third-party
-||geobanner.sexfinder.com^$third-party
 ||geocanabis.com/banner
 ||geolid.com^$third-party
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
@@ -88593,62 +88603,6 @@ zzzyk.com###Tinfo
 ||girlstaste.life^$popup
 ||github.com/_private/browser/stats
 ||github.dev/diagnostic?
-||github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-d0d0a6-9dc4ed803189.js^$all,badfilter
-||github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-ce8979e4f922.js^$all,badfilter
-||github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_sso_ts-ui_packages-900dde-c84fbefd392e.js^$all,badfilter
-||github.githubassets.com/assets/app_assets_modules_github_ref-selector_ts-351a8f8ec24b.js^$all,badfilter
-||github.githubassets.com/assets/app_assets_modules_github_settings_integrations-transfer_ts-app_assets_modules_github_setting-84b62a-8e65dc1f4363.js^$all,badfilter
-||github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-3e000c5d31a9.js^$all,badfilter
-||github.githubassets.com/assets/appearance-settings-99fa071d4285.js^$all,badfilter
-||github.githubassets.com/assets/behaviors-a4b59f1126fc.js^$all,badfilter
-||github.githubassets.com/assets/element-registry-759bd527e556.js^$all,badfilter
-||github.githubassets.com/assets/environment-d607485791a5.js^$all,badfilter
-||github.githubassets.com/assets/github-elements-2c6b561fd398.js^$all,badfilter
-||github.githubassets.com/assets/github-logo-55c5b9a1fe52.png^$all,badfilter
-||github.githubassets.com/assets/github-mark-57519b92ca4e.png^$all,badfilter
-||github.githubassets.com/assets/keyboard-shortcuts-dialog-da52b1ba42ce.js^$all,badfilter
-||github.githubassets.com/assets/notifications-global-7f3748c0d76b.js^$all,badfilter
-||github.githubassets.com/assets/octicons-react-cf2f2ab8dab4.js^$all,badfilter
-||github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg^$all,badfilter
-||github.githubassets.com/assets/primer-react-5c26f1a581a7.js^$all,badfilter
-||github.githubassets.com/assets/profile-97837a4e31a1.js^$all,badfilter
-||github.githubassets.com/assets/react-core-2d17b940397e.js^$all,badfilter
-||github.githubassets.com/assets/react-lib-80430c87778a.js^$all,badfilter
-||github.githubassets.com/assets/sessions-1e75b15ae60a.js^$all,badfilter
-||github.githubassets.com/assets/settings-6055a20e2833.js^$all,badfilter
-||github.githubassets.com/assets/signup-92ec28022238.js^$all,badfilter
-||github.githubassets.com/assets/ui_packages_document-metadata_document-metadata_ts-ui_packages_promise-with-resolvers-polyfil-40d47c-83bb4d2a9499.js^$all,badfilter
-||github.githubassets.com/assets/ui_packages_failbot_failbot_ts-3f3eb0fe798c.js^$all,badfilter
-||github.githubassets.com/assets/ui_packages_ui-commands_ui-commands_ts-392f523dd6f6.js^$all,badfilter
-||github.githubassets.com/assets/ui_packages_updatable-content_updatable-content_ts-f4e60782b52d.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_braintree_browser-detection_dist_browser-detection_js-node_modules_githu-bb80ec-72267f4e3ff9.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-e3180fe3bcb3.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-ea8eaa-ae0dbe787ad8.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_memoize_dist_esm_inde-455471-db0dac70ef9e.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_emotion_is-prop-valid_dist_emotion-is-prop-valid_esm_js-node_modules_emo-b1c483-30bc59af3a76.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_paste-markdown_dist_index_js-6c00013a3dc4.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_auto-complete-element_dist_index_js-node_modules_github_catalyst_-8e9f78-a90ac05d2469.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_catalyst_lib_index_js-node_modules_primer_live-region-element_dis-b2aea6-22827f205bdc.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-63644b-8389d8c5493d.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-3eebbd-0763620ad7bf.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-d8c643-f5192902810f.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_markdown-toolbar-element_dist_index_js-ceef33f593fa.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_combobox-nav_dist-97536f-0a0158d4c78e.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_stacktrace-parser_dist_s-1d3d52-4be8ffe9a34a.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_virtualized-list_es_inde-5cfb7e-e6b0d3ff3d24.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_quote-selection_dist_index_js-node_modules_github_session-resume_-c1aa61-97c8ff49bc41.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-fd884d19bf73.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-2ef075-049db99cb0f3.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-893f9f-b6294cf703b7.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-94fd67-e789af5a4655.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-f690fd9ae3d5.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_text-expander-element_dist_index_js-78748950cb0c.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-a03ee12d659a.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-be8cb88f481b.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_morphdom_dist_morphdom-esm_js-0c08218c7d5f.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover-fn_js-81211bd82278.js^$all,badfilter
-||github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_index_mjs-0dbb79f97f8f.js^$all,badfilter
-||github.githubassets.com/assets/wp-runtime-0441ffe6536b.js^$all,badfilter
 ||gizchina.it/wp-content/uploads/*/*/skin-zte-esterno.jpg
 ||gizmodo.in/gzdics/
 ||gizmodo.jp/api/SurveyCountCollection?
@@ -91668,13 +91622,11 @@ zzzyk.com###Tinfo
 ||media.discordapp.net/attachments/*/*.gif$domain=manga-lc.net
 ||media.discordapp.net/attachments/*/*dangkynhan150k.gif$domain=phimplus.net
 ||media.dscgirls.live/promo/
-||media.eurolive.com^$third-party
 ||media.hazipatika.com/szponzor_hatter^
 ||media.indiatimes.in/idthat/
 ||media.io/trk
 ||media.lajornadafilipina.com/bheyjmz.js
 ||media.mediadirectory.net/js/code.min.js
-||media.mykodial.com^$third-party
 ||media.notthebee.com/ads/
 ||media.passportnews.co.il/media/Modules/Banners/
 ||media.porn.com/system/files/images/*.gif
@@ -94204,6 +94156,7 @@ zzzyk.com###Tinfo
 ||reflow.tv/pixels/
 ||refutationtiptoe.com^$popup
 ||registercitizen.com/413gkwMT/init.js
+||rehs.*.hu^
 ||reichelt.com/setsid.php?
 ||reiclub.com/templates/interviews/exit_popup/
 ||reitingi.lv^$third-party
@@ -94583,6 +94536,7 @@ zzzyk.com###Tinfo
 ||sbfull.com/assets/jquery/jquery-3.2.min.js?
 ||sbfull.com/js/mainpc.js
 ||sbi-push.com^$third-party
+||sbisec.co.jp/etgate/^$all,badfilter
 ||sbitany.com^*/affiliate/$third-party
 ||sbo8.com/static/theme/js/bottom.
 ||sbplay.one/js/*/*.min.js?*=*
@@ -94877,6 +94831,7 @@ zzzyk.com###Tinfo
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
 ||shen4club.com/style/*.js?v=
+||sher.*.hu^
 ||sherg.az/axar/$third-party
 ||sherg.az/banner/
 ||sheshaft.com/js/license.*.js^
@@ -94929,7 +94884,6 @@ zzzyk.com###Tinfo
 ||shorterall.com/php_code.php?
 ||shorthand.com/analytics/
 ||shortit.pw/js/adbb.js
-||shortlink.sex^$popup,domain=cam-archive.com
 ||shortpixel.ai^$popup
 ||shortpixel.ai^$popup,badfilter
 ||shortterm-damage^$popup
@@ -95655,6 +95609,7 @@ zzzyk.com###Tinfo
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/ba_utils/stab.js
 ||storage.googleapis.com/cdn.newsfirst.lk/advertisements/$domain=newsfirst.lk
+||storage.googleapis.com/cdn2.guard.io/webflow/tracking-grd.js
 ||storage.googleapis.com/didna_hb/webifacts_llc/webifactsthebrighterside/didna_config.js
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
 ||storage.googleapis.com/pravda-ad-script/
@@ -95975,7 +95930,6 @@ zzzyk.com###Tinfo
 ||target.com/consumers/v1/ttms/events?
 ||target.com/rum_analytics/
 ||target.com/telemetry_data/
-||target.vivid.com^$third-party
 ||taringa.net/ajax/track-visit.php
 ||tarnkappe.info^$ping
 ||tarteaucitron.io/log/
@@ -96502,7 +96456,6 @@ zzzyk.com###Tinfo
 ||track.*.roku.com^
 ||track.laredoute.fr^$image
 ||track.tiara.
-||track.xtrasize.nl^$third-party
 ||track.zalando.
 ||trackdz.com/img/banners/
 ||tracker.$xhr,websocket,script,ping
