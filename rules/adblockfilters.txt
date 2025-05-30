@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250530002234
-! Last modified: 2025/05/30 00:22:34
-! Blocked Filters: 98716
+! Version: 20250530092217
+! Last modified: 2025/05/30 09:22:17
+! Blocked Filters: 98712
 !
 ###AC_ad
 ###AD_160
@@ -41694,6 +41694,9 @@ brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerSto
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###content > div > div:has(> div.container > div.adWrapper)
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._34z61
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > [class]:has(> [data-testid="ad"])
+briskoda.net##.ipsData__item--advertisement
+briskoda.net##div[data-ips-ad]
+briskoda.net,linustechtips.com##div[data-role="sidebarAd"]
 britannica.com##.abl
 britannica.com##.bc-article-inline-dialogue
 britannica.com##.video-ad-container
@@ -52538,6 +52541,7 @@ gry-online.pl#@#.adspace
 gry.pl###overlay:has(>.adblock)
 gry.pl##body .advert.mpu
 gsmarena.com###subHeader2
+gsmarena.com###subHeader:has(> #topAdv)
 gsmarena.com###topAdv
 gsmarena.com##.module-arenaev
 gsmarena.com##.pt-10
@@ -57683,6 +57687,7 @@ kekenet.com##.lp_r_bar:first-child
 kekeshici.com###pcAd
 kelatv.com##a[href^="https://www.kelatv.com/api/go."]
 kemono.su##.stuck-bottom > a[href="https://t.me/kemonopartywelcome"] ~ a[href][target="_blank"]
+kemono.su##a[href*="tsyndicate.com/"]
 kendam.com#%#//scriptlet('set-constant', 'canRunAds', '1')
 kengso.com,pansoso.com,xgsoso.com##a[href*=".click.taobao.com"]
 kenhtao.net##.homeadv2
@@ -59169,7 +59174,6 @@ linovelib.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adB
 linovelib.com#%#//scriptlet('set-constant', 'adblock', '0')
 linovelib.com#@#.ads_box
 linoxide.com###text-40
-linustechtips.com##div[data-role="sidebarAd"]
 linux-magazine.com###Skyscraper
 linux.how2shout.com,4thsight.xyz,tech-story.net###custom_html-25
 linux.how2shout.com,maxedtech.com,4thsight.xyz###custom_html-24
@@ -75332,6 +75336,7 @@ thetimes.com###react-app > div > section + div:has(> div > div.nuk-ad-placeholde
 thetimes.com##.Sticky-AdContainer
 thetimes.com##.channel-header-ad
 thetimes.com##.responsive__InlineAdWrapper-sc-4v1r4q-14
+thetimes.com##.styles__PromotedContentContainer-sc-1ul3b7n-3
 thetimes.com##article[id="article-main"] > div:has(#ad-header)
 thetimes.com##div[class^="styles__PromotedContentContainer"]
 thetimestribune.com###floorboard_block
@@ -77619,6 +77624,7 @@ uroda.abczdrowie.pl#?#.article__container > .content-aside .content-aside__item:
 uroda.abczdrowie.pl#?#.article__textbox:matches-css(background-image: /^url\(https:\/\/uroda\.abczdrowie\.pl\/media\/images\/commb\.png/)
 urtech.ca###text-17:last-child
 usagoals.*#%#//scriptlet("prevent-window-open")
+usamega.com###anchorPanel
 usamega.com##.aud
 usasexguide.nl###uiISGAdFooter
 usasexguide.nl##[href^="https://instable-easher.com/"]
@@ -81029,18 +81035,6 @@ yandex.*##a[href^="https://yabs.yandex.ru/count/"]
 yandex.*##a[href^="https://yandex.ru/an/count/"]
 yandex.*##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
-yandex.com##.AdvOffers
-yandex.com##.DirectFeature
-yandex.com##.ImagesViewer-SidebarAdv
-yandex.com##.ProductGallery
-yandex.com##.search-list-view__advert-offer-banner
-yandex.com##.search-snippet-view:has(span.search-advert-badge__advert)
-yandex.com##a[href^="https://yandex.ru/an/count/"]
-yandex.com##div[aria-label="Ad"]
-yandex.com##div[data-name="adWrapper"]
-yandex.com##div[id^="yandex_ad"]
-yandex.com##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
-yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 yaociyuan.bid##.board a[target="_blank"] > img
 yaociyuan.bid##.content a[target="_blank"] > img
 yaociyuan.bid##.w-ad
@@ -85307,6 +85301,7 @@ zzzyk.com###Tinfo
 ||caranddriver.com/inventory/
 ||carbon38.com/A44kxi5a/init.js
 ||cardinalcommerce.com/prod/log
+||cards.thriftytraveler.com/widget/
 ||careercontessa.com/img/sidebar-promo-power-moves-*.png
 ||careerjournalonline.com^$popup
 ||careermatch.com/oGckki0e/init.js
@@ -91831,6 +91826,7 @@ zzzyk.com###Tinfo
 ||moneyweekly.com.tw/Uploads/AD/*970x
 ||mongoosejs.net/docs/images/lagoujika.jpeg
 ||monipla.com/launch.js
+||monitor.lifemiles.com/collect
 ||monkeygamesworld.com/images/banners/
 ||monsido.com^$third-party
 ||monsnode.com/ad_star_
@@ -96077,6 +96073,7 @@ zzzyk.com###Tinfo
 ||thcdy.co/baidu2/foot.js
 ||thcdy.co/baidu2/index_top.js
 ||the-group.net/aether/
+||the75andztclub.co.uk/forum/banner.js
 ||theagency.com^$third-party
 ||theappstore.org/script.js$replace=/(result\.length > 10000 \? "no" : ")yes(";)/\$1no\$2/
 ||theappstore.org/script.js$replace=/ab = "yes";/ab = "no";/
@@ -98145,7 +98142,6 @@ zzzyk.com###Tinfo
 ||yandex.*/clck/$~ping
 ||yandex.*/count/
 ||yandex.*/data?referrer=
-||yandex.com/clck/
 ||yandex.eu/clck/
 ||yandex.fr/clck/click
 ||yandex.net/expjs/latest/exp.js
