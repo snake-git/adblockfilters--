@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250605002025
-! Last modified: 2025/06/05 00:20:25
-! Blocked Filters: 96405
+! Version: 20250605092416
+! Last modified: 2025/06/05 09:24:16
+! Blocked Filters: 96406
 !
 ###AC_ad
 ###AD_160
@@ -37517,6 +37517,7 @@ allwebgames.com##div[class^="google-sticky-adv-"]
 ally.sh#$#.btn-danger[title^="Please disable AdBlocker"] { display: none!important; }
 ally.sh#$#.center-captcha.hidden { display: block!important; visibility: visible!important; }
 almaftuch.in#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
+almanac.com##.block:has(> .block__content:only-child > .text-content:only-child > .ad-wrapper:only-child)
 almanac.com##.sticky-right-sidebar
 almanac.com#?#.layout__region > div.sticky-right-sidebar:has(> div.block__content > div.text-content > p > span.advertisement-label)
 almayadeen.net#%#//scriptlet("set-constant", "videojsContribAds", "noopFunc")
@@ -44075,6 +44076,8 @@ cutynow.com,reliabletv.me,exnion.com,vikingf1le.us.to,exe-urls.com,cuty.me,evern
 cutynow.com,reliabletv.me,exnion.com,vikingf1le.us.to,exe-urls.com,cuty.me,evernia.site,worldsports.me,vidsrc2.*,viprow.nu,olkuj.com,ijvam.com,olympicstreams.*,buffsports.me,uploadhaven.com,yoykp.com,arcjav.com,mc-hacks.net,mycivillinks.com,woiden.com,wonderapk.com,megaup.net,exeo.app,vidsrc.*,cricstream.me,vipleague.*,socceronline.me,igg-games.co,crackstreams.*,torrentmac.net,vipboxtv.*,vipbox.*,userscloud.com,game3rb.com,soap2day.*,soccerworldcup.me,igg-games.com,miraculous.to,coloredmanga.com,hentaispark.com,send.cm#%#//scriptlet("abort-current-inline-script", "navigator", "FingerprintJS")
 cutyt.com,onlineocr.net,publish0x.com##.d-xl-block
 cutyurls.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+cvs.com##.stencil-criteo-shelf
+cvs.com#?#div[class*="flex-col"]:-abp-has(>h2:-abp-contains(Sponsored))
 cw.com.tw##.ad--video
 cw.com.tw##.article__promotion
 cw.com.tw##.bottombar
@@ -46610,6 +46613,7 @@ euronews.com###js-leaderboard-top
 euronews.com###o-site-hr__leaderboard-wallpaper.u-show-for-xlarge {remove:true;}
 euronews.com###sharethrough-ad
 euronews.com###sharethrough-ad-medium-up
+euronews.com##.c-article-content > h2::before
 euronews.com##.c-card-sponsor
 euronews.com##.c-leaderboard
 euronews.com##.enw-MPU
@@ -57695,6 +57699,7 @@ linuxblog.io##.hayden-widget
 linuxblog.io##.hayden-widget_top_1
 linuxcapable.com#%#//scriptlet('set-constant', 'nitroAds.abp', 'true')
 linuxcapable.com,lawenforcementtoday.com##.inside-right-sidebar > .FixedWidget__fixed_widget
+linuxcareers.com##[href="/jobs/alert/"]
 linuxgizmos.com###ctkiba-blanket
 linuxgizmos.com###eaa_post_between_content
 linuxgizmos.com#$#table[align="center"] + center > table[width="100%"] > tbody > tr > td[align="left"] { visibility: hidden !important; }
@@ -80535,7 +80540,6 @@ zzzyk.com###Tinfo
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||10minutemail.com/ub/ub.js
 ||10play.com.au/js/ShowsIndex.compiled.js$replace=/=this\.props\.disableAds\|\|this\._noAds/=true/
-||10xlaunch.ai^$third-party
 ||11.mydrivers.com/drivers/
 ||111.90.150.149/wp-content/plugins/catfish-advert-banner/catjs.php
 ||111.90.159.132/wp-content/plugins/catfish-advert-banner/
@@ -81514,7 +81518,6 @@ zzzyk.com###Tinfo
 ||adblockeronstreamtape.xyz/stat/
 ||adblockeronstrtape.xyz/stat/
 ||adblockplustape.xyz/stat/
-||adblockrelief.com^$third-party
 ||adblockstreamtape.art/stat/
 ||adblockstreamtape.fr/stat/
 ||adblockstreamtape.site/stat/
@@ -83824,7 +83827,6 @@ zzzyk.com###Tinfo
 ||cdn.wendycode.com/blogger/antiAdbLazy.js
 ||cdn.witchhut.com/network-js/witch-afg/witchAfg.partner.js
 ||cdn.wo.cc/wo.js
-||cdn.wylin.ai/now-ai-chars/assets/fe-assets/index.min.js
 ||cdn.xiuting.cc/js/go016.js
 ||cdn.yeahwebimobi.fun/r6.png
 ||cdn141.com/banner/adcards.
@@ -84123,7 +84125,6 @@ zzzyk.com###Tinfo
 ||cnt.yeptube.
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
-||cnwebperformance.biz^$third-party
 ||cnwnews.com/ad-nrtop/
 ||cnwnews.com/gg
 ||cnwnews.com/images/kgt
