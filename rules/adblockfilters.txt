@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250612002414
-! Last modified: 2025/06/12 00:24:14
-! Blocked Filters: 96914
+! Version: 20250612092442
+! Last modified: 2025/06/12 09:24:42
+! Blocked Filters: 96925
 !
 ###AC_ad
 ###AD_160
@@ -18918,6 +18918,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /bineos.min.js
 /bing-bat.js
 /bingimpression?
+/bitmovinanalytics.min.js
 /bitrix/spread.php?
 /biyys*hh.js$third-party
 /biz_icon/*$domain=cs090.com|wm090.com
@@ -20579,6 +20580,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /log_beacon.js
 /log_e.php?id=
 /log_h.jsp
+/log_js_error$ping
 /log_stats.php?
 /log_view.php
 /logactions.gif?
@@ -36926,6 +36928,7 @@ advocate.com,out.com##.ad_leaderboard_wrap
 advocate.com,out.com,pride.com##div[id^="sPost_Layout_Default_"]:has(> .ad_leaderboard_wrap)
 advocatekhoj.com##div[align="center"] > div[style="height: 95px;"]
 adweek.com##.htl-ad-wrapper
+adweek.com##[style="min-height: 90px; box-sizing: content-box;"]
 adweek.com#?#.sidebar > div.widget-wrapper:has(> div.htl-ad-wrapper)
 adz7short.space###banner_slider_right
 adz7short.space#%#//scriptlet('remove-attr', 'href', '#continue')
@@ -37400,6 +37403,7 @@ allthetests.com,bom.gov.au,cadenaazul.com,lapoderosa.com###advertising
 allthingssecured.com##.flexible-widgets.front-page-3-a.widget-fourths
 alltutorialsworld.com#?##secondary > aside.widget_text:has(> div.textwidget > ins.adsbygoogle)
 alluc.org#@#.adsbottombox
+allupplay.xyz,tvableon.me,movies-2015.com,y2meta.net#%#//scriptlet('abort-on-property-read', 'zfgdlpopup')
 allureamateurs.net,sexmummy.com###topbar
 allurekorea.com#@#.paszone_container
 allurekorea.com#@#.wppaszone
@@ -44786,6 +44790,7 @@ dailysabah.com###id_d_300x250
 dailysocial.id###home-ads
 dailysocial.id##.news__detail-ads-subs
 dailysocial.id,tiktok.com##.banner-ads
+dailysportscar.com,honor.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 dailystar.co.uk##.commercial-box-style
 dailystar.co.uk##[data-testid="commercial-above-header-box-1"] {remove:true;}
 dailystar.co.uk##amp-iframe[height="40"]
@@ -52983,7 +52988,9 @@ helpinterview.com###bottom-columns
 helpnetsecurity.com##a[href^="https://helpnet.link/"] > img
 helpnetsecurity.com##aside[class][style] > div[id] > div[id][style] > a[target="_blank"]
 helpnetsecurity.com##aside[data-position]
+helpnetsecurity.com##aside[style="position:relative;display:block;box-sizing:border-box;margin:auto;padding:0;text-align:center;"]
 helpnetsecurity.com##div[class^="daninja-"]
+helpnetsecurity.com##div[style*="max-height: 250px; max-width: 300px;"]
 helpnetsecurity.com#$##habModal { display: none!important; }
 helpnetsecurity.com#$#.modal-backdrop { display: none!important; }
 helpnetsecurity.com#$#body { overflow: auto!important; padding-right: 0!important; }
@@ -53842,6 +53849,9 @@ hqpornstream.com##.lds-hourglass
 hqq.ac#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle.js')
 hqq.ac#%#//scriptlet('prevent-element-src-loading', 'script', '/script_')
 hqq.ac#%#//scriptlet('set-constant', 'adblockcheck', 'false')
+hqq.to##.asg-vast-overlay
+hqq.to#%#//scriptlet('abort-on-stack-trace', 'olplayer.error', 'Be.o.dispatcher.o.dispatcher')
+hqq.to#%#//scriptlet('set-constant', 'adblockcheck', 'false')
 hqxxtube.com,xxvidsx.com,tubsxxx.com##.aBlock
 hqyman.cn##a[href="https://hqyman.cn/taobao/"]
 hrej.cz##.sda-desktop
@@ -61259,6 +61269,7 @@ mobilmania.cz,zive.cz#%#//scriptlet('set-constant', 'pp_gemius_cnt', '1')
 mobimaniak.pl,gsmmaniak.pl##.rsidebar > div[style="margin:0 auto 10px auto; text-align:center; font-size:6px;"]
 mobimaniak.pl,gsmmaniak.pl##.rsidebar > div[style="margin:0 auto 20px auto; text-align:center;"]
 mobinozer.com#%#//scriptlet("set-constant", "noAdblock", "true")
+mobxvideos.com,pornogramxxx.com###bubble
 mobygames.com##.buyGameLinkHolder
 mobygames.com##a[href^="https://atari.com/"] > img
 mocah.org##.kavp
@@ -75810,7 +75821,6 @@ tv8.it##.adv-top-dx
 tv8.it##div[class^="AdvBanner"]
 tv8.it##main div[type="atf-btf"]
 tv8.md#@#.ad-container
-tvableon.me,movies-2015.com,y2meta.net#%#//scriptlet('abort-on-property-read', 'zfgdlpopup')
 tvarenasport.com##a[class^="baner_"]
 tvarticles.me##.inside
 tvarticles.me##.section-post-about
@@ -81943,7 +81953,6 @@ zzzyk.com###Tinfo
 ||adcs-*.myappsget.com^
 ||addtoany.com/menu/transparent.gif
 ||adduplex.com/*/GetAd
-||addwish.com^$third-party
 ||adfreevision.com^$popup
 ||adguard.com/-/event/
 ||adhoc2.net^$popup
@@ -87790,6 +87799,8 @@ zzzyk.com###Tinfo
 ||hqporn.su/myvids/
 ||hqpornstream.com/pub/
 ||hqq.ac/cdn-cgi/trace
+||hqq.to/cdn-cgi/trace
+||hqq.to/js/script-*js
 ||hqq.tv/cdn-cgi/trace
 ||hqq.tv/js/betterj/ban^
 ||hqq.tv/js/counters.js
@@ -89233,7 +89244,6 @@ zzzyk.com###Tinfo
 ||kt51.com/wz.jpg
 ||ktla.com/CvbtpUrj/init.js
 ||kts.visitstats.com^$all
-||ktzhk.com/file/adv/
 ||kuaicad.com/rest/common/getConfigureByName?
 ||kuaidi100.com/assets/ext?method=mainprofile
 ||kuaidi100.com/images/kuaidi/201612081*4
@@ -90138,7 +90148,6 @@ zzzyk.com###Tinfo
 ||medsci.cn/aimgs/$script
 ||medsci.cn/images/wyg.jpg
 ||meduza.io/stat/
-||meebo.com/cim/sandbox.php?
 ||meetradar.com^$popup
 ||meetsexygirls.org^$popup
 ||megaplay.cc/cdn-cgi/trace
@@ -91841,6 +91850,7 @@ zzzyk.com###Tinfo
 ||polygamia.pl^$replace=/(^.{1\,150}\(\{).*?"bunch".*?"bidRequestId".*(}\);)/\$1\$2/,script
 ||polygamia.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||polygamia.pl^$replace=/(aabv\d[\s\S]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
+||pons.com/*/pons-ads-idm.js
 ||pons.com/assets/javascripts/modules-min/ad-utilities_
 ||pons.com/assets/javascripts/modules-min/idm-ads_
 ||ponselharian.com/img/download_
@@ -91957,6 +91967,8 @@ zzzyk.com###Tinfo
 ||porno-wife.com/powi.html
 ||porno666.com/code/script/
 ||pornofaps.com/frosty-bread-04ce/
+||pornogramxxx.com/out/
+||pornogramxxx.com/out/$popup
 ||pornohammer.com/cpanel^
 ||pornohammer.com/script/*/am.js
 ||pornohammer.com/static/script/*/video-cust-ad.js
@@ -92144,7 +92156,6 @@ zzzyk.com###Tinfo
 ||prothomalo.com/icc-worldcup-2023-countdown$subdocument
 ||prothomalo.com/static-*a0d$subdocument
 ||provesrc.com^$third-party
-||providesupport.com/cmd/$image
 ||provify.io^$third-party
 ||proxy6.net/static/img/b/
 ||proxycheck.io/v2/
