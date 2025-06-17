@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250617002339
-! Last modified: 2025/06/17 00:23:39
-! Blocked Filters: 98190
+! Version: 20250617092601
+! Last modified: 2025/06/17 09:26:01
+! Blocked Filters: 98198
 !
 ###AC_ad
 ###AD_160
@@ -6846,6 +6846,7 @@
 ##.ad_160_600
 ##.ad_160x600
 ##.ad_188_inner
+##.ad_1deg5up
 ##.ad_1tdq7q5
 ##.ad_2
 ##.ad_200
@@ -20211,7 +20212,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /index.php?op=ad_click
 /index.track?
 /index_ad/*$image
-/index_ads.js$script
 /indexpc.html?agent=$popup,third-party
 /indextools.js
 /infinity.js.aspx?$script
@@ -20260,7 +20260,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /joomla-visites.php
 /jpuid?jsonp=
 /jquery-gatracker.js
-/jquery.ad.js
 /jquery.adi.js
 /jquery.adx.js?
 /jquery.analytics.js
@@ -36939,7 +36938,7 @@ adultdvdempire.com##a[href*="?partner_id="][href*="&utm_"]
 adultdvdtalk.com###top-elements > div[style^="float:right;"]
 adultdvdtalk.com##div[style^="position: fixed; margin"][style*="text-align: center;"]
 adultepic.com##div[style*="height: 250px;"]
-adultfilmdatabase.com,analegg.com,animeidhentai.com,babeforums.org,bos.so,camvideos.tv,camwhores.tv,cheemsporn.com,coomer.su,devporn.net,f95zone.to,familypornhd.com,fritchy.com,gifsauce.com,hentai2read.com,hotpornfile.org,hpjav.com,imagebam.com,imgbox.com,imgtaxi.com,kemono.su,motherless.com,muchohentai.com,myporn.club,oncam.me,pandamovies.pw,planetsuzy.org,porntrex.com,pussyspace.com,sendvid.com,sexgalaxy.net,sextvx.com,sexuria.com,simpcity.su,simpshub.com,thefappeningblog.com,vintage-erotica-forum.com,vipergirls.to,waxtube.com,xfantazy.com,yeapornpls.com##a[href*="theporndude.com"]
+adultfilmdatabase.com,analegg.com,animeidhentai.com,babeforums.org,bos.so,camvideos.tv,camwhores.tv,cheemsporn.com,coomer.su,devporn.net,f95zone.to,familypornhd.com,fritchy.com,gifsauce.com,hentai2read.com,hotpornfile.org,hpjav.com,imagebam.com,imgbox.com,imgtaxi.com,kemono.su,motherless.com,muchohentai.com,myporn.club,oncam.me,pandamovies.pw,planetsuzy.org,porntrex.com,pussyspace.com,sendvid.com,sexgalaxy.net,sextvx.com,sexuria.com,simpcity.su,simpshub.com,socialmediagirls.com,thefappeningblog.com,vintage-erotica-forum.com,vipergirls.to,waxtube.com,xfantazy.com,yeapornpls.com##a[href*="theporndude.com"]
 adultfilmindex.com##.aebn
 adultgamescollector.com##.sb > div.textwidget:has(> p > ins)
 adultgamescollector.com##.wraps > div.pict2:has(> a[href^="https://a.candyai.love/"])
@@ -39679,6 +39678,7 @@ baltic-course.com,webfail.com###bannertop
 balticlivecam.com##.fp-sponsor
 balticlivecam.com##.vjs-poster
 baltimoresun.com,capitalgazette.com,chicagotribune.com,courant.com,dailypress.com,latimes.com,mcall.com,orlandosentinel.com,sandiegouniontribune.com,sun-sentinel.com##div[data-adloader-size]
+bamsmackpow.com##.player-wrapper
 bamxs.com###inglestore
 bamxs.com##body > a
 banaraswap.in##.azbtn[href*=".click/?"]
@@ -65081,6 +65081,7 @@ parabola.cz##a[href^="/odkazovnik/b"]
 parabola.cz##h3[class$="idr"]
 parabola.cz#@#.rklm
 parade.com##.connatix_wrapper
+parade.com##div[id^="ad-in_content"]
 parade.com,bringmethenews.com,thespun.com,thestreet.com,si.com##.m-outbrain
 paradisehill.cc###bb1
 paradisehill.cc##.banner-universal
@@ -71423,8 +71424,16 @@ socialblade.com##div[style^="width: 860px; height: 90px;"]
 socialcounts.org##.home_sticky-ad__Aa_yD
 socialcounts.org##div[class^="home_sticky-ad__"]
 socialmediagirls.com##.jamCodeUnitsevenjunetwofour
+socialmediagirls.com##.jamLinkUnitsevenjunetwofour
+socialmediagirls.com##a[href^="https://bongacams.com/"]
+socialmediagirls.com##a[href^="https://bunnyagent.com/"]
+socialmediagirls.com##a[href^="https://camplayer.com/"]
+socialmediagirls.com##a[href^="https://fuqqt.com/"]
 socialmediagirls.com##a[href^="https://golove.ai/anonAuth?"]
+socialmediagirls.com##a[href^="https://undressai.tools/"]
 socialmediagirls.com##a[href^="https://v6.realxxx.com/"]
+socialmediagirls.com##a[href^="https://www.puatraining.com/"]
+socialmediagirls.com##a[href^="https://www.rabbitsreviews.com/"]
 socialmediagirls.com#%#//scriptlet('prevent-addEventListener', 'load', 'puHref')
 socialpress.pl##article > .image-wraper + div[style^="width: 300px; height: auto;"]
 society19.com##div[style*="margin:"][style*="text-align:"][style*="display:"]:has(> div[id^="div-gpt-"])
@@ -91871,7 +91880,6 @@ zzzyk.com###Tinfo
 ||niupic.com/images/2019/11/17/_17.
 ||nius.de/monitoring
 ||niuza.com^$image,subdocument,third-party
-||niwota.com^$third-party
 ||njam.tv/tracking/
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideAds
 ||njxzwh.com/pcsoft/statics/ycgg/
