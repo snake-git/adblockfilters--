@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250627162511
-! Last modified: 2025/06/27 16:25:11
-! Blocked Filters: 97299
+! Version: 20250628002322
+! Last modified: 2025/06/28 00:23:22
+! Blocked Filters: 97306
 !
 ###AC_ad
 ###AD_160
@@ -24326,6 +24326,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 52tian.net##.sidebar960
 52tian.net,starbaby.cn##.bdad
 52vfx.com#@##head_ad
+52wmb.com###popContent
 52wubi.com##.top960
 52youpiao.com##div[style^="position:fixed; right:40px;"]
 52zpi.com##.wenziad
@@ -63303,6 +63304,7 @@ nontonx.com#%#//scriptlet('trusted-create-element', 'body', 'iframe', 'src="http
 nontonx.com#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{window.addEventListener("load",(()=>{setTimeout((()=>{if(!document.querySelector(".plyr--video video"))for(const o in window)if("function"==typeof window[o]&&window[o].toString().includes("Hls.isSupported")){try{window[o]()}catch(e){console.stack(`Error occurred while calling ${o}:`,e)}break}}),1e3)}));})();')
 nontonx.com#%#//scriptlet('trusted-replace-node-text', 'script', 'AdBlock', '/=( +)?Object\.values\(.+\)\.some\(.+=>.+===( +)?false\);/', '=false;')
 nontonx.com#%#//scriptlet('trusted-replace-node-text', 'script', 'AdBlock', 'if (!blocked)', 'if(!0)')
+nontonx.com#%#//scriptlet('trusted-replace-node-text', 'script', 'getComputedStyle', 'if (!passed())', 'if(!1)')
 noodlemagazine.com##.menu > a[href^="https://theporndude.com/"]
 noodlemagazine.com##div[style="width:900px;height:250px;margin:20px auto 0"]
 noodlemagazine.com#$?#.video_player + style { remove: true; }
@@ -65423,6 +65425,9 @@ pimpandhost.com##a[href^="https://www.myfreecams.com/"][href*="&track="]
 pimpandhost.com##div[class*="aaablock"] > div.iframe-container
 pimpandhost.com#?#.list-view > .content_placing > .item:not([data-key]):has(> a[target="_blank"] > img)
 pimpandhost.com,pornone.com##.iframe-container
+pimpbunny.com##.pb-header > div.pb-header-top-left-menu
+pimpbunny.com##.pb-header > div.pb-header-top-right-menu > a[href][rel="noopener"][target="_blank"]
+pimpbunny.com##div[class^="pb-menu-"] > a[rel="sponsored noopener"][target="_blank"]
 pimpbunny.com#%#//scriptlet("trusted-replace-node-text", "script", "getEmbed", "/adv_pre_src: \'https:\/\/pimpbunny\.com.*mp4/", "adv_pre_src: '")
 pimpmymoney.net##.widget_siteorigin-panels-builder
 pimpmymoney.net##.widget_sow-simple-masonry
@@ -79280,7 +79285,7 @@ www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.youtube.com#%#(()=>{const e={apply:(e,t,n)=>{const o=Reflect.apply(e,t,n);try{o instanceof HTMLIFrameElement&&"about:blank"===o.src&&o.contentWindow&&(o.contentWindow.fetch=window.fetch,o.contentWindow.Request=window.Request)}catch(e){}return o}};Node.prototype.appendChild=new Proxy(Node.prototype.appendChild,e)})();
 www.youtube.com#%#(()=>{const t={apply:(t,o,n)=>{const e=n[0];return"function"==typeof e&&e.toString().includes("onAbnormalityDetected")&&(n[0]=function(){}),Reflect.apply(t,o,n)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,t)})();
-www.youtube.com#%#(()=>{if(Object.getOwnPropertyDescriptor(window.JSON,"stringify").writable)return;const e={apply:(e,t,r)=>{let c=Reflect.apply(e,t,r);try{3!==r.length||"object"!=typeof c||"string"!=typeof c.body||c.body.includes('"clientScreen":"ADUNIT"')||(c.body=c.body.replace('"clientScreen":"WATCH"','"clientScreen":"ADUNIT"'))}catch(e){console.trace("Error occurred:",e)}return c}};window.Object.assign=new Proxy(window.Object.assign,e)})();
+www.youtube.com#%#(()=>{if(Object.getOwnPropertyDescriptor(window.JSON,"stringify").writable)return;const e={construct:(e,c,r)=>{try{const e=c[0],r=c[1]?.body;e?.includes("youtubei")&&r?.includes('"clientScreen":"WATCH"')&&(c[1].body=r.replace('"clientScreen":"WATCH"','"clientScreen":"ADUNIT"'))}catch(e){console.trace("Error occurred:",e)}return Reflect.construct(e,c,r)}};window.Request=new Proxy(window.Request,e)})();
 www.youtube.com#%#(()=>{let t=document.location.href,e=[],n=[],o="",r=!1;const i=Array.prototype.push,a={apply:(t,o,a)=>(window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id&&a[0]&&a[0]!==window&&"number"==typeof a[0].start&&a[0].end&&"ssap"===a[0].namespace&&a[0].id&&(r||0!==a[0]?.start||n.includes(a[0].id)||(e.length=0,n.length=0,r=!0,i.call(e,a[0]),i.call(n,a[0].id)),r&&0!==a[0]?.start&&!n.includes(a[0].id)&&(i.call(e,a[0]),i.call(n,a[0].id))),Reflect.apply(t,o,a))};window.Array.prototype.push=new Proxy(window.Array.prototype.push,a),document.addEventListener("DOMContentLoaded",(function(){if(!window.yt?.config_?.EXPERIMENT_FLAGS?.html5_enable_ssap_entity_id)return;const i=()=>{const t=document.querySelector("video");if(t&&e.length){const i=Math.round(t.duration),a=Math.round(e.at(-1).end/1e3),c=n.join(",");if(!1===t.loop&&o!==c&&i&&i===a){const n=e.at(-1).start/1e3;t.currentTime<n&&(t.currentTime=n,r=!1,o=c)}else if(!0===t.loop&&i&&i===a){const n=e.at(-1).start/1e3;t.currentTime<n&&(t.currentTime=n,r=!1,o=c)}}};i();new MutationObserver((()=>{t!==document.location.href&&(t=document.location.href,e.length=0,n.length=0,r=!1),i()})).observe(document,{childList:!0,subtree:!0})}))})();
 www.youtube.com#%#(()=>{window.JSON.parse=new Proxy(JSON.parse,{apply(r,e,t){const n=Reflect.apply(r,e,t);if(!location.pathname.startsWith("/shorts/"))return n;const a=n?.entries;return a&&Array.isArray(a)&&(n.entries=n.entries.filter((r=>{if(!r?.command?.reelWatchEndpoint?.adClientParams?.isAd)return r}))),n}});})();
 www.youtube.com#%#//scriptlet('adjust-setTimeout', '[native code]', '17000', '0.001')
@@ -81817,6 +81822,7 @@ zzzyk.com###Tinfo
 ||52rd.com/Pic/Click/
 ||52rd.com/Pic2/*_600_60
 ||52tian.net^*/xuanfu.js
+||52wmb.com/2014js/cn_
 ||52xkdy.com/pmc/
 ||52zpi.com/gg/
 ||5399.com^$third-party
@@ -82054,7 +82060,6 @@ zzzyk.com###Tinfo
 ||9906g.com/js/jquery.js
 ||99496.com/static/
 ||99496.com/v9/head.js
-||999d.com^$third-party
 ||99counters.com^$third-party
 ||99danji.com/kchtml/
 ||99lb.net/index_files/*/970
@@ -85593,6 +85598,7 @@ zzzyk.com###Tinfo
 ||deporvillage.com/tracking-library/
 ||depressionforums.org/wp-content/uploads/2023/05/balban.jpg.webp
 ||depvailon.com/sponsored.html
+||deqixs.com/config/
 ||deqixs.com/config/v7.js
 ||derivative-calculator.net/images/brave-en.png
 ||derpicdn.net/spns/*.gif
@@ -91173,6 +91179,7 @@ zzzyk.com###Tinfo
 ||nongjitong.com/adm/
 ||nontonx.com^$replace=/=( +)?Object\.values\(.+\)\.some\(.+=>.+===( +)?false\);/=false;/,document
 ||nontonx.com^$replace=/if \(!blocked\)/if(!0)/,document
+||nontonx.com^$replace=/if \(!passed\(\)\)/if(!1)/,document
 ||noodlemagazine.com/api/stats?
 ||nookthem.com/js/popping^
 ||nooo.tv/theme/basic/img/banner
