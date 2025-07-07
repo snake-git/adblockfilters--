@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250707002108
-! Last modified: 2025/07/07 00:21:08
-! Blocked Filters: 96881
+! Version: 20250707094006
+! Last modified: 2025/07/07 09:40:06
+! Blocked Filters: 96890
 !
 ###AC_ad
 ###AD_160
@@ -17965,6 +17965,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{5}$/$script,third-party,match-case
 /^https:\/\/(?:as(?:loader)?|loader)\.[-0-9A-Za-z]+.[-A-Za-z]{2,30}\/loader.min.js$/$script,~third-party
 /^https:\/\/(a|c)\.[0-9a-f]{56}\.com$/
+/^https:\/\/(www\.)?zxzjhd\.com\/[0-9]+\.gif/$domain=zxzjhd.com
 /^https:\/\/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\.com\/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\.js$/$script,third-party
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,third-party
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[a-f0-9]+\/\d+\?version_name=\w&domain=/$xmlhttprequest,third-party
@@ -39595,6 +39596,7 @@ bestreamsports.org#%#//scriptlet("abort-current-inline-script", "document.create
 bestreamsports.org#%#//scriptlet('prevent-eval-if', 'reduce')
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 bestreviews.net,blokt.com##.su-box
+bestsimilar.com##.block-ins-gad
 besttechinfo.com##.sidebar > div.theiaStickySidebar > div[id="custom_html-5"]
 besttechinfo.com##.sidebar > div.theiaStickySidebar > div[id="custom_html-6"]
 besttechinfo.com#%#//scriptlet("set-constant", "$tieE3", "true")
@@ -39936,6 +39938,7 @@ biqle.org##div[style="text-align: center;"]
 biqle.ru##.message-container
 biqle.ru##a[href="https://savevk.com/biqle.ru"]
 biquge001.com###content > a
+biquge321.com#%#//scriptlet('prevent-addEventListener', 'touchend', 'window.location.href')
 biquge345.com##.puaxqbxs_b
 biquge345.com##div[style^="position:fixed;"]
 birdsandblooms.com,familyhandyman.com,rd.com,tasteofhome.com,thehealthy.com###ads-container-single
@@ -46641,6 +46644,8 @@ engdic.org##.gb-container
 engine.presearch.org#$?#template[x-if="state.ads"] { remove: true; }
 engineeringtoolbox.com##.adblo
 enginehub.org##.sponsorbox
+english.mathrubhumi.com##.ads-Container
+english.mathrubhumi.com##.bg-adBackground
 english.nv.ua##.nts-video-wrapper
 english.tupaki.com##body #ad_after_header
 englishclub.com##div[style^="min-height: 280px;"]
@@ -58140,6 +58145,7 @@ loadout.tf#$?#.loadout-application-top > div[style]:has(> div[style] > div[data-
 loadout.tf#%#(()=>{const t=new MutationObserver((t=>{for(let e of t){const t=e.target;if(t?.querySelector?.("div:not([class], [id]):first-child + div:not([class], [id]):not([class], [id]):last-child")){const e=t.querySelector("div:not([class], [id]):last-child");if("#advertisement"===e?.shadowRoot?.querySelector?.("div:not([class], [id]) > div:not([class], [id])")?.textContent)try{e.remove()}catch(t){console.trace(t)}}}})),e={apply:(e,o,c)=>{try{c[0].mode="open"}catch(t){console.error(t)}const s=Reflect.apply(e,o,c);return t.observe(s,{subtree:!0,childList:!0}),s}};window.Element.prototype.attachShadow=new Proxy(window.Element.prototype.attachShadow,e)})();
 loadout.tf#%#//scriptlet("prevent-setTimeout", "htmlAd.getBoundingClientRect")
 loadx.ws#%#//scriptlet("prevent-window-open")
+loadx.ws,scripcheck.great-site.net,e-player-stream.app,shineads.org,whats-on-netflix.com,justpaste.top,megafire.net,seriesperu.com,jeniusplay.com,tutorialsplanet.net,filegajah.com,nulleb.com,androjungle.com,daotranslate.com,azoranov.com,fapdrop.com,francescopelliccia.it,karanpc.com,ipamod.com,taodung.com,voircartoon.com,brasilsimulatormods.com,unofficialtwrp.com,magesy.blog,adslink.pw,jpopsingles.eu,pinsystem.co.uk#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'adsBlocked')
 loblaws.ca##.block-wrapper:has([data-track-product-component="carousel||rmp_sponsored"])
 loblaws.ca#?#[data-testid="product-grid"]>div:-abp-contains(Sponsored)
 loblaws.ca,provigo.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-container:-abp-contains(Featured Items)
@@ -62771,6 +62777,7 @@ nodejs.org##.\!block[href^="https://www.herodevs.com/support/node-nes?"]
 nodeloc.com###wghtml
 nodeloc.com##.AfruxWidgets-sideNavAlt
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
+nodeseek.com##.promotation-item
 nodevice.com###ndad_top
 noelleeming.co.nz#?#div.product-tile:-abp-has(span:-abp-contains(Sponsored))
 nofilmschool.com##.horizontal_ad
@@ -68836,7 +68843,6 @@ scribd.com#?##sidebar div[class^="_"]:has(> div[class] > div[class] > span:conta
 scribd.com#?#div[class^="GridContainer-module_wrapper_"] div[data-e2e="dismissible-ad-header-scribd_adhesion"]:upward(div[class^="GridContainer-module_wrapper_"])
 scribd.vpdfs.com##[href^="https://accounts.binance.com"]
 scribegeser.weebly.com#%#//scriptlet('abort-current-inline-script', 'document.write', 'atob')
-scripcheck.great-site.net,e-player-stream.app,shineads.org,whats-on-netflix.com,justpaste.top,megafire.net,seriesperu.com,jeniusplay.com,tutorialsplanet.net,filegajah.com,nulleb.com,androjungle.com,daotranslate.com,azoranov.com,fapdrop.com,francescopelliccia.it,karanpc.com,ipamod.com,taodung.com,voircartoon.com,brasilsimulatormods.com,unofficialtwrp.com,magesy.blog,adslink.pw,jpopsingles.eu,pinsystem.co.uk#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'adsBlocked')
 script-stack.com,thewpclub.net##.bsac
 scriptinghelpers.org##.shvertise-banner
 scriptinghelpers.org##.shvertise-skyscraper
@@ -73562,6 +73568,8 @@ thepostmillennial.com##.surfsharkcontent
 thepostmillennial.com,iflscience.com##div[class^="AdChoiceContainer"]
 thepresetsroom.com##.elementor-loop-container > div[data-elementor-type="loop-item"]:has(.adsbygoogle)
 thepressproject.gr#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"])
+theprint.in###postcontent > div[style*="min-height: 115px"].code-block
+theprint.in###postexcerpt > div[style*="min-height: 115px"].code-block
 theprodkeys.com###adb
 theprodkeys.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 theprovince.com##.widget_pn_dfpad
@@ -89256,6 +89264,7 @@ zzzyk.com###Tinfo
 ||loadshare.org/custom/*/fmovies_480p.mp4$domain=fmovies.cab
 ||loadshare.org/custom/*/tornadomovies_video.mp4$domain=tornadomovies.co
 ||loadshare.org/custom/VideoID-*/*.mp4$domain=fusionmovies.to
+||loadx.ws/player/assets/js/jquery.js
 ||localau.vip/plugin/ad_
 ||localau.vip/plugin/pause.php
 ||localau.vip/plugin/show.php
