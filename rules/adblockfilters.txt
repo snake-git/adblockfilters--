@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250708002427
-! Last modified: 2025/07/08 00:24:27
-! Blocked Filters: 96917
+! Version: 20250708092701
+! Last modified: 2025/07/08 09:27:01
+! Blocked Filters: 96924
 !
 ###AC_ad
 ###AD_160
@@ -22065,6 +22065,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /tag.min.js$script,redirect=noopjs,domain=vipleague.tv,important
 /tag/proxy?id=G-
 /tag/tag.jsp?
+/tag?name=PageView$xmlhttprequest
 /tag?tags=
 /tagAnalyticscnil.php
 /tagCNIL.js
@@ -24901,6 +24902,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 ://sli.*/imp?s=$image
 ://sportframe*.co^
 ://sportframe*.org^
+://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.order.*/r/?id=$image
 ://t.targito.
@@ -61975,6 +61977,7 @@ nativesurge.info##td:has(> div.adsbyadful)
 natlawreview.com##.\#div\.block-native_bf
 natlawreview.com##.block-content-ad_block
 natomanga.com##.ads-contain
+natomanga.com##.fly-ads-chapter-page
 natomanga.com#%#//scriptlet('prevent-setTimeout', 'this.ast')
 naturalblaze.com##.n553lfzn75
 naturalblaze.com##.spot_between_posts
@@ -62376,7 +62379,10 @@ news.china.com.cn##.Wrapper > div[style]
 news.cn2che.com##.banner01
 news.cnyes.com##.content-main > div:empty
 news.cnyes.com##.content-main > div:has(> div[id^="div-gpt-"])
+news.cnyes.com##.content-main > div[class]:has(div[id^="div-gpt-ad-"])
+news.cnyes.com##.section-aside-wrapper ~ div[class] > a[title] ~ div[class]:not([title])
 news.cnyes.com##article > div:has(> div[id^="div-gpt-"])
+news.cnyes.com##div[id^="desktop-ad-card-"]
 news.com.au###header-ads-container
 news.com.au###story > .iseDiv
 news.com.au#$##header { margin-top: 0!important; }
@@ -82571,8 +82577,8 @@ zzzyk.com###Tinfo
 ||api.avrebo.net/api/v*/advert/
 ||api.baomoi.com^$image
 ||api.beleggersbelangen.nl//api/statistics/
+||api.bilibili.com/x/*/res/locs?$~script
 ||api.bilibili.com/x/ad/
-||api.bilibili.com/x/web-show/res/locs?$~script
 ||api.bit.ly/*/clicks?$third-party
 ||api.bitchute.com/slot*/value?adDataKey$subdocument
 ||api.blink.net/a/
@@ -92936,6 +92942,7 @@ zzzyk.com###Tinfo
 ||semawur.com/download3.png
 ||sembox.it/js/sembox-tracking.js
 ||seminarski-diplomski.co.rs/js/custom.js
+||sempra.pro/stat/
 ||sendpulse.com^$third-party
 ||sendspace.com/defaults/sendspace-pop.html$popup
 ||sendtonews.com/stn_trk.gif?
