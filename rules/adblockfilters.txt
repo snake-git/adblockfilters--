@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250912002140
-! Last modified: 2025/09/12 00:21:40
-! Blocked Filters: 97821
+! Version: 20250912091528
+! Last modified: 2025/09/12 09:15:28
+! Blocked Filters: 97825
 !
 ###AC_ad
 ###AD_160
@@ -4244,6 +4244,7 @@
 ###taboola-below-article-thumbnails-2
 ###taboola-below-article-thumbnails-express
 ###taboola-below-article-thumbnails-mg
+###taboola-below-article-thumbnails-new
 ###taboola-below-article-thumbnails-photo
 ###taboola-below-article-thumbnails-v2
 ###taboola-below-disco-board
@@ -21484,6 +21485,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /seotracking-v3.js
 /servead/request/*$script,subdocument
 /serveads.php$script
+/server-side/amsweb.php?$document
 /server.php?request=track&output=
 /server/detect.php?
 /service/track?
@@ -36061,6 +36063,7 @@ accuweather.com##.glacier-ad
 accuweather.com##.panel-ad-mr
 accuweather.com##body #header-davek
 accuweather.com#$#.base-header.has-banner { height: calc(100%) !important; }
+accuweather.com#@#.connatix-player
 accuweather.com,cheddar.tv,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
 accuweather.com,phonescoop.com###top
 ace.mu.nu###google-banner
@@ -50785,7 +50788,6 @@ glamour.hu##.wrapAds
 glamour.hu##.wrapAdsSide
 glamsquadmagazine.com##a[href^="https://onlineacct.zenithbank.com/"]
 glasgowtimes.co.uk##.article-row-container--right__article-display-page-only > div.article-row-container__column.mar-mb-4
-glasgowtimes.co.uk##div[data-uses-js="dfp-top-ad-fixed"]
 glasgowtimes.co.uk,heraldseries.co.uk,somersetcountygazette.co.uk##.mar-leaderboard--top
 glasistre.hr#?#.row:has(> div[class^="col-"] > style + div > div > div.ponuda)
 glassalmanac.com##div[id^="hit-inc-"]
@@ -69000,6 +69002,7 @@ safetydetectives.com##.coupons-list
 safetydetectives.com##.main-popup
 safetydetectives.com##.visit-btn-shortcode
 safeway.com##.google-adManager
+saffronwaldenreporter.co.uk,glasgowtimes.co.uk##div[data-uses-js="dfp-top-ad-fixed"]
 saggiamente.com##body > div#skin
 saglamolun.az##.wallpreklamsag
 saglamolun.az##div[id^="banner"]
@@ -87556,6 +87559,7 @@ zzzyk.com###Tinfo
 ||gettapeads.com/stat/
 ||gettyimages.*/pulse$ping
 ||getviously.com^$third-party
+||getwarmly.com^$third-party
 ||gexing.com/i/*960x
 ||gexing.com/j/??zmask.js,easing.js?
 ||gfan.com/press/
