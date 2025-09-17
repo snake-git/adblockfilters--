@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250917002154
-! Last modified: 2025/09/17 00:21:54
-! Blocked Filters: 96466
+! Version: 20250917091551
+! Last modified: 2025/09/17 09:15:51
+! Blocked Filters: 96468
 !
 ###AC_ad
 ###AD_160
@@ -63444,6 +63444,7 @@ paesenews.it##.shailan_banner_widget
 pagalguy.com##iframe[id^="vqa:ads:"]
 pagalworld.us#%#//scriptlet("prevent-window-open")
 pageMediaControl*$script
+pagesix.com##.featured-image__wrapper > .nyp-video-player
 pagesix.com##.nyp-video-player
 pagesix.com#$#body.header-recirc-bar-enabled { margin-top: 50px!important; }
 pagesix.com#@#.nyp-video-player
@@ -80305,7 +80306,6 @@ zzzyk.com###Tinfo
 ||1909.me/upload/ad/
 ||192ly.com/wp-content/cache/*.js
 ||199.180.100.185/love44^
-||1abzar.ir/abzar/tools/stat/
 ||1av.to/assets/ad/
 ||1biqug.com/js/ajax.js
 ||1bitspace.github.io/wgaming/es/rectangle-medium/v2.html
@@ -81803,6 +81803,8 @@ zzzyk.com###Tinfo
 ||app.link/_r?$script,third-party
 ||app.mediaexpert.pl/spark-data/
 ||app.octaneai.com/get_analytics_engine/
+||app.qualified.com/*/sentry/
+||app.qualified.com/*/visitor_events
 ||app.revenuehero.io/logs/ingest
 ||app.tag-plus.com/ja/api/v1/unison_planet/heat_map
 ||app.torbobit.net/api/ads/
