@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251123002056
-! Last modified: 2025/11/23 00:20:56
-! Blocked Filters: 98840
+! Version: 20251123094229
+! Last modified: 2025/11/23 09:42:29
+! Blocked Filters: 98844
 !
 ###AC_ad
 ###AD_160
@@ -40354,7 +40354,9 @@ bleepingcomputer.com##.cz-sponsorposts
 bleepingcomputer.com##.cz-toa-wrapp
 bleepingcomputer.com##.ia_ad
 bleepingcomputer.com##.s-ou-wrap
+bleepingcomputer.com##[href*="https://www.bleepingcomputer.com/mgo/"]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
+bleepingcomputer.com##[src*="https://www.bleepstatic.com/c/t/threatlocker/"]
 bleepingcomputer.com##a.center-link-image[target="_blank"][rel="sponsored noopener"]
 bleepingcomputer.com##a[href="https://try.flare.io/bleeping-computer/"] > img
 bleepingcomputer.com##ul#bc-home-news-main-wrap > li:has(> .bc_latest_news_text > h4 > a[rel="nofollow"]:not([href*="bleepingcomputer.com"]))
@@ -97911,6 +97913,8 @@ zzzyk.com###Tinfo
 ||wts2.one^$third-party
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
+||wujinyuzhou.top/ny/*00x
+||wujinyuzhou.top/ny/ny852x116.
 ||wujinzy.com/images/ok.gif
 ||wuxianxs.net/mm.
 ||wuxiaworld.com/images/pw^
