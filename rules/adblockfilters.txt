@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251126162630
-! Last modified: 2025/11/26 16:26:30
-! Blocked Filters: 96323
+! Version: 20251127002419
+! Last modified: 2025/11/27 00:24:19
+! Blocked Filters: 96331
 !
 ###AC_ad
 ###AD_160
@@ -25694,6 +25694,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||ad.doubleclick.net/ddm/clk/
 @@||ad.doubleclick.net/ddm/clk/$domain=pepper.pl
 @@||ad.doubleclick.net/ddm/clk/*http$popup
+@@||ad.doubleclick.net/ddm/clk/*http$~script,~stylesheet,~image,~xmlhttprequest,~subdocument
 @@||ad.doubleclick.net/ddm/trackclk/
 @@||ad.doubleclick.net/ddm/trackclk/$popup,domain=pricehipster.com
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
@@ -28553,6 +28554,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||fcportables.com/wp-content/uploads/ad-inserter^
 @@||feedback-pa.clients*.google.com/*/google.internal.feedback.$stealth=referrer
 @@||ferrarilamborghininews.com^$generichide
+@@||fhd.*.xyz/v/*.png$stealth=referrer
 @@||file-static.com^$stealth=referrer,domain=eyny.com
 @@||file-up.org/js/advertisement.js
 @@||file-up.org^$generichide
@@ -32613,6 +32615,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||player.starlight.digital^$stealth=referrer
 @@||player.uauflix.online^$stealth
 @@||player.vgtrk.com/js/stat.js?
+@@||player.vidmody.com^$stealth=referrer
 @@||player.vimeo.com/video^$stealth=referrer
 @@||player.vimeo.com^$domain=hexlet.io,stealth=referrer
 @@||player.watch.aetnd.com^$generichide
@@ -41345,6 +41348,9 @@ catholic.net##.publicidad
 cathstan.org##.enticement-link
 cathstan.org##.squat
 cattime.com,dogtime.com,liveoutdoors.com,playstationlifestyle.net,thefashionspot.com##.pb-in-article-content
+cava.tw##.banner
+cava.tw#$##modal-dm { display: none !important; }
+cava.tw#$#body { overflow: auto !important; }
 cb.com.cn##.box > a[href^="http"]:not([href*=".cb."])
 cb.websiteforever.com###id_cntobs
 cb.websiteforever.com##.add_item
@@ -48738,6 +48744,8 @@ freshnewsasia.com#?#.row-fluid > div#aside:has(a[href*="/banner/"])
 freshnewsasia.com#?#div[itemprop="articleBody"] > div[style]:has(> a[href*="/banner/"])
 freshstuff4you.com##.adsbygoogle
 freshwap.us##.sidebar-right > li.cream:first-child
+fresources.tech#$#.mx-auto > div.relative.from-blue-600 { display: none !important; }
+fresources.tech#$#.mx-auto > nav.fixed.max-w-\[90rem\] { top: 0 !important; }
 friendproject.net#%#//scriptlet("set-constant", "adblock", "false")
 friendproject.net#@#.ad-top
 fritchy.com,imagebam.com##div[id^="ad-header"]
@@ -49247,6 +49255,7 @@ gamemonetize.video###displayAds
 gamemonetize.video###promo
 gamemonetize.video#@#.companion-ads
 gamenguide.com##.mleft > div > div.product-box1
+gamenora.com##.widget-sidebar > .kare
 gameofbay.org,pirateproxy.yt$$script[src="//go.oclasrv.com/apu.php?"][onerror="()"]
 gamepadla.com###sliderBlock:has(> .relative > .sliderBlock > .ads)
 gamepedia.com##body div#content > div#atflb
@@ -84284,6 +84293,7 @@ zzzyk.com###Tinfo
 ||cmovieshd.net/ajax/delivery/www/zone/ads_credit.php
 ||cmp.vg.no^*/metrics/
 ||cms-assets.nodecraft.com/*/2023-summer-ad-$domain=steamid.net
+||cms100.xyz^$popup
 ||cn.ft.com/a.html?$subdocument
 ||cn.ft.com/m/marketing/$subdocument
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
@@ -85384,7 +85394,6 @@ zzzyk.com###Tinfo
 ||easyporn.xxx/tmp/
 ||easysol.net^$third-party
 ||easyview.eu/sw.js
-||eatcells.com/land/$popup
 ||eavesofefinegoldf.info^$popup
 ||ebay.com/delstats/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
@@ -85616,7 +85625,6 @@ zzzyk.com###Tinfo
 ||event.*.shoplive.cloud^
 ||eventful.com/apps/generic/$image,third-party
 ||eventhub.au01.miro.com/api/stream
-||eventhub.us01.miro.com/api/stream
 ||events*.cre.ma^
 ||events-*.op.hicloud.com^
 ||events-api*.outfit7.com^
