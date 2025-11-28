@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251128002305
-! Last modified: 2025/11/28 00:23:05
-! Blocked Filters: 97883
+! Version: 20251128092154
+! Last modified: 2025/11/28 09:21:54
+! Blocked Filters: 97888
 !
 ###AC_ad
 ###AD_160
@@ -24897,6 +24897,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@.m3u8$domain=rapid-cloud.co,xmlhttprequest,stealth=referrer
 @@.m3u8$stealth,domain=luluvdo.com
 @@.m3u8$stealth=referrer,domain=edgedeliverynetwork.com
+@@.m3u8$stealth=referrer,domain=iyf.tv
 @@.m3u8$stealth=referrer,domain=streameeeeee.site|videostr.net
 @@.m3u8$stealth=referrer,domain=yfsp.tv
 @@.m3u8$xmlhttprequest,stealth=referrer,domain=megaup.site
@@ -25047,6 +25048,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@/cdn/hls/*/master.txt$stealth=referrer,domain=diziyo.*|dzyco.*
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/check.php?callback=$script,domain=ytmp3.cc
+@@/chunklist.m3u8$stealth=referrer
 @@/chunklist/*.m3u8$xmlhttprequest,stealth=referrer,domain=decmelfot.xyz|usgate.xyz|arcasiangrocer.store
 @@/chunks.m3u8$stealth=referrer
 @@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.*|clicknupload.*
@@ -82360,7 +82362,6 @@ zzzyk.com###Tinfo
 ||ad69.com/analytics/
 ||adalytics.io/api/view
 ||adameve.com/emetrics/
-||adblock*.static-cloudflare.workers.dev^
 ||adblock-one-protection.com^$popup
 ||adblock-tester.com/banners/$~third-party
 ||adblock-zen-download.com^$popup
@@ -89695,6 +89696,7 @@ zzzyk.com###Tinfo
 ||kt51.com/wz.jpg
 ||ktla.com/CvbtpUrj/init.js
 ||kts.visitstats.com^$all
+||ktzhk.com/file/adv/
 ||kuaicad.com/rest/common/getConfigureByName?
 ||kuaidi100.com/assets/ext?method=mainprofile
 ||kuaidi100.com/images/kuaidi/201612081*4
@@ -90636,6 +90638,7 @@ zzzyk.com###Tinfo
 ||medsci.cn/aimgs/$script
 ||medsci.cn/images/wyg.jpg
 ||meduza.io/stat/
+||meebo.com/cim/sandbox.php?
 ||meetonliine.com^$popup
 ||meetradar.com^$popup
 ||meetsexygirls.org^$popup
@@ -92738,6 +92741,7 @@ zzzyk.com###Tinfo
 ||prothomalo.com/ad-codes/
 ||prothomalo.com/static-*a0d$subdocument
 ||provesrc.com^$third-party
+||providesupport.com/cmd/$image
 ||provify.io^$third-party
 ||proxy6.net/static/img/b/
 ||proxyporn.info/o.php
@@ -95012,6 +95016,7 @@ zzzyk.com###Tinfo
 ||tabletennisdaily.com/forum/images/banner/
 ||tag-based.s3.*.amazonaws.com^
 ||tag.flvcdn.net/lytag.js
+||taggstar.com^*/taggstar.min.js
 ||tagsd.com^$popup
 ||tagstaticx.com^$third-party
 ||tahoe.com/imp
