@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260102002538
-! Last modified: 2026/01/02 00:25:38
-! Blocked Filters: 98420
+! Version: 20260102093959
+! Last modified: 2026/01/02 09:39:59
+! Blocked Filters: 98421
 !
 ###AC_ad
 ###AD_160
@@ -26804,7 +26804,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||brocardi.it^$generichide
 @@||broncos.com.au^$generichide
 @@||brookaccessory.com^$stealth=dpi
-@@||browser-intake-datadoghq.com^$domain=pluto.tv
+@@||browser-intake-datadoghq.com^$xmlhttprequest,domain=mightyape.co.nz
 @@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
 @@||browser.events.data.microsoft.com/onecollector/$script,xmlhttprequest,domain=microsoft.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|members.bifa.film|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
@@ -87032,6 +87032,7 @@ zzzyk.com###Tinfo
 ||easyporn.xxx/tmp/
 ||easysol.net^$third-party
 ||easyview.eu/sw.js
+||eatcells.com/land/$popup
 ||eatwell101.com/wp-content/themes/*/custom/ads/
 ||eavesofefinegoldf.info^$popup
 ||ebay.com/delstats/
