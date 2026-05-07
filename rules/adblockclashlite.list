@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260507104401
-# Last modified: 2026/05/07 10:44:01
-# Blocked domains: 6871
+# Version: 20260507182312
+# Last modified: 2026/05/07 18:23:12
+# Blocked domains: 6840
 #
 [Rule]
 DOMAIN-SUFFIX,kwflvcdn.000dn.com,REJECT-DROP
@@ -50,6 +50,7 @@ DOMAIN-SUFFIX,js1.122cha.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.12306.cn,REJECT-DROP
 DOMAIN-SUFFIX,1239aaa123.baby,REJECT-DROP
 DOMAIN-SUFFIX,1239aaa123.click,REJECT-DROP
+DOMAIN-SUFFIX,1239aaa123.com,REJECT-DROP
 DOMAIN-SUFFIX,1239aaa123.lat,REJECT-DROP
 DOMAIN-SUFFIX,1239aaa123.lol,REJECT-DROP
 DOMAIN-SUFFIX,1239aaa123.mom,REJECT-DROP
@@ -61,6 +62,7 @@ DOMAIN-SUFFIX,123cha.com,REJECT-DROP
 DOMAIN-SUFFIX,bdad.123pan.cn,REJECT-DROP
 DOMAIN-SUFFIX,sentry.123u.com,REJECT-DROP
 DOMAIN-SUFFIX,ent1.12584.cn,REJECT-DROP
+DOMAIN-SUFFIX,126.cn,REJECT-DROP
 DOMAIN-SUFFIX,analytics.126.com,REJECT-DROP
 DOMAIN-SUFFIX,ir.mail.126.com,REJECT-DROP
 DOMAIN-SUFFIX,admusicpic.music.126.net,REJECT-DROP
@@ -85,6 +87,7 @@ DOMAIN-SUFFIX,nosup-jd1.127.net,REJECT-DROP
 DOMAIN-SUFFIX,pg-ad-b1.nosdn.127.net,REJECT-DROP
 DOMAIN-SUFFIX,wanproxy.127.net,REJECT-DROP
 DOMAIN-SUFFIX,yt-adp.nosdn.127.net,REJECT-DROP
+DOMAIN-SUFFIX,129esrd5q5.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.mcloud.139.com,REJECT-DROP
 DOMAIN-SUFFIX,lyapi.1391.com,REJECT-DROP
 DOMAIN-SUFFIX,d.14yaa.com,REJECT-DROP
@@ -138,7 +141,6 @@ DOMAIN-SUFFIX,tz.1688988.com,REJECT-DROP
 DOMAIN-SUFFIX,17173.com,REJECT-DROP
 DOMAIN-SUFFIX,s.17173cdn.com,REJECT-DROP
 DOMAIN-SUFFIX,17890714.ru,REJECT-DROP
-DOMAIN-SUFFIX,178zb6.com,REJECT-DROP
 DOMAIN-SUFFIX,vstlog.17u.cn,REJECT-DROP
 DOMAIN-SUFFIX,vstlog.17usoft.com,REJECT-DROP
 DOMAIN-SUFFIX,180disk.com,REJECT-DROP
@@ -174,6 +176,7 @@ DOMAIN-SUFFIX,update-zl.2345.cc,REJECT-DROP
 DOMAIN-SUFFIX,yb-safe.2345.cc,REJECT-DROP
 DOMAIN-SUFFIX,2345.cn,REJECT-DROP
 DOMAIN-SUFFIX,2345.com,REJECT-DROP
+DOMAIN-SUFFIX,23blogger.cn,REJECT-DROP
 DOMAIN-SUFFIX,2481e.com,REJECT-DROP
 DOMAIN-SUFFIX,25662zubo23739.com,REJECT-DROP
 DOMAIN-SUFFIX,2607.cn,REJECT-DROP
@@ -262,7 +265,6 @@ DOMAIN-SUFFIX,360weishi-360.cn,REJECT-DROP
 DOMAIN-SUFFIX,365dmp.com,REJECT-DROP
 DOMAIN-SUFFIX,adx.36kr.com,REJECT-DROP
 DOMAIN-SUFFIX,ad-ggtg-api.37.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,imp-toutiao-data.37.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,mail1.371.net,REJECT-DROP
 DOMAIN-SUFFIX,37cs.com,REJECT-DROP
 DOMAIN-SUFFIX,37gowan.com,REJECT-DROP
@@ -296,6 +298,7 @@ DOMAIN-SUFFIX,4009997658.com,REJECT-DROP
 DOMAIN-SUFFIX,4a9.cn,REJECT-DROP
 DOMAIN-SUFFIX,4nfesm3itf.com,REJECT-DROP
 DOMAIN-SUFFIX,4pn.cn,REJECT-DROP
+DOMAIN-SUFFIX,4zw.cn,REJECT-DROP
 DOMAIN-SUFFIX,1.5000yan.com,REJECT-DROP
 DOMAIN-SUFFIX,4399stat.5054399.com,REJECT-DROP
 DOMAIN-SUFFIX,50bang.org,REJECT-DROP
@@ -305,7 +308,6 @@ DOMAIN-SUFFIX,511a.cn,REJECT-DROP
 DOMAIN-SUFFIX,51240.com,REJECT-DROP
 DOMAIN-SUFFIX,5166.info,REJECT-DROP
 DOMAIN-SUFFIX,amradmin.5173.com,REJECT-DROP
-DOMAIN-SUFFIX,518ad.com,REJECT-DROP
 DOMAIN-SUFFIX,log.51changdu.com,REJECT-DROP
 DOMAIN-SUFFIX,log2.51changdu.com,REJECT-DROP
 DOMAIN-SUFFIX,logs.51cto.com,REJECT-DROP
@@ -355,8 +357,10 @@ DOMAIN-SUFFIX,www.56.com,REJECT-DROP
 DOMAIN-SUFFIX,3.5646.cn,REJECT-DROP
 DOMAIN-SUFFIX,dl.1003b.56a.com,REJECT-DROP
 DOMAIN-SUFFIX,56fba.cn,REJECT-DROP
+DOMAIN-SUFFIX,56q8.cn,REJECT-DROP
 DOMAIN-SUFFIX,57573zubo36833.com,REJECT-DROP
 DOMAIN-SUFFIX,adshow.58.com,REJECT-DROP
+DOMAIN-SUFFIX,adtrack.58.com,REJECT-DROP
 DOMAIN-SUFFIX,advert.58.com,REJECT-DROP
 DOMAIN-SUFFIX,brandshow.58.com,REJECT-DROP
 DOMAIN-SUFFIX,callback.58.com,REJECT-DROP
@@ -421,6 +425,8 @@ DOMAIN-SUFFIX,trail.71baomu.com,REJECT-DROP
 DOMAIN-SUFFIX,bdcdncnc.inter.71edge.com,REJECT-DROP
 DOMAIN-SUFFIX,72862.xyz,REJECT-DROP
 DOMAIN-SUFFIX,72895.xyz,REJECT-DROP
+DOMAIN-SUFFIX,72952.xyz,REJECT-DROP
+DOMAIN-SUFFIX,72967.xyz,REJECT-DROP
 DOMAIN-SUFFIX,73007.xyz,REJECT-DROP
 DOMAIN-SUFFIX,73336zubo25326.com,REJECT-DROP
 DOMAIN-SUFFIX,1.78500.cn,REJECT-DROP
@@ -475,21 +481,20 @@ DOMAIN-SUFFIX,a1.99966.cn,REJECT-DROP
 DOMAIN-SUFFIX,99box.com,REJECT-DROP
 DOMAIN-SUFFIX,99count.com,REJECT-DROP
 DOMAIN-SUFFIX,p.99mssj.com,REJECT-DROP
+DOMAIN-SUFFIX,9ep0z3su1e.com,REJECT-DROP
 DOMAIN-SUFFIX,9ics.cn,REJECT-DROP
 DOMAIN-SUFFIX,adsdk.9imobi.com,REJECT-DROP
+DOMAIN-SUFFIX,9v7sbm9zc.com,REJECT-DROP
 DOMAIN-SUFFIX,9wee.com,REJECT-DROP
 DOMAIN-SUFFIX,image.9xsecndns.cn,REJECT-DROP
 DOMAIN-SUFFIX,a-todesk.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,a2pfs5k90i.com,REJECT-DROP
-DOMAIN-SUFFIX,a32a.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,a3p4.net,REJECT-DROP
-DOMAIN-SUFFIX,a4xvv2g18l.com,REJECT-DROP
 DOMAIN-SUFFIX,aa67678156.com,REJECT-DROP
 DOMAIN-SUFFIX,aabbccdd123.com,REJECT-DROP
 DOMAIN-SUFFIX,aaoffice.cn,REJECT-DROP
 DOMAIN-SUFFIX,abbyychina.com,REJECT-DROP
 DOMAIN-SUFFIX,msmp.abchina.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.abercrombie.cn,REJECT-DROP
+DOMAIN-SUFFIX,abiq.cn,REJECT-DROP
 DOMAIN-SUFFIX,discover.absciex.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,abzw.cn,REJECT-DROP
 DOMAIN-SUFFIX,accesshub.cq.cn,REJECT-DROP
@@ -497,6 +502,7 @@ DOMAIN-SUFFIX,accesshub.gd.cn,REJECT-DROP
 DOMAIN-SUFFIX,accesshub.hk.cn,REJECT-DROP
 DOMAIN-SUFFIX,accesshub.ln.cn,REJECT-DROP
 DOMAIN-SUFFIX,disk.accord1key.cn,REJECT-DROP
+DOMAIN-SUFFIX,acfb.cn,REJECT-DROP
 DOMAIN-SUFFIX,apilog-web.acfun.cn,REJECT-DROP
 DOMAIN-SUFFIX,jscode.acg68.com,REJECT-DROP
 DOMAIN-SUFFIX,acgshenshicha.cn,REJECT-DROP
@@ -532,6 +538,7 @@ DOMAIN-SUFFIX,admobclick.com,REJECT-DROP
 DOMAIN-SUFFIX,admobile.top,REJECT-DROP
 DOMAIN-SUFFIX,admon.cn,REJECT-DROP
 DOMAIN-SUFFIX,adn-plus.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,adqa.cn,REJECT-DROP
 DOMAIN-SUFFIX,adquan.com,REJECT-DROP
 DOMAIN-SUFFIX,adreal.cn,REJECT-DROP
 DOMAIN-SUFFIX,ads360.cn,REJECT-DROP
@@ -542,7 +549,7 @@ DOMAIN-SUFFIX,logrcv.adseyeservice.com,REJECT-DROP
 DOMAIN-SUFFIX,adsimg.s3.cn-northwest-1.amazonaws.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,adsl-pool.sx.cn,REJECT-DROP
 DOMAIN-SUFFIX,adsmogo.com,REJECT-DROP
-DOMAIN-SUFFIX,sys.adspower.net,REJECT-DROP
+DOMAIN-SUFFIX,app-global.adspower.net,REJECT-DROP
 DOMAIN-SUFFIX,adtx2.cn,REJECT-DROP
 DOMAIN-SUFFIX,debug.mssp.adunite.com,REJECT-DROP
 DOMAIN-SUFFIX,adups.cn,REJECT-DROP
@@ -613,6 +620,7 @@ DOMAIN-SUFFIX,as-datareceiver.aki-game.net,REJECT-DROP
 DOMAIN-SUFFIX,eu-datareceiver.aki-game.net,REJECT-DROP
 DOMAIN-SUFFIX,hk-datareceiver.aki-game.net,REJECT-DROP
 DOMAIN-SUFFIX,jp-datareceiver.aki-game.net,REJECT-DROP
+DOMAIN-SUFFIX,us-datareceiver.aki-game.net,REJECT-DROP
 DOMAIN-SUFFIX,aki-googlezhcn.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,akk-kuailian.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,ako.cc,REJECT-DROP
@@ -631,6 +639,7 @@ DOMAIN-SUFFIX,cdn.ynuf.aliapp.org,REJECT-DROP
 DOMAIN-SUFFIX,ntp.ynuf.aliapp.org,REJECT-DROP
 DOMAIN-SUFFIX,ph5.ynuf.aliapp.org,REJECT-DROP
 DOMAIN-SUFFIX,umdc.aliapp.org,REJECT-DROP
+DOMAIN-SUFFIX,us.ynuf.aliapp.org,REJECT-DROP
 DOMAIN-SUFFIX,vip-bgp.ynuf.aliapp.org,REJECT-DROP
 DOMAIN-SUFFIX,vip-chinanet.ynuf.aliapp.org,REJECT-DROP
 DOMAIN-SUFFIX,login.alibaba-inc.com,REJECT-DROP
@@ -687,6 +696,7 @@ DOMAIN-SUFFIX,pcookie.aliexpress.com,REJECT-DROP
 DOMAIN-SUFFIX,aemetrics.aliexpress.ru,REJECT-DROP
 DOMAIN-SUFFIX,cddp-track.aligames.com,REJECT-DROP
 DOMAIN-SUFFIX,g.aligames.com,REJECT-DROP
+DOMAIN-SUFFIX,member-log.aligames.com,REJECT-DROP
 DOMAIN-SUFFIX,optimus-ads.amap.com.w.alikunlun.com,REJECT-DROP
 DOMAIN-SUFFIX,a.alimama.cn,REJECT-DROP
 DOMAIN-SUFFIX,bm.alimama.cn,REJECT-DROP
@@ -717,6 +727,7 @@ DOMAIN-SUFFIX,loggw-exsdk.alipay.com,REJECT-DROP
 DOMAIN-SUFFIX,openmonitor.alipay.com,REJECT-DROP
 DOMAIN-SUFFIX,seccliprod.alipay.com,REJECT-DROP
 DOMAIN-SUFFIX,tracert.alipay.com,REJECT-DROP
+DOMAIN-SUFFIX,us.ynuf.alipay.com,REJECT-DROP
 DOMAIN-SUFFIX,loggw.alipay.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,loggw.alipaydns.com,REJECT-DROP
 DOMAIN-SUFFIX,alipaylog.com,REJECT-DROP
@@ -725,6 +736,7 @@ DOMAIN-SUFFIX,promotion.aliyun.com,REJECT-DROP
 DOMAIN-SUFFIX,1fur2cuzsul-sdk.rum.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,1fw35mn5y7h-sdk.rum.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,1hlahoc4rpc-sdk.rum.aliyuncs.com,REJECT-DROP
+DOMAIN-SUFFIX,ac9olrggo8-default-cn.rum.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,ad-host-backup-america.oss-us-west-1.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,ad-host-backup-europe.oss-eu-central-1.aliyuncs.com,REJECT-DROP
@@ -821,6 +833,7 @@ DOMAIN-SUFFIX,metrics.americanairlines.cn,REJECT-DROP
 DOMAIN-SUFFIX,amerzbj.cn,REJECT-DROP
 DOMAIN-SUFFIX,sentry.amflowbikes.com,REJECT-DROP
 DOMAIN-SUFFIX,v.api.amgmedia.cn,REJECT-DROP
+DOMAIN-SUFFIX,user-event-log.aminer.cn,REJECT-DROP
 DOMAIN-SUFFIX,dv.amtwcvh.cn,REJECT-DROP
 DOMAIN-SUFFIX,aa.analog.com,REJECT-DROP
 DOMAIN-SUFFIX,images.h.analog.com,REJECT-DROP
@@ -844,6 +857,7 @@ DOMAIN-SUFFIX,app-google-zh.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,app-measurement.com,REJECT-DROP
 DOMAIN-SUFFIX,mobile.appchina.com,REJECT-DROP
 DOMAIN-SUFFIX,appdriver.cn,REJECT-DROP
+DOMAIN-SUFFIX,apple-service.cn,REJECT-DROP
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT-DROP
 DOMAIN-SUFFIX,securemetrics.apple.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,fpb1.apple886.com,REJECT-DROP
@@ -853,6 +867,7 @@ DOMAIN-SUFFIX,st.appsad.cn,REJECT-DROP
 DOMAIN-SUFFIX,adx.appsdk.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,appsdt.com,REJECT-DROP
 DOMAIN-SUFFIX,tracking.apptrackerlink.com,REJECT-DROP
+DOMAIN-SUFFIX,static.appbox.apuslauncher.com,REJECT-DROP
 DOMAIN-SUFFIX,aq0vs4ftni.com,REJECT-DROP
 DOMAIN-SUFFIX,track-ger.aqara.com,REJECT-DROP
 DOMAIN-SUFFIX,pay.aqiu6.com,REJECT-DROP
@@ -870,7 +885,6 @@ DOMAIN-SUFFIX,aiseet.aa.atianqi.com,REJECT-DROP
 DOMAIN-SUFFIX,atpanel.com,REJECT-DROP
 DOMAIN-SUFFIX,attribuly.com,REJECT-DROP
 DOMAIN-SUFFIX,somni.australia.cn,REJECT-DROP
-DOMAIN-SUFFIX,so.auto999.cn,REJECT-DROP
 DOMAIN-SUFFIX,33.autohome.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,activity.app.autohome.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,adproxy.autohome.com.cn,REJECT-DROP
@@ -1110,7 +1124,6 @@ DOMAIN-SUFFIX,ziyuan.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,znsv.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,bvc.bj.baidubce.com,REJECT-DROP
 DOMAIN-SUFFIX,httpdns.baidubce.com,REJECT-DROP
-DOMAIN-SUFFIX,ns1.baidubce.com,REJECT-DROP
 DOMAIN-SUFFIX,verify.baidubce.com,REJECT-DROP
 DOMAIN-SUFFIX,baidustatic.com,REJECT-DROP
 DOMAIN-SUFFIX,baifendian.com,REJECT-DROP
@@ -1122,7 +1135,6 @@ DOMAIN-SUFFIX,script-bd.baixing.net,REJECT-DROP
 DOMAIN-SUFFIX,a1.bajiu.cn,REJECT-DROP
 DOMAIN-SUFFIX,bakbitionb.com,REJECT-DROP
 DOMAIN-SUFFIX,a.bake818.cn,REJECT-DROP
-DOMAIN-SUFFIX,bakerdavid.shop,REJECT-DROP
 DOMAIN-SUFFIX,balldollars.com,REJECT-DROP
 DOMAIN-SUFFIX,changan.bama555.com,REJECT-DROP
 DOMAIN-SUFFIX,h.baminw.cn,REJECT-DROP
@@ -1137,7 +1149,6 @@ DOMAIN-SUFFIX,bartender.cc,REJECT-DROP
 DOMAIN-SUFFIX,baycode.cn,REJECT-DROP
 DOMAIN-SUFFIX,cruiser.bayescom.cn,REJECT-DROP
 DOMAIN-SUFFIX,bayescom.com,REJECT-DROP
-DOMAIN-SUFFIX,bayimob.com,REJECT-DROP
 DOMAIN-SUFFIX,bbbazlp.cn,REJECT-DROP
 DOMAIN-SUFFIX,bbcoe.cn,REJECT-DROP
 DOMAIN-SUFFIX,event.bblmw.com,REJECT-DROP
@@ -1228,6 +1239,7 @@ DOMAIN-SUFFIX,api.biligame.com,REJECT-DROP
 DOMAIN-SUFFIX,line1-log.biligame.net,REJECT-DROP
 DOMAIN-SUFFIX,line3-adscore-api.biligame.net,REJECT-DROP
 DOMAIN-SUFFIX,static.biligame.net,REJECT-DROP
+DOMAIN-SUFFIX,httpdns.bilivideo.com,REJECT-DROP
 DOMAIN-SUFFIX,mcdn.bilivideo.com,REJECT-DROP
 DOMAIN-SUFFIX,skynet.bilivideo.com,REJECT-DROP
 DOMAIN-SUFFIX,bingdianhuanyuan.cn,REJECT-DROP
@@ -1255,6 +1267,7 @@ DOMAIN-SUFFIX,gg.blueidea.com,REJECT-DROP
 DOMAIN-SUFFIX,license.bluesoleil.com,REJECT-DROP
 DOMAIN-SUFFIX,license2.bluesoleil.com,REJECT-DROP
 DOMAIN-SUFFIX,fpbbdx1.bmcx.com,REJECT-DROP
+DOMAIN-SUFFIX,accounts.bmwweb.systems,REJECT-DROP
 DOMAIN-SUFFIX,bnmvca.cn,REJECT-DROP
 DOMAIN-SUFFIX,bnti.cn,REJECT-DROP
 DOMAIN-SUFFIX,jf365.boc.cn,REJECT-DROP
@@ -1298,7 +1311,6 @@ DOMAIN-SUFFIX,tnc3-aliec2.bytedance.com,REJECT-DROP
 DOMAIN-SUFFIX,tnc3-alisc1.bytedance.com,REJECT-DROP
 DOMAIN-SUFFIX,tnc3-bjlgy.bytedance.com,REJECT-DROP
 DOMAIN-SUFFIX,isub.snssdk.com.bytedns.net,REJECT-DROP
-DOMAIN-SUFFIX,log.snssdk.com.bytedns.net,REJECT-DROP
 DOMAIN-SUFFIX,open.snssdk.com.bytedns.net,REJECT-DROP
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com.bytedns1.com,REJECT-DROP
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com.bytedns1.com,REJECT-DROP
@@ -1364,6 +1376,7 @@ DOMAIN-SUFFIX,cctvgb.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,www.cdcem.com,REJECT-DROP
 DOMAIN-SUFFIX,shazam-insights.cdn-apple.com,REJECT-DROP
 DOMAIN-SUFFIX,business-ad.cdn-go.cn,REJECT-DROP
+DOMAIN-SUFFIX,cdn-gw-dv.net,REJECT-DROP
 DOMAIN-SUFFIX,ads5-normal-lq.zijieapi.com.c.dsa.cdnbuild.net,REJECT-DROP
 DOMAIN-SUFFIX,tracker.cdnbye.com,REJECT-DROP
 DOMAIN-SUFFIX,ads-splash-i2.xhscdn.com.w.cdngslb.com,REJECT-DROP
@@ -1425,6 +1438,7 @@ DOMAIN-SUFFIX,feedbackstorage.blob.core.chinacloudapi.cn,REJECT-DROP
 DOMAIN-SUFFIX,pcmactivity.chinacloudsites.cn,REJECT-DROP
 DOMAIN-SUFFIX,adpic.chinadaily.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,same.chinadaily.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,usercollection.chinadaily.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,sdkoptedge.chinanetcenter.com,REJECT-DROP
 DOMAIN-SUFFIX,adq.chinaso.com,REJECT-DROP
 DOMAIN-SUFFIX,stats.chinaz.com,REJECT-DROP
@@ -1452,6 +1466,7 @@ DOMAIN-SUFFIX,ad.cp68.ott.cibntv.net,REJECT-DROP
 DOMAIN-SUFFIX,adx.op.cp18.ott.cibntv.net,REJECT-DROP
 DOMAIN-SUFFIX,pl.cp31.ott.cibntv.net,REJECT-DROP
 DOMAIN-SUFFIX,vali-g1.cp31.ott.cibntv.net,REJECT-DROP
+DOMAIN-SUFFIX,vali-ugc.cp31.ott.cibntv.net,REJECT-DROP
 DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,REJECT-DROP
 DOMAIN-SUFFIX,yk-ssp-ad.cp31.ott.cibntv.net,REJECT-DROP
 DOMAIN-SUFFIX,ykad-data.cp31.ott.cibntv.net,REJECT-DROP
@@ -1503,7 +1518,6 @@ DOMAIN-SUFFIX,abcd.cnhuoche.com,REJECT-DROP
 DOMAIN-SUFFIX,cnitblog.com,REJECT-DROP
 DOMAIN-SUFFIX,icon.cnmo.com,REJECT-DROP
 DOMAIN-SUFFIX,webcert.cnmstl.net,REJECT-DROP
-DOMAIN-SUFFIX,smuc.cnnfootballclub.com,REJECT-DROP
 DOMAIN-SUFFIX,adp.cnool.net,REJECT-DROP
 DOMAIN-SUFFIX,clickcount.cnool.net,REJECT-DROP
 DOMAIN-SUFFIX,adsame1.cnr.cn,REJECT-DROP
@@ -1513,11 +1527,9 @@ DOMAIN-SUFFIX,phpstat.cntcm.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,cnzh-google-apps.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,cnzz.cn,REJECT-DROP
 DOMAIN-SUFFIX,cnzz.com,REJECT-DROP
-DOMAIN-SUFFIX,qvrifob.cocoifly.cn,REJECT-DROP
 DOMAIN-SUFFIX,logstorage.cocos.com,REJECT-DROP
 DOMAIN-SUFFIX,codeminer.cn,REJECT-DROP
 DOMAIN-SUFFIX,codenow.cn,REJECT-DROP
-DOMAIN-SUFFIX,1.codesdq.com,REJECT-DROP
 DOMAIN-SUFFIX,reportwest-midas.codmwest.com,REJECT-DROP
 DOMAIN-SUFFIX,conn1.coloros.com,REJECT-DROP
 DOMAIN-SUFFIX,conn2.coloros.com,REJECT-DROP
@@ -1561,6 +1573,7 @@ DOMAIN-SUFFIX,detaillog-global.coolzcloud.com,REJECT-DROP
 DOMAIN-SUFFIX,detaillog-global-dual.coolzcloud.com,REJECT-DROP
 DOMAIN-SUFFIX,logreport-global-dual.coolzcloud.com,REJECT-DROP
 DOMAIN-SUFFIX,wslog-global-dual.coolzcloud.com,REJECT-DROP
+DOMAIN-SUFFIX,us-ezalter.cootekservice.com,REJECT-DROP
 DOMAIN-SUFFIX,ws2.cootekservice.com,REJECT-DROP
 DOMAIN-SUFFIX,bdu1.coozhi.cn,REJECT-DROP
 DOMAIN-SUFFIX,coreldrawchina.com,REJECT-DROP
@@ -1569,7 +1582,6 @@ DOMAIN-SUFFIX,sentry-v2.coros.com,REJECT-DROP
 DOMAIN-SUFFIX,cp7iys8fp.com,REJECT-DROP
 DOMAIN-SUFFIX,cpanclean.cn,REJECT-DROP
 DOMAIN-SUFFIX,cbjg.cqnews.net,REJECT-DROP
-DOMAIN-SUFFIX,imp.adx.cqsjd.xyz,REJECT-DROP
 DOMAIN-SUFFIX,cr-google-chrome.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,cr-google-chrome.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,crasheye.cn,REJECT-DROP
@@ -1768,7 +1780,7 @@ DOMAIN-SUFFIX,dfz-telegram.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,dg186.cn,REJECT-DROP
 DOMAIN-SUFFIX,dgrj.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,d.dgzj.com,REJECT-DROP
-DOMAIN-SUFFIX,imonitor.dhgate.com,REJECT-DROP
+DOMAIN-SUFFIX,dhlsc.cn,REJECT-DROP
 DOMAIN-SUFFIX,dhsz.cn,REJECT-DROP
 DOMAIN-SUFFIX,catdot.dianping.com,REJECT-DROP
 DOMAIN-SUFFIX,mlog.dianping.com,REJECT-DROP
@@ -1902,6 +1914,7 @@ DOMAIN-SUFFIX,hl.dyq.cn,REJECT-DROP
 DOMAIN-SUFFIX,dytuj6zs26.com,REJECT-DROP
 DOMAIN-SUFFIX,dz6xqe19d2.com,REJECT-DROP
 DOMAIN-SUFFIX,ssp.dzh.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,dl.dzqzd.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.dzwww.com,REJECT-DROP
 DOMAIN-SUFFIX,app.acm.dzwww.com,REJECT-DROP
 DOMAIN-SUFFIX,dzxwnews.com,REJECT-DROP
@@ -1930,16 +1943,18 @@ DOMAIN-SUFFIX,easytomessage.com,REJECT-DROP
 DOMAIN-SUFFIX,eblnzoq.cn,REJECT-DROP
 DOMAIN-SUFFIX,ebrid.cn,REJECT-DROP
 DOMAIN-SUFFIX,jb.ecar168.cn,REJECT-DROP
-DOMAIN-SUFFIX,sentry-eu.ecoflow.com,REJECT-DROP
 DOMAIN-SUFFIX,ecsdk.com,REJECT-DROP
 DOMAIN-SUFFIX,ecudsc.cn,REJECT-DROP
 DOMAIN-SUFFIX,acccountverificatonlog.edgeone.app,REJECT-DROP
 DOMAIN-SUFFIX,bhdleoncredito.edgeone.app,REJECT-DROP
-DOMAIN-SUFFIX,c2vydmvydxbkyxri-kte1fxva3p.edgeone.app,REJECT-DROP
 DOMAIN-SUFFIX,critical-blush-g6rnkksr8r.edgeone.app,REJECT-DROP
 DOMAIN-SUFFIX,dotnotblock-pfwzl61nwt.edgeone.app,REJECT-DROP
+DOMAIN-SUFFIX,fascinating-apricot-y5g8i3kjes-lherye8fpi.edgeone.app,REJECT-DROP
 DOMAIN-SUFFIX,google09-fabgrwoaco.edgeone.app,REJECT-DROP
 DOMAIN-SUFFIX,hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app,REJECT-DROP
+DOMAIN-SUFFIX,q8w2e6r1t9y3u7i4o0p5a2s80uo3uw-pq03wtbdy8.edgeone.app,REJECT-DROP
+DOMAIN-SUFFIX,spicy-lavender-taruyckhz3.edgeone.app,REJECT-DROP
+DOMAIN-SUFFIX,z5x2c9v1b7n3m8k4j0h6g2f1u0l1-ahbkz5cnlt.edgeone.app,REJECT-DROP
 DOMAIN-SUFFIX,0j9h876we-7gtl3x3m8j.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,fixverify-kzlxv1e5mb.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,gautamandgautam-byizfzvunb.edgeone.dev,REJECT-DROP
@@ -1959,6 +1974,7 @@ DOMAIN-SUFFIX,rtyuioplkjhgf-2wns89uj3k.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,srv65ertui8uyt655io-7douf96n3o.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,tropical-red-pd56z5jhth.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,tyyuiopopoiuytr-dwrasvzg2a.edgeone.dev,REJECT-DROP
+DOMAIN-SUFFIX,vambanlopcaxomilsss.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,verffddfkoiijbbvtfrcxswejkkloiuhvfrdskkolooknvc-qn7102xdig.edgeone.dev,REJECT-DROP
 DOMAIN-SUFFIX,ediuschina.com,REJECT-DROP
 DOMAIN-SUFFIX,courseatory.eerxyyre.cn,REJECT-DROP
@@ -2003,13 +2019,14 @@ DOMAIN-SUFFIX,eavs02.eqifa.com,REJECT-DROP
 DOMAIN-SUFFIX,eqqi.cn,REJECT-DROP
 DOMAIN-SUFFIX,er-todesk.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,m.ercos.cn,REJECT-DROP
+DOMAIN-SUFFIX,analytics.escience.org.cn,REJECT-DROP
 DOMAIN-SUFFIX,www.estrongs.com,REJECT-DROP
 DOMAIN-SUFFIX,ethan.wang,REJECT-DROP
+DOMAIN-SUFFIX,etitgo.com,REJECT-DROP
 DOMAIN-SUFFIX,etoolads.cn,REJECT-DROP
 DOMAIN-SUFFIX,marketing.etouch.cn,REJECT-DROP
 DOMAIN-SUFFIX,euroexpress-ba.icu,REJECT-DROP
 DOMAIN-SUFFIX,euuh.cn,REJECT-DROP
-DOMAIN-SUFFIX,evri-parcelq.cn,REJECT-DROP
 DOMAIN-SUFFIX,duologinsupersdk.ewan.cn,REJECT-DROP
 DOMAIN-SUFFIX,ewrrpuquc1.com,REJECT-DROP
 DOMAIN-SUFFIX,a.exam58.com,REJECT-DROP
@@ -2017,6 +2034,7 @@ DOMAIN-SUFFIX,drovs.excelliance.cn,REJECT-DROP
 DOMAIN-SUFFIX,excsyrv.cn,REJECT-DROP
 DOMAIN-SUFFIX,exevcl.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.exyws.org,REJECT-DROP
+DOMAIN-SUFFIX,veepai-device-log.eye4.cn,REJECT-DROP
 DOMAIN-SUFFIX,g.f11w.com,REJECT-DROP
 DOMAIN-SUFFIX,sccdn.f2zd.com,REJECT-DROP
 DOMAIN-SUFFIX,g.f5gh.com,REJECT-DROP
@@ -2266,40 +2284,17 @@ DOMAIN-SUFFIX,tradeshow.edm.globalsources.com,REJECT-DROP
 DOMAIN-SUFFIX,1.glook.cn,REJECT-DROP
 DOMAIN-SUFFIX,sensorsdata.glowapp.vip,REJECT-DROP
 DOMAIN-SUFFIX,l.glrcy.cn,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-pten.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-pter.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptes.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-pteu.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptev.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptra.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptre.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptro.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptrs.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptru.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptrz.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptse.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptsr.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptsz.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptur.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptus.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptuv.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptuz.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptvr.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptvs.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptzr.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptzs.cfd,REJECT-DROP
-DOMAIN-SUFFIX,glsgroup-ptzu.cfd,REJECT-DROP
 DOMAIN-SUFFIX,glwxw.net,REJECT-DROP
 DOMAIN-SUFFIX,con-cam.gmkf6a.cn,REJECT-DROP
 DOMAIN-SUFFIX,cpux.gmud.top,REJECT-DROP
 DOMAIN-SUFFIX,ad.gmw.cn,REJECT-DROP
 DOMAIN-SUFFIX,channel-analysis-js.gmw.cn,REJECT-DROP
 DOMAIN-SUFFIX,wpubzc.gnnja.cn,REJECT-DROP
-DOMAIN-SUFFIX,gnway.net,REJECT-DROP
 DOMAIN-SUFFIX,go-todesk.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,go2yd.com,REJECT-DROP
 DOMAIN-SUFFIX,godloveme.cn,REJECT-DROP
 DOMAIN-SUFFIX,goforandroid.com,REJECT-DROP
+DOMAIN-SUFFIX,vabvkn.gojprz.cn,REJECT-DROP
 DOMAIN-SUFFIX,gojunkclean.cn,REJECT-DROP
 DOMAIN-SUFFIX,prom.gome.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,one.gongshu168.cn,REJECT-DROP
@@ -2324,6 +2319,7 @@ DOMAIN-SUFFIX,adsense.google.cn,REJECT-DROP
 DOMAIN-SUFFIX,adservice.google.com,REJECT-DROP
 DOMAIN-SUFFIX,pagead-googlehosted.l.google.com,REJECT-DROP
 DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,REJECT-DROP
+DOMAIN-SUFFIX,static-doubleclick-net.l.google.com,REJECT-DROP
 DOMAIN-SUFFIX,www-google-analytics.l.google.com,REJECT-DROP
 DOMAIN-SUFFIX,www-googletagmanager.l.google.com,REJECT-DROP
 DOMAIN-SUFFIX,clickserver.googleads.com,REJECT-DROP
@@ -2355,20 +2351,11 @@ DOMAIN-SUFFIX,gpxxbyf.cn,REJECT-DROP
 DOMAIN-SUFFIX,gqdfgyz.cn,REJECT-DROP
 DOMAIN-SUFFIX,cms.grandcloud.cn,REJECT-DROP
 DOMAIN-SUFFIX,download.grandcloud.cn,REJECT-DROP
+DOMAIN-SUFFIX,greatliteautobest.cn,REJECT-DROP
 DOMAIN-SUFFIX,z.grfyw.com,REJECT-DROP
 DOMAIN-SUFFIX,gridsum.com,REJECT-DROP
 DOMAIN-SUFFIX,gridsumdissector.com,REJECT-DROP
-DOMAIN-SUFFIX,group-glspst.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glsptc.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glspte.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glsptn.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glsptr.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glsptre.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glsptrs.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glsptrv.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glspts.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glsptv.cfd,REJECT-DROP
-DOMAIN-SUFFIX,group-glsptz.cfd,REJECT-DROP
+DOMAIN-SUFFIX,groupfunplace.com,REJECT-DROP
 DOMAIN-SUFFIX,countly.growatt.com,REJECT-DROP
 DOMAIN-SUFFIX,growingio.com,REJECT-DROP
 DOMAIN-SUFFIX,event-log-api-data-platform-data-lake-prod.gryphline.com,REJECT-DROP
@@ -2414,7 +2401,6 @@ DOMAIN-SUFFIX,gxgbvmg.cn,REJECT-DROP
 DOMAIN-SUFFIX,gxhzv.cn,REJECT-DROP
 DOMAIN-SUFFIX,gz-data.com,REJECT-DROP
 DOMAIN-SUFFIX,gzcl999.com,REJECT-DROP
-DOMAIN-SUFFIX,share.gzdsw.com,REJECT-DROP
 DOMAIN-SUFFIX,gzfzcj.cn,REJECT-DROP
 DOMAIN-SUFFIX,gzqvd.cn,REJECT-DROP
 DOMAIN-SUFFIX,gzzkjdam.cn,REJECT-DROP
@@ -2476,6 +2462,7 @@ DOMAIN-SUFFIX,cc-img-cn.heytapimage.com,REJECT-DROP
 DOMAIN-SUFFIX,dhfs-id.heytapimage.com,REJECT-DROP
 DOMAIN-SUFFIX,dhfs-in.heytapimage.com,REJECT-DROP
 DOMAIN-SUFFIX,dhfs-my.heytapimage.com,REJECT-DROP
+DOMAIN-SUFFIX,dhfs-ph.heytapimage.com,REJECT-DROP
 DOMAIN-SUFFIX,img-c.heytapimage.com,REJECT-DROP
 DOMAIN-SUFFIX,ums-rum-cn.heytapimage.com,REJECT-DROP
 DOMAIN-SUFFIX,ums-rum-global.heytapimage.com,REJECT-DROP
@@ -2508,6 +2495,7 @@ DOMAIN-SUFFIX,obus-dc20123-cn.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,obus-dc20157-cn.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,obus-dc2020-cn.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,obus-dctech-cn.heytapmobi.com,REJECT-DROP
+DOMAIN-SUFFIX,obus-dcyitai-cn.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,obus-dcyitai-in.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,obus-jssdk-cn.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,omes-sec.heytapmobi.com,REJECT-DROP
@@ -2523,7 +2511,6 @@ DOMAIN-SUFFIX,hgjxp.cn,REJECT-DROP
 DOMAIN-SUFFIX,hgkzl.cn,REJECT-DROP
 DOMAIN-SUFFIX,hgpbhuj.cn,REJECT-DROP
 DOMAIN-SUFFIX,hh04050aoik.com,REJECT-DROP
-DOMAIN-SUFFIX,hhdr-telegram.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,xafrwo.hhgpb.cn,REJECT-DROP
 DOMAIN-SUFFIX,hhttm.top,REJECT-DROP
 DOMAIN-SUFFIX,sdd.hi1718.com,REJECT-DROP
@@ -2587,10 +2574,12 @@ DOMAIN-SUFFIX,auth-phone-afr.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,auth-phone-ap.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,auth-phone-na.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,auth-sa.hismarttv.com,REJECT-DROP
+DOMAIN-SUFFIX,auth-voiceservice-eu.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,msg-em.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,msg-na.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,unified-ter-na.hismarttv.com,REJECT-DROP
+DOMAIN-SUFFIX,upgrade-update.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,v2-api-channel-launcher.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,stun.hitv.com,REJECT-DROP
 DOMAIN-SUFFIX,hivecn.cn,REJECT-DROP
@@ -2602,9 +2591,6 @@ DOMAIN-SUFFIX,hk-youdaoo.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,hkkeafj.cn,REJECT-DROP
 DOMAIN-SUFFIX,hlstlyy.com,REJECT-DROP
 DOMAIN-SUFFIX,hly.com,REJECT-DROP
-DOMAIN-SUFFIX,mrxubri.hmctmm.cn,REJECT-DROP
-DOMAIN-SUFFIX,pzyiku.hmctmy.cn,REJECT-DROP
-DOMAIN-SUFFIX,owmgvh.hmkc3n.cn,REJECT-DROP
 DOMAIN-SUFFIX,m.hmucc.com,REJECT-DROP
 DOMAIN-SUFFIX,hnltcw.com,REJECT-DROP
 DOMAIN-SUFFIX,online.hnoexpo.com,REJECT-DROP
@@ -2656,6 +2642,7 @@ DOMAIN-SUFFIX,support.hqts.com,REJECT-DROP
 DOMAIN-SUFFIX,files.hrloo.com,REJECT-DROP
 DOMAIN-SUFFIX,hseda.com,REJECT-DROP
 DOMAIN-SUFFIX,hsehk.cn,REJECT-DROP
+DOMAIN-SUFFIX,hsp.cn,REJECT-DROP
 DOMAIN-SUFFIX,hsrgnac.cn,REJECT-DROP
 DOMAIN-SUFFIX,g.hsw.cn,REJECT-DROP
 DOMAIN-SUFFIX,hsych.com,REJECT-DROP
@@ -2743,6 +2730,7 @@ DOMAIN-SUFFIX,api.hzsanjiaomao.com,REJECT-DROP
 DOMAIN-SUFFIX,sdk.hzsanjiaomao.com,REJECT-DROP
 DOMAIN-SUFFIX,adashx.ut.hzshudian.com,REJECT-DROP
 DOMAIN-SUFFIX,h-adashx.ut.hzshudian.com,REJECT-DROP
+DOMAIN-SUFFIX,hzy.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.hzyoka.com,REJECT-DROP
 DOMAIN-SUFFIX,i-fk.cn,REJECT-DROP
 DOMAIN-SUFFIX,i-zoom.com.cn,REJECT-DROP
@@ -2808,7 +2796,6 @@ DOMAIN-SUFFIX,piccdn.igetget.com,REJECT-DROP
 DOMAIN-SUFFIX,seeder.igetget.com,REJECT-DROP
 DOMAIN-SUFFIX,ihclam.cn,REJECT-DROP
 DOMAIN-SUFFIX,appadapi.ihuman.com,REJECT-DROP
-DOMAIN-SUFFIX,ad.iii.co.uk,REJECT-DROP
 DOMAIN-SUFFIX,iimedia.cn,REJECT-DROP
 DOMAIN-SUFFIX,www.iiyout.cn,REJECT-DROP
 DOMAIN-SUFFIX,ijinshan.com,REJECT-DROP
@@ -2825,7 +2812,6 @@ DOMAIN-SUFFIX,img001.com,REJECT-DROP
 DOMAIN-SUFFIX,tj.img4399.com,REJECT-DROP
 DOMAIN-SUFFIX,imindmap.cc,REJECT-DROP
 DOMAIN-SUFFIX,imlb2c.com,REJECT-DROP
-DOMAIN-SUFFIX,immob.cn,REJECT-DROP
 DOMAIN-SUFFIX,api.immomo.com,REJECT-DROP
 DOMAIN-SUFFIX,app-log.immomo.com,REJECT-DROP
 DOMAIN-SUFFIX,app-log-lab.immomo.com,REJECT-DROP
@@ -2839,10 +2825,8 @@ DOMAIN-SUFFIX,referee.immomo.com,REJECT-DROP
 DOMAIN-SUFFIX,schedule-media.immomo.com,REJECT-DROP
 DOMAIN-SUFFIX,sla-media.immomo.com,REJECT-DROP
 DOMAIN-SUFFIX,atb-stats-api.imolive.tv,REJECT-DROP
-DOMAIN-SUFFIX,imop.com,REJECT-DROP
 DOMAIN-SUFFIX,ads-gdl.imovideo.ru,REJECT-DROP
 DOMAIN-SUFFIX,pyk.in-neo.cn,REJECT-DROP
-DOMAIN-SUFFIX,inad.com,REJECT-DROP
 DOMAIN-SUFFIX,dlres.ind9ed.com,REJECT-DROP
 DOMAIN-SUFFIX,analytics.infility.cn,REJECT-DROP
 DOMAIN-SUFFIX,link.infineon.cn,REJECT-DROP
@@ -2870,6 +2854,7 @@ DOMAIN-SUFFIX,smetrics.marketing.interact-lighting.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,csbase-sentry-aws-online.intsig.net,REJECT-DROP
 DOMAIN-SUFFIX,inveno.com,REJECT-DROP
 DOMAIN-SUFFIX,ioiksw.cn,REJECT-DROP
+DOMAIN-SUFFIX,umami.ioiox.net,REJECT-DROP
 DOMAIN-SUFFIX,c81.ipanocloud.com,REJECT-DROP
 DOMAIN-SUFFIX,iper2.com,REJECT-DROP
 DOMAIN-SUFFIX,ipinyou.com,REJECT-DROP
@@ -2951,7 +2936,6 @@ DOMAIN-SUFFIX,j3n6x.co,REJECT-DROP
 DOMAIN-SUFFIX,jab88.com,REJECT-DROP
 DOMAIN-SUFFIX,eventlog.jackpot.de,REJECT-DROP
 DOMAIN-SUFFIX,s.jandan.com,REJECT-DROP
-DOMAIN-SUFFIX,a3.jandan.net,REJECT-DROP
 DOMAIN-SUFFIX,japps.cn,REJECT-DROP
 DOMAIN-SUFFIX,files.jb51.net,REJECT-DROP
 DOMAIN-SUFFIX,icws.jb51.net,REJECT-DROP
@@ -2995,6 +2979,7 @@ DOMAIN-SUFFIX,skdisplay.jd.com,REJECT-DROP
 DOMAIN-SUFFIX,stat.m.jd.com,REJECT-DROP
 DOMAIN-SUFFIX,u-x.jd.com,REJECT-DROP
 DOMAIN-SUFFIX,union.m.jd.com,REJECT-DROP
+DOMAIN-SUFFIX,uranus.jd.com,REJECT-DROP
 DOMAIN-SUFFIX,x.jd.com,REJECT-DROP
 DOMAIN-SUFFIX,xlog.jd.com,REJECT-DROP
 DOMAIN-SUFFIX,pic.jdbbs.com,REJECT-DROP
@@ -3005,7 +2990,6 @@ DOMAIN-SUFFIX,pic.jdunion.com,REJECT-DROP
 DOMAIN-SUFFIX,jesgoo.com,REJECT-DROP
 DOMAIN-SUFFIX,ads.jianchiapp.com,REJECT-DROP
 DOMAIN-SUFFIX,xomk.jiangjunmh.top,REJECT-DROP
-DOMAIN-SUFFIX,acc.jiangsujiaxue.com,REJECT-DROP
 DOMAIN-SUFFIX,ahm.jiankang123.net,REJECT-DROP
 DOMAIN-SUFFIX,jiankongbao.com,REJECT-DROP
 DOMAIN-SUFFIX,tr.jianshu.com,REJECT-DROP
@@ -3041,7 +3025,6 @@ DOMAIN-SUFFIX,hitcount.jjwxc.net,REJECT-DROP
 DOMAIN-SUFFIX,jknrwe.cn,REJECT-DROP
 DOMAIN-SUFFIX,jlwz.cn,REJECT-DROP
 DOMAIN-SUFFIX,www.jmine.cn,REJECT-DROP
-DOMAIN-SUFFIX,save.jnrsmcu.com,REJECT-DROP
 DOMAIN-SUFFIX,jnzbtb.cn,REJECT-DROP
 DOMAIN-SUFFIX,ub1.job592.com,REJECT-DROP
 DOMAIN-SUFFIX,yqg.jobui.com,REJECT-DROP
@@ -3129,6 +3112,7 @@ DOMAIN-SUFFIX,info.kollmorgen.cn,REJECT-DROP
 DOMAIN-SUFFIX,kolsh.cn,REJECT-DROP
 DOMAIN-SUFFIX,dpi.networkorder.komect.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.kone.cn,REJECT-DROP
+DOMAIN-SUFFIX,ad.kone.ink,REJECT-DROP
 DOMAIN-SUFFIX,adsmart.konka.com,REJECT-DROP
 DOMAIN-SUFFIX,sentry.kookapp.cn,REJECT-DROP
 DOMAIN-SUFFIX,sdkapi.kookong.com,REJECT-DROP
@@ -3229,13 +3213,13 @@ DOMAIN-SUFFIX,rbxmnbuzo.ksfmdqq.cn,REJECT-DROP
 DOMAIN-SUFFIX,andmlb.kshwtj.com,REJECT-DROP
 DOMAIN-SUFFIX,tracker.kshwtj.com,REJECT-DROP
 DOMAIN-SUFFIX,w1.kskwai.com,REJECT-DROP
-DOMAIN-SUFFIX,beha.ksmobile.com,REJECT-DROP
 DOMAIN-SUFFIX,dl.cm.ksmobile.com,REJECT-DROP
 DOMAIN-SUFFIX,dl.pg.ksmobile.com,REJECT-DROP
 DOMAIN-SUFFIX,img.cm.ksmobile.com,REJECT-DROP
 DOMAIN-SUFFIX,p-beha.ksmobile.com,REJECT-DROP
 DOMAIN-SUFFIX,pgapi.ksmobile.com,REJECT-DROP
 DOMAIN-SUFFIX,zj.dcys.ksmobile.com,REJECT-DROP
+DOMAIN-SUFFIX,ups.ksmobile.net,REJECT-DROP
 DOMAIN-SUFFIX,ws.ksmobile.net,REJECT-DROP
 DOMAIN-SUFFIX,counter.ksosoft.com,REJECT-DROP
 DOMAIN-SUFFIX,dw-online.ksosoft.com,REJECT-DROP
@@ -3336,7 +3320,6 @@ DOMAIN-SUFFIX,webcollects.kugou.com,REJECT-DROP
 DOMAIN-SUFFIX,kuheju.com,REJECT-DROP
 DOMAIN-SUFFIX,comfylink.com.gslb.kuiniuca.com,REJECT-DROP
 DOMAIN-SUFFIX,data.kuiniuca.com,REJECT-DROP
-DOMAIN-SUFFIX,huya.com.gslb.kuiniuca.com,REJECT-DROP
 DOMAIN-SUFFIX,msstatic.com.gslb.kuiniuca.com,REJECT-DROP
 DOMAIN-SUFFIX,v1conf.darwin.kuiniuca.com,REJECT-DROP
 DOMAIN-SUFFIX,xycdn.com.gslb.kuiniuca.com,REJECT-DROP
@@ -3513,6 +3496,7 @@ DOMAIN-SUFFIX,ws-p2p-pull.live-voip.com,REJECT-DROP
 DOMAIN-SUFFIX,live-www-kaiyun.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,ljarfvg.cn,REJECT-DROP
 DOMAIN-SUFFIX,lkme.cc,REJECT-DROP
+DOMAIN-SUFFIX,lline.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,elsbhefb.lmfnil.cn,REJECT-DROP
 DOMAIN-SUFFIX,lnk0.com,REJECT-DROP
 DOMAIN-SUFFIX,lnk8.cn,REJECT-DROP
@@ -3571,6 +3555,7 @@ DOMAIN-SUFFIX,zc1.maillist-manage.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,mairuan.cn,REJECT-DROP
 DOMAIN-SUFFIX,logoshejishi.mairuan.com,REJECT-DROP
 DOMAIN-SUFFIX,makeding.com,REJECT-DROP
+DOMAIN-SUFFIX,usejj.makepolo.cn,REJECT-DROP
 DOMAIN-SUFFIX,adx.mala.cn,REJECT-DROP
 DOMAIN-SUFFIX,statis1.mama.cn,REJECT-DROP
 DOMAIN-SUFFIX,mangomob.net,REJECT-DROP
@@ -3586,6 +3571,7 @@ DOMAIN-SUFFIX,marshallscarlett.shop,REJECT-DROP
 DOMAIN-SUFFIX,mathtype.cn,REJECT-DROP
 DOMAIN-SUFFIX,metrics.mathworks.cn,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.mathworks.cn,REJECT-DROP
+DOMAIN-SUFFIX,maxisgt.vip,REJECT-DROP
 DOMAIN-SUFFIX,ad.mazc.org,REJECT-DROP
 DOMAIN-SUFFIX,mbai.cn,REJECT-DROP
 DOMAIN-SUFFIX,mbaobao.com,REJECT-DROP
@@ -3614,7 +3600,6 @@ DOMAIN-SUFFIX,adgame.waimai.meituan.com,REJECT-DROP
 DOMAIN-SUFFIX,api-unionid.meituan.com,REJECT-DROP
 DOMAIN-SUFFIX,hreport.meituan.com,REJECT-DROP
 DOMAIN-SUFFIX,httpdns.meituan.com,REJECT-DROP
-DOMAIN-SUFFIX,impdsp.meituan.com,REJECT-DROP
 DOMAIN-SUFFIX,mads.meituan.com,REJECT-DROP
 DOMAIN-SUFFIX,postreport.meituan.com,REJECT-DROP
 DOMAIN-SUFFIX,report.meituan.com,REJECT-DROP
@@ -3694,7 +3679,6 @@ DOMAIN-SUFFIX,e.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,h5.tv.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,idm.api.io.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,idm.iot.mi.com,REJECT-DROP
-DOMAIN-SUFFIX,in.tv.global.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,migc.g.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,migcreport.g.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,mis.g.mi.com,REJECT-DROP
@@ -3708,7 +3692,6 @@ DOMAIN-SUFFIX,microad-cn.com,REJECT-DROP
 DOMAIN-SUFFIX,microfun.cn,REJECT-DROP
 DOMAIN-SUFFIX,stat.microvirt.com,REJECT-DROP
 DOMAIN-SUFFIX,www.microvirt.com,REJECT-DROP
-DOMAIN-SUFFIX,fa.micstatic.com,REJECT-DROP
 DOMAIN-SUFFIX,ld-analytics.micyjz.com,REJECT-DROP
 DOMAIN-SUFFIX,midway.run,REJECT-DROP
 DOMAIN-SUFFIX,app.log.nf.migu.cn,REJECT-DROP
@@ -3739,7 +3722,6 @@ DOMAIN-SUFFIX,ys-log-upload.mihoyo.com,REJECT-DROP
 DOMAIN-SUFFIX,zzz-log-upload.mihoyo.com,REJECT-DROP
 DOMAIN-SUFFIX,trk.miltonroy.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.mingruidata.com,REJECT-DROP
-DOMAIN-SUFFIX,mintegral.com,REJECT-DROP
 DOMAIN-SUFFIX,wm.mipcdn.com,REJECT-DROP
 DOMAIN-SUFFIX,gg.miued.com,REJECT-DROP
 DOMAIN-SUFFIX,abroad.api.comm.intl.miui.com,REJECT-DROP
@@ -3812,6 +3794,7 @@ DOMAIN-SUFFIX,mlpzes05.com,REJECT-DROP
 DOMAIN-SUFFIX,mlstx.cn,REJECT-DROP
 DOMAIN-SUFFIX,da.mmarket.com,REJECT-DROP
 DOMAIN-SUFFIX,i.mmcdn.cn,REJECT-DROP
+DOMAIN-SUFFIX,mmjh.top,REJECT-DROP
 DOMAIN-SUFFIX,mmkkiivv.com,REJECT-DROP
 DOMAIN-SUFFIX,dutrkqs.mmtofz.cn,REJECT-DROP
 DOMAIN-SUFFIX,mngjrn.cn,REJECT-DROP
@@ -3849,7 +3832,6 @@ DOMAIN-SUFFIX,ad.moonton.cn,REJECT-DROP
 DOMAIN-SUFFIX,moorworld.com,REJECT-DROP
 DOMAIN-SUFFIX,moquanad.com,REJECT-DROP
 DOMAIN-SUFFIX,elq.mouser.cn,REJECT-DROP
-DOMAIN-SUFFIX,mp83fkx.cn,REJECT-DROP
 DOMAIN-SUFFIX,mrlxc51byo.com,REJECT-DROP
 DOMAIN-SUFFIX,mryj.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,srtb.msn.cn,REJECT-DROP
@@ -3874,7 +3856,9 @@ DOMAIN-SUFFIX,ads.api.my7v.com,REJECT-DROP
 DOMAIN-SUFFIX,api.wx.my7v.com,REJECT-DROP
 DOMAIN-SUFFIX,base.api.my7v.com,REJECT-DROP
 DOMAIN-SUFFIX,dc.api.my7v.com,REJECT-DROP
+DOMAIN-SUFFIX,upgrade.api.my7v.com,REJECT-DROP
 DOMAIN-SUFFIX,apiyd.my91app.com,REJECT-DROP
+DOMAIN-SUFFIX,mya2pg8cdg.com,REJECT-DROP
 DOMAIN-SUFFIX,s.dd.myapp.com,REJECT-DROP
 DOMAIN-SUFFIX,mycleanmymac.com,REJECT-DROP
 DOMAIN-SUFFIX,ceshi127722.obs.cn-north-4.myhuaweicloud.com,REJECT-DROP
@@ -3920,6 +3904,7 @@ DOMAIN-SUFFIX,nalook.com,REJECT-DROP
 DOMAIN-SUFFIX,nalubiro-whatsapp.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,fp.nanrenwo.net,REJECT-DROP
 DOMAIN-SUFFIX,nasimobi.com,REJECT-DROP
+DOMAIN-SUFFIX,dl.natgo.cn,REJECT-DROP
 DOMAIN-SUFFIX,nawrogrenix.com,REJECT-DROP
 DOMAIN-SUFFIX,nb4ds7c13d.com,REJECT-DROP
 DOMAIN-SUFFIX,nbahupuqishizhuanqu.com.cn,REJECT-DROP
@@ -3996,6 +3981,7 @@ DOMAIN-SUFFIX,z.nowscore.com,REJECT-DROP
 DOMAIN-SUFFIX,util.nphoto.net,REJECT-DROP
 DOMAIN-SUFFIX,nphqw.cn,REJECT-DROP
 DOMAIN-SUFFIX,nptpjz.cn,REJECT-DROP
+DOMAIN-SUFFIX,nqintelligence.com,REJECT-DROP
 DOMAIN-SUFFIX,nrjzkj.cn,REJECT-DROP
 DOMAIN-SUFFIX,nrpazo.cn,REJECT-DROP
 DOMAIN-SUFFIX,nryqr.cn,REJECT-DROP
@@ -4030,12 +4016,14 @@ DOMAIN-SUFFIX,analytics.oceanengine.com,REJECT-DROP
 DOMAIN-SUFFIX,offerstrack.net,REJECT-DROP
 DOMAIN-SUFFIX,office-wps-hl.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,office2000.cn,REJECT-DROP
+DOMAIN-SUFFIX,office3g.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,officeren.cn,REJECT-DROP
 DOMAIN-SUFFIX,officesoftcn.com,REJECT-DROP
 DOMAIN-SUFFIX,official-live-cba.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,official-live-nba.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,offie-wps.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,offiie-wps.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,vavny.oflndm.cn,REJECT-DROP
 DOMAIN-SUFFIX,oicp.net,REJECT-DROP
 DOMAIN-SUFFIX,apps5.oingo.com,REJECT-DROP
 DOMAIN-SUFFIX,ojg8sflgl.com,REJECT-DROP
@@ -4055,10 +4043,9 @@ DOMAIN-SUFFIX,online.sh.cn,REJECT-DROP
 DOMAIN-SUFFIX,olpv.onlylady.com,REJECT-DROP
 DOMAIN-SUFFIX,onrunningshop.com,REJECT-DROP
 DOMAIN-SUFFIX,ontariogh.help,REJECT-DROP
-DOMAIN-SUFFIX,ontarioob.help,REJECT-DROP
-DOMAIN-SUFFIX,ontariort.help,REJECT-DROP
 DOMAIN-SUFFIX,ooniu.com,REJECT-DROP
 DOMAIN-SUFFIX,analytics.ooofoo.com,REJECT-DROP
+DOMAIN-SUFFIX,analytics.ooopic.com,REJECT-DROP
 DOMAIN-SUFFIX,ounion.openadx.com,REJECT-DROP
 DOMAIN-SUFFIX,openai.wf,REJECT-DROP
 DOMAIN-SUFFIX,openedv.com,REJECT-DROP
@@ -4089,7 +4076,6 @@ DOMAIN-SUFFIX,oumax.oupeng.com,REJECT-DROP
 DOMAIN-SUFFIX,startup.oupeng.com,REJECT-DROP
 DOMAIN-SUFFIX,turbo2sdk-push.oupeng.com,REJECT-DROP
 DOMAIN-SUFFIX,ouqo05161luj.com,REJECT-DROP
-DOMAIN-SUFFIX,ad.ourgame.com,REJECT-DROP
 DOMAIN-SUFFIX,ourl.cn,REJECT-DROP
 DOMAIN-SUFFIX,ouryao.com,REJECT-DROP
 DOMAIN-SUFFIX,apps.outfit7.com,REJECT-DROP
@@ -4124,6 +4110,7 @@ DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao4.com,REJECT-DROP
 DOMAIN-SUFFIX,panoeye.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,ads-impression.papegames.com,REJECT-DROP
 DOMAIN-SUFFIX,ads-monitoring.papegames.com,REJECT-DROP
+DOMAIN-SUFFIX,parking-v.cn,REJECT-DROP
 DOMAIN-SUFFIX,partnerboost.com,REJECT-DROP
 DOMAIN-SUFFIX,passionsex.vip,REJECT-DROP
 DOMAIN-SUFFIX,bt1.patexplorer.com,REJECT-DROP
@@ -4164,8 +4151,8 @@ DOMAIN-SUFFIX,performanceparameters.googleapis.com,REJECT-DROP
 DOMAIN-SUFFIX,petersonjace.shop,REJECT-DROP
 DOMAIN-SUFFIX,pexnjio.cn,REJECT-DROP
 DOMAIN-SUFFIX,pfdth.cn,REJECT-DROP
-DOMAIN-SUFFIX,pflpme.cn,REJECT-DROP
 DOMAIN-SUFFIX,pfqwbqs.cn,REJECT-DROP
+DOMAIN-SUFFIX,vendhelpuous.pgvjmp.cn,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.marketing.lighting.philips.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,www.pikacn.com,REJECT-DROP
 DOMAIN-SUFFIX,web.pimarolu-whatsapp.com.cn,REJECT-DROP
@@ -4257,9 +4244,12 @@ DOMAIN-SUFFIX,q1yv4669q6.com,REJECT-DROP
 DOMAIN-SUFFIX,www.q4ee.top,REJECT-DROP
 DOMAIN-SUFFIX,ssh.q4hwkg.cn,REJECT-DROP
 DOMAIN-SUFFIX,q83v5haaz.com,REJECT-DROP
+DOMAIN-SUFFIX,qafe.cn,REJECT-DROP
+DOMAIN-SUFFIX,qazwex.cn,REJECT-DROP
 DOMAIN-SUFFIX,cp.qbaobei.com,REJECT-DROP
 DOMAIN-SUFFIX,apilog.qbb6.com,REJECT-DROP
 DOMAIN-SUFFIX,dn-growing.qbox.me,REJECT-DROP
+DOMAIN-SUFFIX,uplog.qbox.me,REJECT-DROP
 DOMAIN-SUFFIX,log.qcast.cn,REJECT-DROP
 DOMAIN-SUFFIX,statistics.qcc.com,REJECT-DROP
 DOMAIN-SUFFIX,qchannel04.cn,REJECT-DROP
@@ -4281,6 +4271,7 @@ DOMAIN-SUFFIX,qg6uf.cn,REJECT-DROP
 DOMAIN-SUFFIX,qguwoq.cn,REJECT-DROP
 DOMAIN-SUFFIX,kgwqyj.qh118705.cn,REJECT-DROP
 DOMAIN-SUFFIX,kumcrfdk.qh229548.cn,REJECT-DROP
+DOMAIN-SUFFIX,dhvuuxhmt.qh399063.cn,REJECT-DROP
 DOMAIN-SUFFIX,jspassport.ssl.qhimg.com,REJECT-DROP
 DOMAIN-SUFFIX,top.h.qhimg.com,REJECT-DROP
 DOMAIN-SUFFIX,p3.qhimgs0.com,REJECT-DROP
@@ -4342,7 +4333,6 @@ DOMAIN-SUFFIX,bd888.qizuang.com,REJECT-DROP
 DOMAIN-SUFFIX,qjiz.cn,REJECT-DROP
 DOMAIN-SUFFIX,qjxys.cn,REJECT-DROP
 DOMAIN-SUFFIX,qktmwiq.cn,REJECT-DROP
-DOMAIN-SUFFIX,a6-remad.qm989.com,REJECT-DROP
 DOMAIN-SUFFIX,t-remad.qm989.com,REJECT-DROP
 DOMAIN-SUFFIX,logger.qmai.cn,REJECT-DROP
 DOMAIN-SUFFIX,oatdbtwdu.qnssl.com,REJECT-DROP
@@ -4541,6 +4531,7 @@ DOMAIN-SUFFIX,unitelogreport.reader.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,up-hl.3g.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,update.browser.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,updatecenter.qq.com,REJECT-DROP
+DOMAIN-SUFFIX,uplog.inews.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,uu.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,video.dispatch.tc.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,vlive.qqvideo.tc.qq.com,REJECT-DROP
@@ -4573,6 +4564,7 @@ DOMAIN-SUFFIX,f.qstatic.com,REJECT-DROP
 DOMAIN-SUFFIX,ad-cdn.qtfm.cn,REJECT-DROP
 DOMAIN-SUFFIX,adlaunch.qtfm.cn,REJECT-DROP
 DOMAIN-SUFFIX,api-zhibo.qtfm.cn,REJECT-DROP
+DOMAIN-SUFFIX,upload-up.qtfm.cn,REJECT-DROP
 DOMAIN-SUFFIX,iadsdk.qtlcdn.com,REJECT-DROP
 DOMAIN-SUFFIX,qtmdzsj.cn,REJECT-DROP
 DOMAIN-SUFFIX,api.qttunion.com,REJECT-DROP
@@ -4612,9 +4604,9 @@ DOMAIN-SUFFIX,qreport.qunar.com,REJECT-DROP
 DOMAIN-SUFFIX,userimg.qunar.com,REJECT-DROP
 DOMAIN-SUFFIX,vn-ebay.quxlpuj.cn,REJECT-DROP
 DOMAIN-SUFFIX,zzy1.quyaoya.com,REJECT-DROP
-DOMAIN-SUFFIX,qviega.cn,REJECT-DROP
 DOMAIN-SUFFIX,api.qvpublish.com,REJECT-DROP
 DOMAIN-SUFFIX,u.qxen.com,REJECT-DROP
+DOMAIN-SUFFIX,p1.qxzsw.com,REJECT-DROP
 DOMAIN-SUFFIX,msg.qy.net,REJECT-DROP
 DOMAIN-SUFFIX,msg-intl.qy.net,REJECT-DROP
 DOMAIN-SUFFIX,msgv6.qy.net,REJECT-DROP
@@ -4629,10 +4621,10 @@ DOMAIN-SUFFIX,v6-reading-ad.qznovelvod.com,REJECT-DROP
 DOMAIN-SUFFIX,v9-reading-ad.qznovelvod.com,REJECT-DROP
 DOMAIN-SUFFIX,v96-reading-ad.qznovelvod.com,REJECT-DROP
 DOMAIN-SUFFIX,v96-sz-daily-reading-ad.qznovelvod.com,REJECT-DROP
-DOMAIN-SUFFIX,qzquna.cn,REJECT-DROP
 DOMAIN-SUFFIX,a2.rabbitpre.com,REJECT-DROP
 DOMAIN-SUFFIX,rabuagc.cn,REJECT-DROP
 DOMAIN-SUFFIX,luaqxb.rainso.com,REJECT-DROP
+DOMAIN-SUFFIX,rakutodelivery.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,bespoke-analytics.razerapi.com,REJECT-DROP
 DOMAIN-SUFFIX,rbioclv.cn,REJECT-DROP
 DOMAIN-SUFFIX,rbjpti.top,REJECT-DROP
@@ -4688,10 +4680,10 @@ DOMAIN-SUFFIX,nav.cn.ronghub.com,REJECT-DROP
 DOMAIN-SUFFIX,stats.cn.ronghub.com,REJECT-DROP
 DOMAIN-SUFFIX,rpahyhn.cn,REJECT-DROP
 DOMAIN-SUFFIX,rs-wps.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,lidtjhd.rseqb.cn,REJECT-DROP
 DOMAIN-SUFFIX,rsvqlz.cn,REJECT-DROP
 DOMAIN-SUFFIX,rtbasia.com,REJECT-DROP
 DOMAIN-SUFFIX,rtbwave.com,REJECT-DROP
+DOMAIN-SUFFIX,rua50s4es8.com,REJECT-DROP
 DOMAIN-SUFFIX,ds.ruanwengfa.com,REJECT-DROP
 DOMAIN-SUFFIX,rui61.cn,REJECT-DROP
 DOMAIN-SUFFIX,rumt-sg.com,REJECT-DROP
@@ -4937,11 +4929,10 @@ DOMAIN-SUFFIX,raffle-entry.info.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.future.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,sms.info.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,smartsafe.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,smucdn.com,REJECT-DROP
-DOMAIN-SUFFIX,smyfinancial.com,REJECT-DROP
 DOMAIN-SUFFIX,analytics-api.smzdm.com,REJECT-DROP
 DOMAIN-SUFFIX,res-ga.smzdm.com,REJECT-DROP
 DOMAIN-SUFFIX,www.smzy.com,REJECT-DROP
+DOMAIN-SUFFIX,tx-sgp-cdn.snackvideo.in,REJECT-DROP
 DOMAIN-SUFFIX,errortracking.snapp.site,REJECT-DROP
 DOMAIN-SUFFIX,push.snappea.com,REJECT-DROP
 DOMAIN-SUFFIX,sensors.snappea.com,REJECT-DROP
@@ -4989,14 +4980,12 @@ DOMAIN-SUFFIX,ug.snssdk.com,REJECT-DROP
 DOMAIN-SUFFIX,vas-hl-x.snssdk.com,REJECT-DROP
 DOMAIN-SUFFIX,vcl-brain.snssdk.com,REJECT-DROP
 DOMAIN-SUFFIX,xlog.snssdk.com,REJECT-DROP
-DOMAIN-SUFFIX,snzsb.com,REJECT-DROP
 DOMAIN-SUFFIX,e.so.com,REJECT-DROP
 DOMAIN-SUFFIX,mbrowser.news.so.com,REJECT-DROP
 DOMAIN-SUFFIX,p.sug.so.com,REJECT-DROP
 DOMAIN-SUFFIX,spro.so.com,REJECT-DROP
 DOMAIN-SUFFIX,tran.news.so.com,REJECT-DROP
 DOMAIN-SUFFIX,soarpower.com,REJECT-DROP
-DOMAIN-SUFFIX,sobot.com,REJECT-DROP
 DOMAIN-SUFFIX,social-touch.com,REJECT-DROP
 DOMAIN-SUFFIX,wct.softonic.cn,REJECT-DROP
 DOMAIN-SUFFIX,softxz.com,REJECT-DROP
@@ -5044,7 +5033,6 @@ DOMAIN-SUFFIX,fpb.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,hui.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,i.go.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,images.sohu.com,REJECT-DROP
-DOMAIN-SUFFIX,imp.go.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,lm.tv.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,pb.hd.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,push.tv.sohu.com,REJECT-DROP
@@ -5055,6 +5043,7 @@ DOMAIN-SUFFIX,qpb0.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,qpb1.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,reke.at.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,track.sohu.com,REJECT-DROP
+DOMAIN-SUFFIX,upgrade.m.tv.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,vbng.at.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,vstat.my.tv.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,vstat.v.blog.sohu.com,REJECT-DROP
@@ -5093,6 +5082,7 @@ DOMAIN-SUFFIX,sgg.southcn.com,REJECT-DROP
 DOMAIN-SUFFIX,cod.southmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,tongji.southmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,sq59.cn,REJECT-DROP
+DOMAIN-SUFFIX,sqij.cn,REJECT-DROP
 DOMAIN-SUFFIX,srbzw.cn,REJECT-DROP
 DOMAIN-SUFFIX,data.ssports.com,REJECT-DROP
 DOMAIN-SUFFIX,show.ssports.com,REJECT-DROP
@@ -5142,6 +5132,7 @@ DOMAIN-SUFFIX,swdyz.com,REJECT-DROP
 DOMAIN-SUFFIX,sxk9m8x.cn,REJECT-DROP
 DOMAIN-SUFFIX,sxundrh.cn,REJECT-DROP
 DOMAIN-SUFFIX,gmbl.sy99.de,REJECT-DROP
+DOMAIN-SUFFIX,syangjaserofero.com,REJECT-DROP
 DOMAIN-SUFFIX,sybnzs.cn,REJECT-DROP
 DOMAIN-SUFFIX,sanalytics.sydneyuniversity.cn,REJECT-DROP
 DOMAIN-SUFFIX,sydyqg.cn,REJECT-DROP
@@ -5310,7 +5301,6 @@ DOMAIN-SUFFIX,error.taobao.com.danuoyi.tbcache.com,REJECT-DROP
 DOMAIN-SUFFIX,httpdns.danuoyi.tbcache.com,REJECT-DROP
 DOMAIN-SUFFIX,g.tbcdn.cn,REJECT-DROP
 DOMAIN-SUFFIX,a1.tbuz.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,dlied6.bytes.tcdnos.com,REJECT-DROP
 DOMAIN-SUFFIX,tcdvvv.top,REJECT-DROP
 DOMAIN-SUFFIX,tchkcc.cn,REJECT-DROP
 DOMAIN-SUFFIX,gwrtdp.tclclouds.com,REJECT-DROP
@@ -5366,7 +5356,6 @@ DOMAIN-SUFFIX,dc.tensgpt.com,REJECT-DROP
 DOMAIN-SUFFIX,tepusi888.cn,REJECT-DROP
 DOMAIN-SUFFIX,answers.teradata.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,testplus.cn,REJECT-DROP
-DOMAIN-SUFFIX,tgfyq.cn,REJECT-DROP
 DOMAIN-SUFFIX,th7.cn,REJECT-DROP
 DOMAIN-SUFFIX,advert.api.thejoyrun.com,REJECT-DROP
 DOMAIN-SUFFIX,adpai.thepaper.cn,REJECT-DROP
@@ -5397,7 +5386,6 @@ DOMAIN-SUFFIX,tikz.cn,REJECT-DROP
 DOMAIN-SUFFIX,tingyun.com,REJECT-DROP
 DOMAIN-SUFFIX,tisszhb.cn,REJECT-DROP
 DOMAIN-SUFFIX,img2.titan007.com,REJECT-DROP
-DOMAIN-SUFFIX,a.tiyuxiu.com,REJECT-DROP
 DOMAIN-SUFFIX,tjfytech.com,REJECT-DROP
 DOMAIN-SUFFIX,ads-vp5-xhscdn.tliveapp.com,REJECT-DROP
 DOMAIN-SUFFIX,livetech.shopee.co.th.tlivecdn.com,REJECT-DROP
@@ -5427,6 +5415,7 @@ DOMAIN-SUFFIX,tongdun.net,REJECT-DROP
 DOMAIN-SUFFIX,sky.tongjiai.com,REJECT-DROP
 DOMAIN-SUFFIX,tuba.toolg.cn,REJECT-DROP
 DOMAIN-SUFFIX,ato.tooopen.com,REJECT-DROP
+DOMAIN-SUFFIX,toponad.com,REJECT-DROP
 DOMAIN-SUFFIX,topsem.com,REJECT-DROP
 DOMAIN-SUFFIX,static.topxgun.com,REJECT-DROP
 DOMAIN-SUFFIX,touch-moblie.com,REJECT-DROP
@@ -5609,8 +5598,18 @@ DOMAIN-SUFFIX,iosipa.b0.upaiyun.com,REJECT-DROP
 DOMAIN-SUFFIX,upceshop.cn,REJECT-DROP
 DOMAIN-SUFFIX,updatehub.nx.cn,REJECT-DROP
 DOMAIN-SUFFIX,updatehub.sx.cn,REJECT-DROP
+DOMAIN-SUFFIX,uphzxdv.cn,REJECT-DROP
 DOMAIN-SUFFIX,adscfg.uqualities.com,REJECT-DROP
 DOMAIN-SUFFIX,adsoss.uqualities.com,REJECT-DROP
+DOMAIN-SUFFIX,uqz.com,REJECT-DROP
+DOMAIN-SUFFIX,urbanfind.club,REJECT-DROP
+DOMAIN-SUFFIX,uri6.com,REJECT-DROP
+DOMAIN-SUFFIX,urlqh.cn,REJECT-DROP
+DOMAIN-SUFFIX,usercenter.ha.cn,REJECT-DROP
+DOMAIN-SUFFIX,usercenter.he.cn,REJECT-DROP
+DOMAIN-SUFFIX,usercenter.nx.cn,REJECT-DROP
+DOMAIN-SUFFIX,usercenter.org.cn,REJECT-DROP
+DOMAIN-SUFFIX,usercenter.yn.cn,REJECT-DROP
 DOMAIN-SUFFIX,usrzh.cn,REJECT-DROP
 DOMAIN-SUFFIX,gyqpyr.utsource.net,REJECT-DROP
 DOMAIN-SUFFIX,dl.uu.cc,REJECT-DROP
@@ -5678,7 +5677,6 @@ DOMAIN-SUFFIX,mar.vip.com,REJECT-DROP
 DOMAIN-SUFFIX,n-st.vip.com,REJECT-DROP
 DOMAIN-SUFFIX,sc-thor.vip.com,REJECT-DROP
 DOMAIN-SUFFIX,ads.vipbaihe.com,REJECT-DROP
-DOMAIN-SUFFIX,in.vipliangmei.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.visitsingapore.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,adlog.vivo.com,REJECT-DROP
 DOMAIN-SUFFIX,ads-api.vivo.com,REJECT-DROP
@@ -5793,35 +5791,6 @@ DOMAIN-SUFFIX,ex-romsp-unifyconfig.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,id-analyzer-appstore.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,id-third-appstore.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,il-vcode-od.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-ad-mkt-vivofs.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-adlog.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-adreq.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-adsjssdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-analyzer-appstore.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-apponrt-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-apport-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-apppnrt-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-cfg-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-cota.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-ctdbonrt-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-ctdbort-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-domaincfg.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-errup.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-ex-adlog.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-monitor-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-news-abroad-backstage-interface.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-onrt-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-ort-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-os-config-appstore.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-pnrt-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-prt-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-third-appstore.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-timesync.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-vcode-api.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-vcode-od.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-vcode-or.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-vpushonrt-stsdk.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,in-vpushort-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,kz-err-up.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,kz-onrt-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,kz-ort-stsdk.vivoglobal.com,REJECT-DROP
@@ -5932,7 +5901,6 @@ DOMAIN-SUFFIX,vncq.cn,REJECT-DROP
 DOMAIN-SUFFIX,vnig0.cn,REJECT-DROP
 DOMAIN-SUFFIX,vnvmif.cn,REJECT-DROP
 DOMAIN-SUFFIX,voc.ai,REJECT-DROP
-DOMAIN-SUFFIX,m1.vodjk.com,REJECT-DROP
 DOMAIN-SUFFIX,vodone.com,REJECT-DROP
 DOMAIN-SUFFIX,mini-prog-drm.vodplayvideo.net,REJECT-DROP
 DOMAIN-SUFFIX,voiceads.cn,REJECT-DROP
@@ -5962,6 +5930,7 @@ DOMAIN-SUFFIX,vwiy.cn,REJECT-DROP
 DOMAIN-SUFFIX,vx2tbw9xin.com,REJECT-DROP
 DOMAIN-SUFFIX,vxhsj.cn,REJECT-DROP
 DOMAIN-SUFFIX,vyye.cn,REJECT-DROP
+DOMAIN-SUFFIX,vzmt.cn,REJECT-DROP
 DOMAIN-SUFFIX,vzvvifw.cn,REJECT-DROP
 DOMAIN-SUFFIX,w3cfba6ufr.com,REJECT-DROP
 DOMAIN-SUFFIX,w8.com.cn,REJECT-DROP
@@ -6006,7 +5975,6 @@ DOMAIN-SUFFIX,weaxym.com,REJECT-DROP
 DOMAIN-SUFFIX,web-qishui.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,webdissector.com,REJECT-DROP
 DOMAIN-SUFFIX,log.webnovel.com,REJECT-DROP
-DOMAIN-SUFFIX,datareport.webportal.top,REJECT-DROP
 DOMAIN-SUFFIX,webterren.com,REJECT-DROP
 DOMAIN-SUFFIX,log.wechatpay.cn,REJECT-DROP
 DOMAIN-SUFFIX,dads.wedobest.com.cn,REJECT-DROP
@@ -6030,7 +5998,6 @@ DOMAIN-SUFFIX,weidianyuedu.com,REJECT-DROP
 DOMAIN-SUFFIX,weihaisb.com,REJECT-DROP
 DOMAIN-SUFFIX,1.weiheshidai.com,REJECT-DROP
 DOMAIN-SUFFIX,weiqishidagongrenzuiqiangqishou.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,moetpqhog.weiuh.cn,REJECT-DROP
 DOMAIN-SUFFIX,badjs.weixinbridge.com,REJECT-DROP
 DOMAIN-SUFFIX,code.wenbanzhu.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.weplayer.cc,REJECT-DROP
@@ -6066,11 +6033,13 @@ DOMAIN-SUFFIX,winvvv.com,REJECT-DROP
 DOMAIN-SUFFIX,wiyun.com,REJECT-DROP
 DOMAIN-SUFFIX,wj8i1rlp2b.com,REJECT-DROP
 DOMAIN-SUFFIX,wjxcdn.com,REJECT-DROP
+DOMAIN-SUFFIX,h1.wk2.com,REJECT-DROP
 DOMAIN-SUFFIX,wkanx.com,REJECT-DROP
 DOMAIN-SUFFIX,lm1.wkpcw.cn,REJECT-DROP
 DOMAIN-SUFFIX,p.wktfkj.com,REJECT-DROP
 DOMAIN-SUFFIX,wkzw.me,REJECT-DROP
 DOMAIN-SUFFIX,opensdk.wlanbanlv.com,REJECT-DROP
+DOMAIN-SUFFIX,ce.wlaoc.cn,REJECT-DROP
 DOMAIN-SUFFIX,wlgjz02mo.com,REJECT-DROP
 DOMAIN-SUFFIX,wlhcb.cn,REJECT-DROP
 DOMAIN-SUFFIX,wmmax.com,REJECT-DROP
@@ -6123,7 +6092,6 @@ DOMAIN-SUFFIX,market.wsskj520.cn,REJECT-DROP
 DOMAIN-SUFFIX,mlog.wangsu.com.wswebcdn.com,REJECT-DROP
 DOMAIN-SUFFIX,iwfcaz.wtlaf.cn,REJECT-DROP
 DOMAIN-SUFFIX,cdnperf-rum.cdnetworks.net.wtxcdn.com,REJECT-DROP
-DOMAIN-SUFFIX,xjoqdqtcb.wtyvu.cn,REJECT-DROP
 DOMAIN-SUFFIX,cdn-ad.wtzw.com,REJECT-DROP
 DOMAIN-SUFFIX,cdn-new-ad.wtzw.com,REJECT-DROP
 DOMAIN-SUFFIX,wu-todesk.com.cn,REJECT-DROP
@@ -6147,7 +6115,6 @@ DOMAIN-SUFFIX,x-steam.com,REJECT-DROP
 DOMAIN-SUFFIX,x4hu95mh0t.com,REJECT-DROP
 DOMAIN-SUFFIX,xads-telegram.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,zamknj.xagnnx.cn,REJECT-DROP
-DOMAIN-SUFFIX,www.xaqsl.com,REJECT-DROP
 DOMAIN-SUFFIX,xazbts.com,REJECT-DROP
 DOMAIN-SUFFIX,xb9.cn,REJECT-DROP
 DOMAIN-SUFFIX,enappstat.xbext.com,REJECT-DROP
@@ -6170,7 +6137,6 @@ DOMAIN-SUFFIX,xftsjv.top,REJECT-DROP
 DOMAIN-SUFFIX,dt.xfyun.cn,REJECT-DROP
 DOMAIN-SUFFIX,analytics.xgimi.com,REJECT-DROP
 DOMAIN-SUFFIX,pics.xgo-img.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,imp.xgo.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,stat.xgo.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.xhey.top,REJECT-DROP
 DOMAIN-SUFFIX,ad-server.xhgamesdk.com,REJECT-DROP
@@ -6244,7 +6210,6 @@ DOMAIN-SUFFIX,global-ad-intl-pri-alisgp.alb.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,globalvideo.cdn.pandora.intl.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,hybrid.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,image.cdn.pandora.xiaomi.com,REJECT-DROP
-DOMAIN-SUFFIX,in-miuilog.sms.intl.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,milink.pandora.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,misc.pandora.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,notice.game.xiaomi.com,REJECT-DROP
@@ -6276,11 +6241,12 @@ DOMAIN-SUFFIX,eu.statusapi.micloud.xiaomi.net,REJECT-DROP
 DOMAIN-SUFFIX,findapi.micloud.xiaomi.net,REJECT-DROP
 DOMAIN-SUFFIX,fr.resolver.msg.global.xiaomi.net,REJECT-DROP
 DOMAIN-SUFFIX,idmb.app.chat.global.xiaomi.net,REJECT-DROP
-DOMAIN-SUFFIX,in.statusapi.micloud.xiaomi.net,REJECT-DROP
 DOMAIN-SUFFIX,resolver.msg.xiaomi.net,REJECT-DROP
 DOMAIN-SUFFIX,sec-cdn.static.xiaomi.net,REJECT-DROP
 DOMAIN-SUFFIX,sec.resource.xiaomi.net,REJECT-DROP
 DOMAIN-SUFFIX,sentry.d.xiaomi.net,REJECT-DROP
+DOMAIN-SUFFIX,us.api.micloud.xiaomi.net,REJECT-DROP
+DOMAIN-SUFFIX,us.statusapi.micloud.xiaomi.net,REJECT-DROP
 DOMAIN-SUFFIX,xiaomifood.cn,REJECT-DROP
 DOMAIN-SUFFIX,xiaoxiuapp.com,REJECT-DROP
 DOMAIN-SUFFIX,xiaoyange.cn,REJECT-DROP
@@ -6325,7 +6291,6 @@ DOMAIN-SUFFIX,logc-sg.tsd.xindong.com,REJECT-DROP
 DOMAIN-SUFFIX,xingfabuhang.com,REJECT-DROP
 DOMAIN-SUFFIX,c.xingjuhe.com,REJECT-DROP
 DOMAIN-SUFFIX,ichc1.xinglinpukang.com,REJECT-DROP
-DOMAIN-SUFFIX,a2.xinhuanet.com,REJECT-DROP
 DOMAIN-SUFFIX,imgs.xinhuanet.com,REJECT-DROP
 DOMAIN-SUFFIX,xinlimaoyi2.xinlimaoyi.cn,REJECT-DROP
 DOMAIN-SUFFIX,upaicdn.xinmei365.com,REJECT-DROP
@@ -6361,6 +6326,7 @@ DOMAIN-SUFFIX,xryrylt.cn,REJECT-DROP
 DOMAIN-SUFFIX,bchina-1.xsfaya.com,REJECT-DROP
 DOMAIN-SUFFIX,xshellcn.com,REJECT-DROP
 DOMAIN-SUFFIX,rdbd.xsread.com,REJECT-DROP
+DOMAIN-SUFFIX,xssncc2tv.com,REJECT-DROP
 DOMAIN-SUFFIX,xueaaaw.cn,REJECT-DROP
 DOMAIN-SUFFIX,dove.xueqiu.com,REJECT-DROP
 DOMAIN-SUFFIX,open.xueqiu.com,REJECT-DROP
@@ -6390,6 +6356,7 @@ DOMAIN-SUFFIX,soa-vip-ssl.xunlei.com,REJECT-DROP
 DOMAIN-SUFFIX,stat-download-ssl.xunlei.com,REJECT-DROP
 DOMAIN-SUFFIX,stat.download.xunlei.com,REJECT-DROP
 DOMAIN-SUFFIX,sys7.msg.xunlei.com,REJECT-DROP
+DOMAIN-SUFFIX,upgrade.xl9.xunlei.com,REJECT-DROP
 DOMAIN-SUFFIX,youxi.xunlei.com,REJECT-DROP
 DOMAIN-SUFFIX,prd-collect-llm.xverse.cn,REJECT-DROP
 DOMAIN-SUFFIX,xvhttu3c9.com,REJECT-DROP
@@ -6397,6 +6364,7 @@ DOMAIN-SUFFIX,xvvchi.com,REJECT-DROP
 DOMAIN-SUFFIX,xwmr.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,cc.xwscg.com,REJECT-DROP
 DOMAIN-SUFFIX,xwuad.com,REJECT-DROP
+DOMAIN-SUFFIX,vtnsth.xx039009.cn,REJECT-DROP
 DOMAIN-SUFFIX,novendec.xxbglo.cn,REJECT-DROP
 DOMAIN-SUFFIX,xxmh456.com,REJECT-DROP
 DOMAIN-SUFFIX,p2p-punch.xxpkg.com,REJECT-DROP
@@ -6507,6 +6475,7 @@ DOMAIN-SUFFIX,yladm.com,REJECT-DROP
 DOMAIN-SUFFIX,ylunion.com,REJECT-DROP
 DOMAIN-SUFFIX,ylznwl.cn,REJECT-DROP
 DOMAIN-SUFFIX,ymapp.com,REJECT-DROP
+DOMAIN-SUFFIX,us01-analysis.ymcart.com,REJECT-DROP
 DOMAIN-SUFFIX,ymcdn.cn,REJECT-DROP
 DOMAIN-SUFFIX,ymmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,www.ynbojie.com,REJECT-DROP
@@ -6804,6 +6773,7 @@ DOMAIN-SUFFIX,tnc0-bjlgy.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,tnc3-aliec2.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,tnc3-bjlgy.zijieapi.com,REJECT-DROP
+DOMAIN-SUFFIX,vcs.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,view.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,csudubxs.zimxfxq.cn,REJECT-DROP
 DOMAIN-SUFFIX,logs-collect.ziniao.com,REJECT-DROP
@@ -6824,7 +6794,6 @@ DOMAIN-SUFFIX,znjeycy.cn,REJECT-DROP
 DOMAIN-SUFFIX,p.zol-img.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,cpro.zol.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,dynamic.zol.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,imp.zol.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,js.zol.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,pv.zol.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,pvc.zol.com.cn,REJECT-DROP
