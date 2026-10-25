@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20261025111410
-! Last modified: 2026/10/25 11:14:10
-! Blocked Filters: 43566
+! Version: 20261025205804
+! Last modified: 2026/10/25 20:58:04
+! Blocked Filters: 43496
 !
 ###AC_ad
 ###AD_160
@@ -25000,13 +25000,9 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||hbimg.huabanimg.com^$stealth=referrer,domain=huaban.com
 @@||hbogo.pl^$extension
 @@||hbu.cn^*/ad.css?$stylesheet
-@@||hh010.com^$generichide
-@@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||hls*.*.*/hls*/*.PNG$stealth=referrer,third-party,xmlhttprequest,domain=kisskh.*
 @@||hls*.burntburst*.store/*/master.m3u8$stealth=referrer
-@@||hls-live.bdstatic.com/*/stream_$stealth=referrer
 @@||hls0*.*.*.mp4?ip=$stealth=referrer,media,domain=kisskh.*
-@@||hm.baidu.com/hm.js$domain=rjno1.com
 @@||hp.com/in/*/ads/$script,stylesheet,~third-party
 @@||hq.sinajs.cn^$stealth=referrer,script,domain=finance.sina.com.cn
 @@||hsnstore.*^$stealth=flash|java
@@ -29923,14 +29919,6 @@ dcnewsnow.com,ktla.com###bestreviews-widget
 dcrainmaker.com,fijisun.com.fj##.widget-1
 ddbelchatow.pl,portalplock.pl,kutno.net.pl,portalplock.pl#?#.flex-column > .h-100 > div > h6:contains(/^ Promocja $/)
 ddbelchatow.pl,portalplock.pl,kutno.net.pl,tulodz.pl,portalplock.pl##.flex-column > .h-100 > div a[target="_blank"] > img[src^="https://storage.googleapis.com/"]
-ddooo.com##.gadat_list
-ddooo.com##.gs_list
-ddooo.com##.guoasu
-ddooo.com##.xzbtn
-ddooo.com#?#span:-abp-has(> p:-abp-contains(高速))
-ddooo.com#?#span:has(> p:contains(高速))
-ddooo.com#?#ul:-abp-has(> dd:-abp-contains(高速))
-ddooo.com#?#ul:has(> dd:contains(高速))
 ddxsku.com##.adhtml
 ddys.*,ddrk.me##.entry div[id] > a[target="_blank"] > img
 ddys.*,ddrk.me#%#//scriptlet('set-constant', 'Object.prototype.canobpreroll_', 'true')
@@ -32042,39 +32030,19 @@ hentaiprn.com,whipp3d.com##.widget_block
 hentaivideos.net,freehentaistream.com##.aside-banner
 hentaiworld.tv,sulasok.uno##.floating-banner
 hepan.com##.fivead
-hepuwang.com##.n5_dbhfad > .wapper
-hepuwang.com##a[href^="http://ad."]
 heraldonline.com,charlotteobserver.com###story-cta-widget
 heraldonline.com,charlotteobserver.com##div[style="--height:250px;"]
 heraldsun.com.au,dailytelegraph.com.au##.w_ad
 herexxx.com,kissjav.com#%#//scriptlet('prevent-addEventListener', 'click', 'triggerPop')
 herfamily.ie,sportsjoe.ie###div-gpt-top_page
 heroesfire.com,vaingloryfire.com##.sidebar-feature.add.box
-hexun.com###bottom_extension
-hexun.com###hexunCouplet01
-hexun.com###newsPopWin
-hexun.com###tonglan_1 + .layout
-hexun.com###videoLeftAd
-hexun.com###videoRightAd
-hexun.com##.lck-module
-hexun.com##.side618
 hf365.com,sina.com.cn,sohu.com##.adA
-hgitv.com##.gg09
-hgitv.com##.index_gg
-hgitv.com##.index_gg01
-hgitv.com##.index_main_top_zhong_02
-hgitv.com##.xinwen_right_gg01
 hgtv.ca,mapquest.com##.adWrapper
 hgtv.com,bloggif.com,lolalytics.com,migraine.com,technobuffalo.com,bloomberg.com,moviefone.com,gamerconfig.eu###leaderboard
-hh010.com##.a_hong_c
-hh010.com##.a_hong_h
-hh010.com##.a_hong_t
 hianime.*,aniwatchtv.to##div[style*="text-align: center"] > a[target="_blank"] > img
 hianimez.*,hianime.*#%#//scriptlet('prevent-addEventListener', 'pointerdown')
 hiclipart.com#$?#.list_ads { remove: true; }
 hidden4fun.com,coursesity.com,ichacha.net,website.informer.com,mrexcel.com,blockadblock.com#?#.adsbygoogle:upward(1)
-hifidiy.net###part_left2
-hifidiy.net###part_right_gg7
 hihentaiporn.com,rat.xxx,hdtube.porn,pornid.*##.player-top-line
 himovies.bz,moviesjoyhd.to##img[style="max-width: 728px; width: 100%"]
 hindi.news18.com,bengali.news18.com##.placeholder
@@ -32082,13 +32050,11 @@ hindi.news18.com,bengali.news18.com##div[class*="right"] > div[class*="side"]:no
 hindi.news18.com,bengali.news18.com#?#div[class*="right"] > div[class*="side"]:not([class*="gallery"]):has(> div[style*="min-height:"] > .placeholder)
 hindustantimes.com,livemint.com##div[class^="adMinHeight"]
 hindustantimes.com,ndtv.com##div[id^="adslot"]
-hinews.cn##div[id^="hi_gg_"]
 hiphopdx.com,pride.com##.video-player
 histmag.org,inzynieria.com##.w2g-rodzic
 historiapoznania.pl,pcformat.pl,parenting.pl,informacje.wp.pl,deliciousmagazine.pl,jastrzabpost.pl,genialne.pl,abczdrowie.pl##style + div[class]:has(> div:first-child:not([class]) + img[src^="https://v.wpimg.pl/"] + div:last-child)
 historiapoznania.pl,pcformat.pl,parenting.pl,informacje.wp.pl,deliciousmagazine.pl,jastrzabpost.pl,genialne.pl,abczdrowie.pl##style + div[class]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div:last-child)
 historiapoznania.pl,pcformat.pl,parenting.pl,informacje.wp.pl,deliciousmagazine.pl,jastrzabpost.pl,genialne.pl,abczdrowie.pl##style + div[class]:has(> img[src^="https://v.wpimg.pl/"]:only-child)
-hit180.com##.widget_ui_orbui:nth-child(-n+2)
 hitc.com,dualshockers.com#%#//scriptlet("set-constant", "pbjs.setConfig", "noopFunc")
 hjenglish.com,hujiang.com##.lamu_banner
 hk.news.yahoo.com,tw.news.yahoo.com##.atoms > div[class^="bg-card-"]:has(> div[id^="sda-"])
@@ -32102,14 +32068,6 @@ hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 hk.yahoo.com,tw.yahoo.com##li[id^="StreamMidCenter2Ad-"]
 hk.yahoo.com,tw.yahoo.com#%#//scriptlet('trusted-set-attr', 'div#Homepage', 'data-top-center-ad-type', 'noAd')
 hk.yahoo.com,tw.yahoo.com,news.yahoo.com##div[id^="sda-"]
-hktvyb.com##.myui-content__operate > a.btn-danger
-hktvyb.com##.myui-content__operate > a.btn-warm
-hktvyb.com##div[style="text-align:center;"] > a[target="_blank"] > img[alt="APP"]
-hkwb.net##.guanggao2
-hkwb.net##.leftadv2
-hkwb.net##.rightadv2
-hlgnet.com##.co_ad
-hlgnet.com##.co_ad3
 hlgnet.com,sina.com##.tad
 hm-news.co.il#$?#a[href][data-item^='{"sources":['][data-item*='Video Ad'] { remove: true; }
 hmama.tv,hentaimama.io##.in-between-ad-one-wrapper
@@ -32128,7 +32086,6 @@ hog.mobi,sexu.com,hog.tv##.content__body > .content__top > div > h3.content__tit
 hokx.com,ottverse.com,agorablog.it,apfelpatient.de,openculture.com,satcesc.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'aadb_get_data')
 holiday-weather.com,omniglot.com,w3schools.com,zerochan.net###skyscraper
 home-barista.com,washingtontimes.com##a[onclick]
-home.ifeng.com##.fengjc02
 home.wblaxmibhandar.com,main.wblaxmibhandar.com,health.sarkarijobinformation.com,health.bgmiproconfig.com,main.24jobalert.com,india.hindivigyan.in,health.bgmiproconfig.com,web.wblaxmibhandar.com,india.livegaminghub.com,uploadhub.dad,health.gujaratcareerhub.in,india.newsguides.in,india.reportmarathi.in,v.thetch.in,gadialert.in,india.gujaratcareerhub.in,india.bgmiproconfig.com,autorisuchna.in,india.sharpexamz.in,health.wikizinsider.online,hindi.sarkarijobinformation.com,india.ctfest.org,web.quizrent.com,india.bgmiproconfig.com,india.studentshelp.in,inklix.com,bongguider.com,cyberlynews.com,marathivacancy.com,spatsify.com,health.blueridgegeorgia.us,cinedesi.in,raftarsamachar.in,gadix.in#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 home.wblaxmibhandar.com,main.wblaxmibhandar.com,health.sarkarijobinformation.com,health.bgmiproconfig.com,main.24jobalert.com,india.hindivigyan.in,health.bgmiproconfig.com,web.wblaxmibhandar.com,india.livegaminghub.com,uploadhub.dad,health.gujaratcareerhub.in,india.newsguides.in,india.reportmarathi.in,v.thetch.in,gadialert.in,india.gujaratcareerhub.in,india.bgmiproconfig.com,autorisuchna.in,india.sharpexamz.in,health.wikizinsider.online,hindi.sarkarijobinformation.com,india.ctfest.org,web.quizrent.com,india.bgmiproconfig.com,india.studentshelp.in,inklix.com,bongguider.com,cyberlynews.com,marathivacancy.com,spatsify.com,health.blueridgegeorgia.us,cinedesi.in,raftarsamachar.in,gadix.in,djflpduniya.com,sattanewss.com,digiclown.com#%#//scriptlet("set-constant", "detectWithFakeAdsDiv", "noopFunc")
 home.wblaxmibhandar.com,main.wblaxmibhandar.com,health.sarkarijobinformation.com,health.bgmiproconfig.com,main.24jobalert.com,india.hindivigyan.in,health.bgmiproconfig.com,web.wblaxmibhandar.com,india.livegaminghub.com,uploadhub.dad,health.gujaratcareerhub.in,india.newsguides.in,india.reportmarathi.in,v.thetch.in,gadialert.in,india.gujaratcareerhub.in,india.bgmiproconfig.com,autorisuchna.in,india.sharpexamz.in,health.wikizinsider.online,hindi.sarkarijobinformation.com,india.ctfest.org,web.quizrent.com,india.bgmiproconfig.com,india.studentshelp.in,inklix.com,bongguider.com,cyberlynews.com,marathivacancy.com,spatsify.com,health.blueridgegeorgia.us,cinedesi.in,raftarsamachar.in,gadix.in,djflpduniya.com,sattanewss.com,digiclown.com#%#//scriptlet("set-constant", "isBrave", "noopFunc")
@@ -38976,6 +38933,7 @@ xvideos2.com,xvideos.com$$div[class="remove-ads"]
 xvideos2.com,xvideos.es,xvideos.com,xnxx.*,xv-ru.com,xnxx-ru.com##.e-banner-game
 xvideos2.com,xvideos.es,xvideos.com,xv-ru.com##.top-top
 xw.qq.com##.globalThemeTip
+xxt.cn#@##mainAd
 xxvidsx.com,tubsxxx.com##.videoAd
 xxx18.uno,xxxxvideo.uno##.place-wink
 xxxadd.com/eureka
@@ -40763,7 +40721,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||daysou.com/images/huaweicloud.png
 ||dcs.conac.cn/js/
 ||dd-static.jd.com^$image,domain=subaibai.com
-||ddooo.com/ddshow/$script
 ||deliciousmagazine.pl^$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,xmlhttprequest,other,~script
 ||deliciousmagazine.pl^$replace=/(^(WP\.[\s\S]*?\.bodies)=WP\.[\s\S]*?\.bodies\|\|\{\};[\s\S]*)//,script
 ||deliciousmagazine.pl^$replace=/(^.{1\,150}\(\{).*?"bunch".*?"bidRequestId".*(}\);)/\$1\$2/,script
@@ -41249,42 +41206,15 @@ zzztube.com,videoporn.tube##.b-random-column
 ||hefeng-group.net/attach/20200605/Fl05PJWEPUSuVt1x6PeHbHiaQ59J.png
 ||hello-jm.com/foot.js
 ||hellogithub.com/v1/advert/
-||henan.sina.com.cn/iframe/7/
-||henan100.com/d/file/indexad/
 ||hentai2read.com/ark/*.js^
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaihaven.*/api/ads/?placement=
 ||hentaihaven.xxx^$referrerpolicy=origin
-||herogame.com^$subdocument,domain=gamer.com.tw
 ||hexun.*/hxpage/index.html
-||hexun.com*/hx_news/hx_news_finalpage.js
-||hexun.com/2017-11-07/191534592.jpg
-||hexun.com/gphqtc/
-||hexun.com/hxpage_jrtj2020/
-||hexun.com/inc/popbox.aspx
-||hexun.com/js/att_count.js
-||hexun.com/pc/img/diversionToWXBottom_
-||hexun.com/pc/js/dataPopup.
-||hexun.com^*/appDplus
-||hf365.com/0/13/79/87/13798795_912593.jpg
-||hf365.com/0/14/31/00/14310068_933922.png
-||hf365.com/0/14/60/93/14609355_921128.jpg
-||hf365.com/0/15/64/87/15648725_922274.jpg
 ||hgc-*.svonm.com/www.tv2.no/config.json$replace=/"enabled":\strue\,/"enabled": false\,/i
-||hgyouxi.com/data/hgyouxiad/
-||hgyouxi.net/source/plugin/hgyouxiad/
-||hh010.com/static/image/fff/
 ||hhba0*kdh.com^$script,third-party,xmlhttprequest
-||hibiquan.com/uploads/images/
 ||highlights.legaseriea.it^$referrerpolicy=origin
-||hisense.com/ta.js
-||hjapi.com/v1/pageSoftText?
-||hjfile.cn/analytics/site/TrackEvent.js
-||hjfile.cn/lib/hui/footer/0.1.0/footer.js
-||hjfile.cn/lib/uzhi/uzt.
-||hjfile.cn/site/hj-lzs/
-||hjfile.cn/site/js/pop_gift_plugin.js
 ||hkdm688.*/js/68/
 ||hn-ping*.hashnode.com^
 ||holidaycheck.*/svc/ubt/v1/events
