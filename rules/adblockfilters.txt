@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20261111000513
-! Last modified: 2026/11/11 00:05:13
-! Blocked Filters: 104758
+! Version: 20261111124459
+! Last modified: 2026/11/11 12:44:59
+! Blocked Filters: 104752
 !
 ###AC_ad
 ###AD_160
@@ -30152,6 +30152,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=html5.gamedistribution.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=humix.com|mistergadget.tech
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=hungama.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=i.cdn.bg|nova.bg
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=i24news.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=iheartradio.ca
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ilmeteo.it
@@ -37050,6 +37051,7 @@ aii.life###index-left-bn
 aii.sh#%#//scriptlet("prevent-window-open")
 aii.sh,lnbz.la,oii.la,tpi.li#%#//scriptlet('remove-node-text', 'script', '/checkAdblockUser|AdBlockCheck|\.offsetHeight/')
 aii.sh,lnbz.la,oii.la,tpi.li$$script:contains(/checkAdblockUser|AdBlockCheck|\.offsetHeight/)
+aii.sh,srnky.com#%#(()=>{try{const g=Object.getOwnPropertyDescriptor;Object.getOwnPropertyDescriptor=function(o,p){return o===navigator&&p==='webdriver'?undefined:g(o,p)}}catch(e){}})();
 aiimsneetshortnotes.com#%#//scriptlet("set-constant", "adsbygoogle", "undefined")
 aileen-novel.online##.c-sidebar
 aimagazine.com##.Advert_Advert__3TIcp
@@ -52240,16 +52242,7 @@ gamenora.com##.widget-sidebar > .kare
 gameofbay.org,pirateproxy.yt$$script[src="//go.oclasrv.com/apu.php?"][onerror="()"]
 gamepadla.com###sliderBlock:has(> .relative > .sliderBlock > .ads)
 gamepadla.com##.gpPartnerCard
-gamepadla.com##.pMain:has(a[href^="/go/"])
-gamepadla.com##.pMain:has(div[class^="asd_"])
-gamepadla.com##.pMain:has(div[title="Partner placement"])
-gamepadla.com##.panel-container:has(.media-header-row-item)
-gamepadla.com##a[href^="https://www.amazon.com/"] + div + picture
-gamepadla.com#?#.pMain:contains(Partner)
-gamepadla.com#?#.pMain:has(div:-abp-properties(Partner))
-gamepadla.com#?#.pMain:has-text(Partner)
-gamepadla.com#?#.sliderBlock:contains(ADS)
-gamepadla.com#?#.sliderBlock:has-text(ADS)
+gamepadla.com##div:has(> div > div > a[href^="/visit/"][href*="cmp=slider"])
 gamepix.com##div[id^="gpx-banner"]
 gameplanet.co.nz###layoutTopBanner
 gameplanet.co.nz##.sponsor-logos
@@ -56372,6 +56365,9 @@ i-part.com.tw##.googleAD160x600
 i-part.com.tw##.newAd
 i-part.com.tw##a[href*="goo.gl%2FW9SXr1&"]
 i.cbsi.com/*/Ads/*.jpg
+i.cdn.bg,nova.bg#%#//scriptlet('trusted-set-constant', 'APP_CONFIG.adblockMode', 'allow')
+i.cdn.bg,nova.bg#@#.ad-slot
+i.cdn.bg,nova.bg#@#.ad-unit:not(.textads)
 i.maxthon.cn##.header-hotkeys
 i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
 i.maxthon.cn##.site-ad-container
@@ -76819,7 +76815,6 @@ sqlshack.com###secondary > aside.widget > div.textwidget a[target="_blank"][rel=
 squaremile.com##.article-leaderboard-wrapper
 squaremile.com##.parallax-wrapper
 sreality.cz###top-brand
-srnky.com#%#(()=>{try{const g=Object.getOwnPropertyDescriptor;Object.getOwnPropertyDescriptor=function(o,p){return o===navigator&&p==='webdriver'?undefined:g(o,p)}}catch(e){}})();
 srnky.com,clksz.com,oii.la,tpi.li,tvi.la,oei.la,tii.la,iir.ai###link-view a[target="_blank"] > img
 srnky.com,clksz.com,payskip.org,oii.la,tpi.li,tvi.la,oei.la,tii.la,cutw.in##.box-main > a[target="_blank"] > img
 srnovelas.com##.content-page + div[id][class*=" "]
@@ -89689,6 +89684,7 @@ zzzyk.com###Tinfo
 ||assets.yumpu.com/release/*/tracking.js
 ||assetscdn.jable.tv/assets/images/*-760x70.
 ||assettoworld.com/bens/vinos.js
+||astatic.ccmbg.com/hz.js
 ||astrill.com/bnrs/
 ||astrologyanswers.com/gtmmetrics/
 ||astroved.com/avdatavault/
@@ -90947,7 +90943,6 @@ zzzyk.com###Tinfo
 ||ccdm*/Scripts/ccMedia.js
 ||ccement.com/index/index/fetchAd
 ||ccement.com/js/ccement_new/open.js
-||ccmbg.com^$third-party
 ||ccmeng.com^$third-party
 ||ccoo.cn/mystat.asp
 ||ccp.digitaltrends.com/go/ccp/products/*/offers
@@ -101227,7 +101222,6 @@ zzzyk.com###Tinfo
 ||spicygirlshere.life^$popup
 ||spike.itv.com/itv/tserver/size=*/viewid=
 ||spin.bergfreunde.*/wt?$image
-||spinforluck.blog^$popup
 ||spiral.world/events/
 ||spirit.com/kp4CLSb5/init.js
 ||splash-screen.net^$third-party
