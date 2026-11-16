@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20261116044932
-! Last modified: 2026/11/16 04:49:32
-! Blocked Filters: 43560
+! Version: 20261116124721
+! Last modified: 2026/11/16 12:47:21
+! Blocked Filters: 43570
 !
 ###AC_ad
 ###AD_160
@@ -27927,6 +27927,7 @@ apple.com.cn#$##ac-globalnav { top: 0 !important; }
 apple.com.cn#$#.ac-gn-blur { top: 0 !important; }
 apple.com.cn#$#html #globalnav { top: 0 !important; }
 apple.com.cn#$#html { margin-top: 0 !important; }
+appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,tld-list.com,twitch-tools.rootonline.de,videocardz.com,wccftech.com##[rel*="sponsored"]
 appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,tld-list.com,twitch-tools.rootonline.de,wccftech.com##[rel*="sponsored"]
 appleinsider.com,passfab.com##.bottom
 appleworld.today,arcadeheroes.com,athleticsillustrated.com,betakit.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,dbknews.com,deshdoaba.com,developer-tech.com,electricbikereport.com,foreverconscious.com,friendsjournal.org,glitched.online,globalgovernancenews.com,intouchweekly.com,jharkhandmirror.net,kashmirreader.com,kkfm.com,levittownnow.com,lifeandstylemag.com,manhuatop.org,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,ognsc.com,palipost.com,patriotfetch.com,pctechmag.com,postwrestling.com,potatonewstoday.com,prajwaldesai.com,pstribune.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,salesforcegeek.in,showbiz411.com,spokesman-recorder.com,sportsspectrum.com,stacyknows.com,supertotobet90.com,teksyndicate.com,thecatholictravelguide.com,thedefensepost.com,theoverclocker.com,theyucatantimes.com,tronweekly.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
@@ -31316,7 +31317,7 @@ ftuapps.farlad.com$$script:contains(showAntiAdblockOverlay)
 ftw.usatoday.com,kansascity.com,rotowire.com##.gdcg-oplist
 ftw.usatoday.com,touchdownwire.usatoday.com###ad--home-well-wrapper
 fuckcelebs.net,onlinestars.net##.fp-ui > a[href][target="_blank"]
-fuckingfast.co,uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
+fuckingfast.net,fuckingfast.co,uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
 fuckit.cc,camhub.cc,camhub.world#@#.ads-iframe
 fuliba.net,fuliba2023.net,fuliba2025.net##.article-topbanner
 fuliba.net,fuliba2023.net,laozuo.org###focusslide
@@ -33642,6 +33643,7 @@ latlat.xyz,xstream.top,play.seriesgod.com,videocdnal24.xyz,zarato.top,gayvidsclu
 latlat.xyz,xstream.top,play.seriesgod.com,videocdnal24.xyz,zarato.top,gayvidsclub.com,pokemonlaserielatino.xyz,stbpnetu.xyz,filmcdn.top,vpge.link,opuxa.lat,troncha.lol,player.igay69.com,xtapes.to,player.streaming-integrale.com,vapley.top,cinecalidad.vip,fsohd.pro,vzlinks.com,younetu.org,diziturk.club,1069jp.com,gledajvideo.top,younetu.*,video.q34r.org,porntoday.ws,netuplayer.top,netu.ac,hqq.to,hqq.ac,speedporn.net,meucdn.vip,yandexcdn.com,waaw1.tv,waaw.*,hqq.tv#%#//scriptlet("set-constant", "adblockcheck", "false")
 laurasia.info,udebut.jp,www2.tmyinsight.net###page-top ~ div[id][class*=" "]
 laurelberninteriors.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive-video-player
+lauxanh.cv,lauxanh.*##body .ad
 law.com,topcultured.com##h3
 lawandcrime.com,mediaite.com##.o-promo-unit
 lawandcrime.com,mediaite.com##.sidebar-hook
@@ -41730,6 +41732,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||laozuo.org/banner/
 ||launcher-api.bignox.com/desktop/v1/ad
 ||launcher-api.bignox.com/desktop/v1/hotseat
+||lauxanh.*/js/popunder.js^
+||lauxanh.*/vast.js^
 ||layuicdn.com/layer/layer.js$domain=hanjutvn.com
 ||lbx777.*/css/300.js
 ||lbx777.*/css/lbxgg02
@@ -42840,6 +42844,12 @@ zzztube.com,videoporn.tube##.b-random-column
 ||static.youku.com/*/index/js/iresearch.js
 ||static.youku.com/*/js/cps.js
 ||static.yxdown.com/cj/$script
+||static.zongheng.com/*/ad$script
+||static.zongheng.com/upload/*ds/column/$script,image
+||static.zongheng.com/upload/recommend/game/201$image
+||static.zongheng.com^*/adClickStat.js
+||static.zongheng.com^*/ad_click.js
+||static.zongheng.com^*/logger.min.js
 ||staticfile.qq.com/datong/$script
 ||staticfile.qq.com/qimei/$script
 ||statics.123*.com/static/ks/

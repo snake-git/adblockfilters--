@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20261116044932
-! Last modified: 2026/11/16 04:49:32
-! Blocked Filters: 103794
+! Version: 20261116124721
+! Last modified: 2026/11/16 12:47:21
+! Blocked Filters: 103808
 !
 ###AC_ad
 ###AD_160
@@ -38521,6 +38521,7 @@ appleinsider.com#$#.ad-wrap { min-height: 50px !important; }
 appleinsider.com#?#div.main-art:contains(Sponsored Content)
 appleinsider.com#?#div.main-art:has-text(Sponsored Content)
 appleinsider.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
+appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,tld-list.com,twitch-tools.rootonline.de,videocardz.com,wccftech.com##[rel*="sponsored"]
 appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,tld-list.com,twitch-tools.rootonline.de,wccftech.com##[rel*="sponsored"]
 appleinsider.com,passfab.com##.bottom
 appleware.dev#%#//scriptlet('prevent-element-src-loading', 'img', 'pagead2.googlesyndication.com')
@@ -51116,7 +51117,7 @@ fuckhardporn.com##.bot_bns
 fuckhardporn.com##.player_ads
 fuckhardporn.com##.player_bn
 fuckingfast.co#%#//scriptlet('trusted-replace-node-text', 'script', 'download', 'let seen = false', 'let seen = true')
-fuckingfast.co,uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
+fuckingfast.net,fuckingfast.co,uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
 fuckit.cc,camhub.cc,camhub.world#@#.ads-iframe
 fuckler.com###player-overlay
 fuckler.com##.video-content+div.video-sidebar > div.list-spots
@@ -54272,8 +54273,10 @@ heatworld.com##div[class*="_adContainer_"]
 heaven-burns-red.com#@#article.ad
 heavenmanga.org,holymanga.net##.svl_ads_right
 heavy-r.com###closeable_widget
+heavy-r.com###topbar_promo
 heavy-r.com##.a-d-holder-new
 heavy-r.com##.first-row > a[href][target="_blank"]:not([href="http://pornedup.com/"]):not([href="https://www.mrporngeek.com"])
+heavy-r.com#$#body.topbar_promo_active { margin-top: 0 !important; }
 heavy.com###fp-popup-modal
 heavy.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 heavyfetish.com##.hf-cake-banner
@@ -60003,6 +60006,7 @@ launcherleaks.net#$#.swal2-container { display: none !important; }
 launcherleaks.net#$#body { overflow: auto !important; }
 laurasia.info,udebut.jp,www2.tmyinsight.net###page-top ~ div[id][class*=" "]
 laurelberninteriors.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive-video-player
+lauxanh.cv,lauxanh.*##body .ad
 lavorincasa.it###wrapper-content > div[class="myfb"][style="height:250px;"]
 lavorincasa.it###wrapper-sider-02
 lavorincasa.it##div[class^="wbn-"]
@@ -88882,6 +88886,7 @@ zzzyk.com###Tinfo
 ||azvision.az/turan/500-100.png
 ||azvision.az/turan/akkord5.gif
 ||azvision.az^$domain=metbuat.az
+||b-cdn.net/ads/*.html^$subdocument
 ||b-cdn.net^$domain=bunkr.cr|bunkr.si|simpcity.cr
 ||b-cdn.net^$domain=bunkr.pk
 ||b.cdnst.net/javascript/amazon.js$script,domain=speedtest.net
@@ -91827,7 +91832,6 @@ zzzyk.com###Tinfo
 ||eol.cn/images/ed/gaokao/*-85.jpg
 ||eol.cn/js/eol/
 ||eol.cn/js/global/jQuery_ads.js
-||eolcdn.com^$third-party
 ||eontappetito.com^$popup
 ||eoof.net/PicZone/qzgg
 ||ep4p.com^$third-party
@@ -95378,6 +95382,8 @@ zzzyk.com###Tinfo
 ||launcher-api.bignox.com/desktop/v1/ad
 ||launcher-api.bignox.com/desktop/v1/hotseat
 ||launcherleaks.net/root_script.js
+||lauxanh.*/js/popunder.js^
+||lauxanh.*/vast.js^
 ||lavatorydownybasket.com^$popup
 ||lavender64369.com^$popup
 ||lavorincasa.it/content/js/new/adb/doubleclick.js
@@ -96278,6 +96284,7 @@ zzzyk.com###Tinfo
 ||melban7.top^$domain=wcup.one
 ||melhorplano.net/scripts/tracker/
 ||member.aetna.com/appConfig/navReporting/tealeaf.js
+||memcyco.com^$third-party
 ||memesng.com/ads
 ||memo.co^$third-party
 ||menepe.com^$popup
@@ -98766,6 +98773,7 @@ zzzyk.com###Tinfo
 ||quora.com/_/ad/
 ||quora.com/ads/
 ||quora.com/qevents.js
+||quoracdn.net/main-qimg-$domain=lauxanh.*|lauxanh.cv
 ||quotev.com/ajax/ping
 ||quotr.net/*?ad_ext=$all
 ||qushucheng.com/public/
@@ -100513,6 +100521,12 @@ zzzyk.com###Tinfo
 ||static.youku.com/*/index/js/iresearch.js
 ||static.youku.com/*/js/cps.js
 ||static.yxdown.com/cj/$script
+||static.zongheng.com/*/ad$script
+||static.zongheng.com/upload/*ds/column/$script,image
+||static.zongheng.com/upload/recommend/game/201$image
+||static.zongheng.com^*/adClickStat.js
+||static.zongheng.com^*/ad_click.js
+||static.zongheng.com^*/logger.min.js
 ||static0.wi-fi.ru/static/000/ios/index.html
 ||staticasset.amarujala.com/handler/recomUserEvent.js
 ||staticfile.qq.com/datong/$script
